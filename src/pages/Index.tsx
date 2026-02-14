@@ -7,7 +7,7 @@ import { useLanguage } from "@/contexts/LanguageContext";
 import { AlbionItem } from "@/lib/items";
 
 const Index = () => {
-  const { t } = useLanguage();
+  const { t, lang } = useLanguage();
   const [mode, setMode] = useState<"market" | "craft">("market");
   const [selectedItem, setSelectedItem] = useState<AlbionItem | null>(null);
   const [customItemId, setCustomItemId] = useState("");
@@ -62,6 +62,20 @@ const Index = () => {
             onSelectItem={setSelectedItem}
             onCustomIdChange={setCustomItemId}
           />
+
+          {/* Item image */}
+          {activeItemId && (
+            <div className="shrink-0 rounded-lg border border-border bg-secondary p-1.5">
+              <img
+                src={`https://render.albiononline.com/v1/item/${activeItemId}.png?size=64&quality=1`}
+                alt={selectedItem?.name[lang] ?? activeItemId}
+                className="h-12 w-12 object-contain"
+                onError={(e) => {
+                  (e.currentTarget as HTMLImageElement).style.display = "none";
+                }}
+              />
+            </div>
+          )}
         </div>
 
         {/* Results */}
