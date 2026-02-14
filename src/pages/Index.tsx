@@ -6,13 +6,17 @@ import { LanguageSelector } from "@/components/LanguageSelector";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { AlbionItem } from "@/lib/items";
 
+const ENCHANTMENTS = [0, 1, 2, 3, 4] as const;
+
 const Index = () => {
   const { t, lang } = useLanguage();
   const [mode, setMode] = useState<"market" | "craft">("market");
   const [selectedItem, setSelectedItem] = useState<AlbionItem | null>(null);
   const [customItemId, setCustomItemId] = useState("");
+  const [enchantment, setEnchantment] = useState(0);
 
-  const activeItemId = selectedItem?.id || customItemId;
+  const baseItemId = selectedItem?.id || customItemId;
+  const activeItemId = baseItemId ? (enchantment > 0 ? `${baseItemId}@${enchantment}` : baseItemId) : "";
 
   return (
     <div className="min-h-screen bg-background">
@@ -63,10 +67,28 @@ const Index = () => {
             onCustomIdChange={setCustomItemId}
           />
 
+          {/* Enchantment selector */}
+          <div className="flex rounded-lg border border-border p-0.5 shrink-0">
+            {ENCHANTMENTS.map((e) => (
+              <button
+                key={e}
+                onClick={() => setEnchantment(e)}
+                className={`rounded-md px-3 py-2 text-xs font-medium transition-colors ${
+                  enchantment === e
+                    ? "bg-foreground text-background"
+                    : "text-muted-foreground hover:text-foreground"
+                }`}
+              >
+                {e === 0 ? ".0" : `.${e}`}
+              </button>
+            ))}
+          </div>
+
           {/* Item image */}
           {activeItemId && (
             <div className="shrink-0 rounded-lg border border-border bg-secondary p-1.5">
               <img
+                key={activeItemId}
                 src={`https://render.albiononline.com/v1/item/${activeItemId}.png?size=64&quality=1`}
                 alt={selectedItem?.name[lang] ?? activeItemId}
                 className="h-12 w-12 object-contain"
