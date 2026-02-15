@@ -59,7 +59,7 @@ export default function Index() {
       <main className="mx-auto max-w-6xl px-4 py-6 space-y-6 flex-1 w-full">
         {/* Controls */}
         <div className="flex flex-col gap-4 sm:flex-row sm:items-end">
-          <div className="flex flex-col gap-1.5 flex-1 min-w-[200px]">
+          <div className="flex flex-col gap-1.5 flex-1 min-w-[300px]">
             <label className="text-sm font-medium text-muted-foreground">
               {t("item")}
             </label>
