@@ -1,73 +1,60 @@
-# Welcome to your Lovable project
+# Craft Trade Hub
 
-## Project info
+Craft Trade Hub is a tool for Albion Online players to analyze market prices and calculate crafting profitability.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## Features
 
-## How can I edit this code?
+- **Market Analysis**: View current Sell Orders and Buy Orders for items across different cities.
+- **Crafting Calculator**: Calculate crafting costs and potential profit based on resource prices and return rates.
+- **Enchantment Support**: Easily switch between enchantment levels (.0, .1, .2, .3, .4).
+- **Multi-language Support**: Available in English (EN) and Portuguese (PT).
+- **Real-time Data**: Fetches data from the Albion Online Data Project.
 
-There are several ways of editing your application.
+## Technology Stack
 
-**Use Lovable**
+- **Frontend**: React, TypeScript, Vite
+- **UI**: Shadcn UI, Tailwind CSS
+- **State Management**: React Query, React Context
+- **Routing**: React Router
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## Getting Started
 
-Changes made via Lovable will be committed automatically to this repo.
+### Prerequisites
 
-**Use your preferred IDE**
+- Node.js & npm (or yarn)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Installation
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+1. Clone the repository:
 
-Follow these steps:
+   ```bash
+   git clone <repository-url>
+   cd craft-trade-hub
+   ```
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+2. Install dependencies:
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+   ```bash
+   yarn install
+   # or
+   npm install
+   ```
 
-# Step 3: Install the necessary dependencies.
-npm i
+3. Start the development server:
+   ```bash
+   yarn dev
+   # or
+   npm run dev
+   ```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## Usage
 
-**Edit a file directly in GitHub**
+1. **Select an Item**: Use the search bar to find an item or enter a custom Item ID.
+2. **Choose Mode**: Toggle between "Market" and "Craft" views.
+3. **Analyze**:
+   - In **Market** mode, view prices across focused cities (e.g., Martlock, Bridgewatch, Lymhurst, Fort Sterling, Thetford, Caerleon).
+   - In **Craft** mode, see the breakdown of resource costs, city bonuses, and estimated profit.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Credits
 
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+- Data provided by the [Albion Online Data Project](https://www.albion-online-data.com/).

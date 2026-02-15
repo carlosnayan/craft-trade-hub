@@ -22,17 +22,20 @@ export const CITIES = [
   "Thetford",
   "Caerleon",
   "Brecilien",
+  "Black Market",
 ] as const;
 
 export type City = (typeof CITIES)[number];
 
 export async function fetchPrices(
   itemIds: string | string[],
-  cities: readonly string[] = CITIES
+  cities: readonly string[] = CITIES,
 ): Promise<PriceData[]> {
   const ids = Array.isArray(itemIds) ? itemIds.join(",") : itemIds;
   const locations = cities.join(",");
-  const res = await fetch(`${API_BASE}/${ids}?locations=${locations}&qualities=1`);
+  const res = await fetch(
+    `${API_BASE}/${ids}?locations=${locations}&qualities=1`,
+  );
   if (!res.ok) throw new Error("Failed to fetch prices");
   return res.json();
 }
