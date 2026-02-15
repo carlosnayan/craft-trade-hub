@@ -28,6 +28,9 @@ export const translations = {
     customItemId: "Or type a custom item ID",
     quantity: "Qty",
     resource: "Resource",
+    americas: "Americas",
+    asia: "Asia",
+    europe: "Europe",
   },
   pt: {
     title: "Ferramenta de Mercado Albion",
@@ -58,6 +61,9 @@ export const translations = {
     customItemId: "Ou digite um ID personalizado",
     quantity: "Qtd",
     resource: "Recurso",
+    americas: "Américas",
+    asia: "Ásia",
+    europe: "Europa",
   },
 } as const;
 

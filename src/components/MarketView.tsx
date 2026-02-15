@@ -1,6 +1,13 @@
 import { useQuery } from "@tanstack/react-query";
-import { fetchPrices, formatSilver, formatAge, CITIES, PriceData } from "@/lib/api";
+import {
+  fetchPrices,
+  formatSilver,
+  formatAge,
+  CITIES,
+  PriceData,
+} from "@/lib/api";
 import { useLanguage } from "@/contexts/LanguageContext";
+import { useServer } from "@/contexts/ServerContext";
 import { Loader2 } from "lucide-react";
 
 interface Props {
@@ -9,10 +16,11 @@ interface Props {
 
 export function MarketView({ itemId }: Props) {
   const { t } = useLanguage();
+  const { serverUrl, server } = useServer();
 
   const { data, isLoading, error } = useQuery({
-    queryKey: ["market-prices", itemId],
-    queryFn: () => fetchPrices(itemId, CITIES),
+    queryKey: ["market-prices", itemId, server],
+    queryFn: () => fetchPrices(itemId, CITIES, serverUrl),
     enabled: !!itemId,
     staleTime: 60_000,
   });
@@ -69,15 +77,23 @@ export function MarketView({ itemId }: Props) {
       {/* Sell Orders */}
       <div className="rounded-lg border border-border overflow-hidden">
         <div className="border-b border-border px-4 py-3">
-          <h3 className="text-sm font-semibold text-foreground">{t("sellOrders")}</h3>
+          <h3 className="text-sm font-semibold text-foreground">
+            {t("sellOrders")}
+          </h3>
         </div>
         <div className="overflow-x-auto">
           <table className="w-full text-sm">
             <thead>
               <tr className="border-b border-border text-muted-foreground">
-                <th className="px-4 py-2.5 text-left font-medium">{t("city")}</th>
-                <th className="px-4 py-2.5 text-right font-medium">{t("minPrice")}</th>
-                <th className="px-4 py-2.5 text-right font-medium">{t("age")}</th>
+                <th className="px-4 py-2.5 text-left font-medium">
+                  {t("city")}
+                </th>
+                <th className="px-4 py-2.5 text-right font-medium">
+                  {t("minPrice")}
+                </th>
+                <th className="px-4 py-2.5 text-right font-medium">
+                  {t("age")}
+                </th>
               </tr>
             </thead>
             <tbody>
@@ -86,9 +102,14 @@ export function MarketView({ itemId }: Props) {
                 const price = d?.sell_price_min ?? 0;
                 const isBest = price > 0 && price === bestSell;
                 return (
-                  <tr key={city} className="border-b border-border/50 hover:bg-row-hover transition-colors">
+                  <tr
+                    key={city}
+                    className="border-b border-border/50 hover:bg-row-hover transition-colors"
+                  >
                     <td className="px-4 py-2.5 font-medium">{city}</td>
-                    <td className={`px-4 py-2.5 text-right tabular-nums ${isBest ? "text-best font-semibold" : price === 0 ? "text-muted-foreground" : ""}`}>
+                    <td
+                      className={`px-4 py-2.5 text-right tabular-nums ${isBest ? "text-best font-semibold" : price === 0 ? "text-muted-foreground" : ""}`}
+                    >
                       {formatSilver(price)}
                     </td>
                     <td className="px-4 py-2.5 text-right text-muted-foreground tabular-nums">
@@ -105,15 +126,23 @@ export function MarketView({ itemId }: Props) {
       {/* Buy Orders */}
       <div className="rounded-lg border border-border overflow-hidden">
         <div className="border-b border-border px-4 py-3">
-          <h3 className="text-sm font-semibold text-foreground">{t("buyOrders")}</h3>
+          <h3 className="text-sm font-semibold text-foreground">
+            {t("buyOrders")}
+          </h3>
         </div>
         <div className="overflow-x-auto">
           <table className="w-full text-sm">
             <thead>
               <tr className="border-b border-border text-muted-foreground">
-                <th className="px-4 py-2.5 text-left font-medium">{t("city")}</th>
-                <th className="px-4 py-2.5 text-right font-medium">{t("maxPrice")}</th>
-                <th className="px-4 py-2.5 text-right font-medium">{t("age")}</th>
+                <th className="px-4 py-2.5 text-left font-medium">
+                  {t("city")}
+                </th>
+                <th className="px-4 py-2.5 text-right font-medium">
+                  {t("maxPrice")}
+                </th>
+                <th className="px-4 py-2.5 text-right font-medium">
+                  {t("age")}
+                </th>
               </tr>
             </thead>
             <tbody>
@@ -122,9 +151,14 @@ export function MarketView({ itemId }: Props) {
                 const price = d?.buy_price_max ?? 0;
                 const isBest = price > 0 && price === bestBuy;
                 return (
-                  <tr key={city} className="border-b border-border/50 hover:bg-row-hover transition-colors">
+                  <tr
+                    key={city}
+                    className="border-b border-border/50 hover:bg-row-hover transition-colors"
+                  >
                     <td className="px-4 py-2.5 font-medium">{city}</td>
-                    <td className={`px-4 py-2.5 text-right tabular-nums ${isBest ? "text-best font-semibold" : price === 0 ? "text-muted-foreground" : ""}`}>
+                    <td
+                      className={`px-4 py-2.5 text-right tabular-nums ${isBest ? "text-best font-semibold" : price === 0 ? "text-muted-foreground" : ""}`}
+                    >
                       {formatSilver(price)}
                     </td>
                     <td className="px-4 py-2.5 text-right text-muted-foreground tabular-nums">

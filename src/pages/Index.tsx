@@ -3,6 +3,7 @@ import { ItemSelector } from "@/components/ItemSelector";
 import { MarketView } from "@/components/MarketView";
 import { CraftView } from "@/components/CraftView";
 import { LanguageSelector } from "@/components/LanguageSelector";
+import { ServerSelector } from "@/components/ServerSelector";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { AlbionItem } from "@/lib/items";
 
@@ -16,23 +17,31 @@ const Index = () => {
   const [enchantment, setEnchantment] = useState(0);
 
   const baseItemId = selectedItem?.id || customItemId;
-  const activeItemId = baseItemId ? (enchantment > 0 ? `${baseItemId}@${enchantment}` : baseItemId) : "";
+  const activeItemId = baseItemId
+    ? enchantment > 0
+      ? `${baseItemId}@${enchantment}`
+      : baseItemId
+    : "";
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background flex flex-col">
       {/* Header */}
       <header className="border-b border-border">
         <div className="mx-auto max-w-6xl px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
+            <img src="/application.svg" alt="App Icon" className="w-8 h-8" />
             <h1 className="text-lg font-semibold text-foreground tracking-tight">
               {t("title")}
             </h1>
           </div>
-          <LanguageSelector />
+          <div className="flex items-center gap-2">
+            <ServerSelector />
+            <LanguageSelector />
+          </div>
         </div>
       </header>
 
-      <main className="mx-auto max-w-6xl px-4 py-6 space-y-6">
+      <main className="mx-auto max-w-6xl px-4 py-6 space-y-6 flex-1 w-full">
         {/* Controls row */}
         <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
           {/* Mode toggle */}
