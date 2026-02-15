@@ -17,7 +17,7 @@ export default function Index() {
   const [tier, setTier] = useState<number>(4);
   const [enchantment, setEnchantment] = useState<number>(0);
   const [customItemId, setCustomItemId] = useState("");
-  const { t } = useLanguage();
+  const { t, lang } = useLanguage();
 
   // Determine effective ID
   let activeItemId = "";
@@ -63,18 +63,32 @@ export default function Index() {
             <label className="text-sm font-medium text-muted-foreground">
               {t("item")}
             </label>
-            <ItemSelector
-              selectedItem={selectedBaseItem}
-              customItemId={customItemId}
-              onSelectItem={(item) => {
-                setSelectedBaseItem(item);
-                // Reset tier if not available
-                if (item && !item.tiers.includes(tier)) {
-                  setTier(item.tiers[0]);
-                }
-              }}
-              onCustomIdChange={setCustomItemId}
-            />
+            <div className="flex gap-2">
+              {selectedBaseItem && (
+                <div className="h-10 w-10 shrink-0 bg-secondary/20 rounded border border-border p-1">
+                  <img
+                    src={`https://render.albiononline.com/v1/item/${activeItemId || selectedBaseItem.id}.png`}
+                    alt={selectedBaseItem.name[lang]}
+                    className="h-full w-full object-contain"
+                    onError={(e) => {
+                      (e.target as HTMLImageElement).style.display = "none";
+                    }}
+                  />
+                </div>
+              )}
+              <ItemSelector
+                selectedItem={selectedBaseItem}
+                customItemId={customItemId}
+                onSelectItem={(item) => {
+                  setSelectedBaseItem(item);
+                  // Reset tier if not available
+                  if (item && !item.tiers.includes(tier)) {
+                    setTier(item.tiers[0]);
+                  }
+                }}
+                onCustomIdChange={setCustomItemId}
+              />
+            </div>
           </div>
 
           {selectedBaseItem && !customItemId && (

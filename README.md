@@ -6,7 +6,7 @@ Craft Trade Hub is a tool for Albion Online players to analyze market prices and
 
 - **Market Analysis**: View current Sell Orders and Buy Orders for items across different cities.
 - **Crafting Calculator**: Calculate crafting costs and potential profit based on resource prices and return rates.
-- **Enchantment Support**: Easily switch between enchantment levels (.0, .1, .2, .3, .4).
+- **Enchantment Support**: Easily switch between enchantment levels (0, 1, 2, 3, 4).
 - **Multi-language Support**: Available in English (EN) and Portuguese (PT).
 - **Real-time Data**: Fetches data from the Albion Online Data Project.
 
@@ -58,3 +58,19 @@ Craft Trade Hub is a tool for Albion Online players to analyze market prices and
 ## Credits
 
 - Data provided by the [Albion Online Data Project](https://www.albion-online-data.com/).
+
+## Utility Scripts
+
+The project includes several utility scripts in the `scripts/` directory to help with data management:
+
+### `fetch_openalbion.sh`
+
+Fetches the latest item data (weapons, armor, accessories, consumables) from the OpenAlbion API and saves them as JSON files in `openalbion_data/`.
+
+### `generate_gen_calls.js`
+
+Parses the downloaded JSON files and the `missing_items_report.md` to generate TypeScript code snippets (`gen(...)` calls). These snippets are used to manually update `src/lib/items.ts` with new items.
+
+### `extract_ids.sh`
+
+A helper script to extract unique item Base IDs from a SQL backup file. Useful for generating clean lists of Item IDs for comparison or analysis.

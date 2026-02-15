@@ -80,6 +80,7 @@ export const CATEGORY_TREE: CategoryNode[] = [
         children: [
           { id: "bag", name: { en: "Bag", pt: "Bolsa" } },
           { id: "cape", name: { en: "Cape", pt: "Capa" } },
+          { id: "mount", name: { en: "Mount", pt: "Montaria" } },
         ],
       },
     ],

@@ -57,5 +57,6 @@ export function formatAge(dateStr: string): string {
   const diffH = Math.floor(diffMin / 60);
   if (diffH < 24) return `${diffH}h`;
   const diffD = Math.floor(diffH / 24);
+  if (diffD > 7) return "> 7d";
   return `${diffD}d`;
 }

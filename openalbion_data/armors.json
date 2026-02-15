@@ -1,0 +1,4264 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Novice's Scholar Robe",
+      "tier": "2.0",
+      "item_power": 300,
+      "identifier": "T2_ARMOR_CLOTH_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T2_ARMOR_CLOTH_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 24, "name": "Robes", "type": "armor" }
+    },
+    {
+      "id": 2,
+      "name": "Journeyman's Scholar Robe",
+      "tier": "3.0",
+      "item_power": 500,
+      "identifier": "T3_ARMOR_CLOTH_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T3_ARMOR_CLOTH_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 24, "name": "Robes", "type": "armor" }
+    },
+    {
+      "id": 3,
+      "name": "Adept's Cleric Robe",
+      "tier": "4.0",
+      "item_power": 700,
+      "identifier": "T4_ARMOR_CLOTH_SET2",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_ARMOR_CLOTH_SET2@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 24, "name": "Robes", "type": "armor" }
+    },
+    {
+      "id": 4,
+      "name": "Adept's Cultist Robe",
+      "tier": "4.0",
+      "item_power": 775,
+      "identifier": "T4_ARMOR_CLOTH_MORGANA",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_ARMOR_CLOTH_MORGANA@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 24, "name": "Robes", "type": "armor" }
+    },
+    {
+      "id": 5,
+      "name": "Adept's Druid Robe",
+      "tier": "4.0",
+      "item_power": 725,
+      "identifier": "T4_ARMOR_CLOTH_KEEPER",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_ARMOR_CLOTH_KEEPER@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 24, "name": "Robes", "type": "armor" }
+    },
+    {
+      "id": 6,
+      "name": "Adept's Feyscale Robe",
+      "tier": "4.0",
+      "item_power": 775,
+      "identifier": "T4_ARMOR_CLOTH_FEY",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_ARMOR_CLOTH_FEY@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 24, "name": "Robes", "type": "armor" }
+    },
+    {
+      "id": 7,
+      "name": "Adept's Fiend Robe",
+      "tier": "4.0",
+      "item_power": 750,
+      "identifier": "T4_ARMOR_CLOTH_HELL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_ARMOR_CLOTH_HELL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 24, "name": "Robes", "type": "armor" }
+    },
+    {
+      "id": 8,
+      "name": "Adept's Mage Robe",
+      "tier": "4.0",
+      "item_power": 700,
+      "identifier": "T4_ARMOR_CLOTH_SET3",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_ARMOR_CLOTH_SET3@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 24, "name": "Robes", "type": "armor" }
+    },
+    {
+      "id": 9,
+      "name": "Adept's Robe of Purity",
+      "tier": "4.0",
+      "item_power": 800,
+      "identifier": "T4_ARMOR_CLOTH_AVALON",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_ARMOR_CLOTH_AVALON@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 24, "name": "Robes", "type": "armor" }
+    },
+    {
+      "id": 10,
+      "name": "Adept's Royal Robe",
+      "tier": "4.0",
+      "item_power": 725,
+      "identifier": "T4_ARMOR_CLOTH_ROYAL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_ARMOR_CLOTH_ROYAL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 24, "name": "Robes", "type": "armor" }
+    },
+    {
+      "id": 11,
+      "name": "Adept's Scholar Robe",
+      "tier": "4.0",
+      "item_power": 700,
+      "identifier": "T4_ARMOR_CLOTH_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_ARMOR_CLOTH_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 24, "name": "Robes", "type": "armor" }
+    },
+    {
+      "id": 12,
+      "name": "Expert's Cleric Robe",
+      "tier": "5.0",
+      "item_power": 800,
+      "identifier": "T5_ARMOR_CLOTH_SET2",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_ARMOR_CLOTH_SET2@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 24, "name": "Robes", "type": "armor" }
+    },
+    {
+      "id": 13,
+      "name": "Expert's Cultist Robe",
+      "tier": "5.0",
+      "item_power": 875,
+      "identifier": "T5_ARMOR_CLOTH_MORGANA",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_ARMOR_CLOTH_MORGANA@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 24, "name": "Robes", "type": "armor" }
+    },
+    {
+      "id": 14,
+      "name": "Expert's Druid Robe",
+      "tier": "5.0",
+      "item_power": 825,
+      "identifier": "T5_ARMOR_CLOTH_KEEPER",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_ARMOR_CLOTH_KEEPER@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 24, "name": "Robes", "type": "armor" }
+    },
+    {
+      "id": 15,
+      "name": "Expert's Feyscale Robe",
+      "tier": "5.0",
+      "item_power": 875,
+      "identifier": "T5_ARMOR_CLOTH_FEY",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_ARMOR_CLOTH_FEY@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 24, "name": "Robes", "type": "armor" }
+    },
+    {
+      "id": 16,
+      "name": "Expert's Fiend Robe",
+      "tier": "5.0",
+      "item_power": 850,
+      "identifier": "T5_ARMOR_CLOTH_HELL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_ARMOR_CLOTH_HELL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 24, "name": "Robes", "type": "armor" }
+    },
+    {
+      "id": 17,
+      "name": "Expert's Mage Robe",
+      "tier": "5.0",
+      "item_power": 800,
+      "identifier": "T5_ARMOR_CLOTH_SET3",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_ARMOR_CLOTH_SET3@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 24, "name": "Robes", "type": "armor" }
+    },
+    {
+      "id": 18,
+      "name": "Expert's Robe of Purity",
+      "tier": "5.0",
+      "item_power": 900,
+      "identifier": "T5_ARMOR_CLOTH_AVALON",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_ARMOR_CLOTH_AVALON@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 24, "name": "Robes", "type": "armor" }
+    },
+    {
+      "id": 19,
+      "name": "Expert's Royal Robe",
+      "tier": "5.0",
+      "item_power": 825,
+      "identifier": "T5_ARMOR_CLOTH_ROYAL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_ARMOR_CLOTH_ROYAL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 24, "name": "Robes", "type": "armor" }
+    },
+    {
+      "id": 20,
+      "name": "Expert's Scholar Robe",
+      "tier": "5.0",
+      "item_power": 800,
+      "identifier": "T5_ARMOR_CLOTH_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_ARMOR_CLOTH_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 24, "name": "Robes", "type": "armor" }
+    },
+    {
+      "id": 21,
+      "name": "Master's Cleric Robe",
+      "tier": "6.0",
+      "item_power": 900,
+      "identifier": "T6_ARMOR_CLOTH_SET2",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_ARMOR_CLOTH_SET2@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 24, "name": "Robes", "type": "armor" }
+    },
+    {
+      "id": 22,
+      "name": "Master's Cultist Robe",
+      "tier": "6.0",
+      "item_power": 975,
+      "identifier": "T6_ARMOR_CLOTH_MORGANA",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_ARMOR_CLOTH_MORGANA@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 24, "name": "Robes", "type": "armor" }
+    },
+    {
+      "id": 23,
+      "name": "Master's Druid Robe",
+      "tier": "6.0",
+      "item_power": 925,
+      "identifier": "T6_ARMOR_CLOTH_KEEPER",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_ARMOR_CLOTH_KEEPER@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 24, "name": "Robes", "type": "armor" }
+    },
+    {
+      "id": 24,
+      "name": "Master's Feyscale Robe",
+      "tier": "6.0",
+      "item_power": 975,
+      "identifier": "T6_ARMOR_CLOTH_FEY",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_ARMOR_CLOTH_FEY@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 24, "name": "Robes", "type": "armor" }
+    },
+    {
+      "id": 25,
+      "name": "Master's Fiend Robe",
+      "tier": "6.0",
+      "item_power": 950,
+      "identifier": "T6_ARMOR_CLOTH_HELL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_ARMOR_CLOTH_HELL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 24, "name": "Robes", "type": "armor" }
+    },
+    {
+      "id": 26,
+      "name": "Master's Mage Robe",
+      "tier": "6.0",
+      "item_power": 900,
+      "identifier": "T6_ARMOR_CLOTH_SET3",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_ARMOR_CLOTH_SET3@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 24, "name": "Robes", "type": "armor" }
+    },
+    {
+      "id": 27,
+      "name": "Master's Robe of Purity",
+      "tier": "6.0",
+      "item_power": 1000,
+      "identifier": "T6_ARMOR_CLOTH_AVALON",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_ARMOR_CLOTH_AVALON@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 24, "name": "Robes", "type": "armor" }
+    },
+    {
+      "id": 28,
+      "name": "Master's Royal Robe",
+      "tier": "6.0",
+      "item_power": 925,
+      "identifier": "T6_ARMOR_CLOTH_ROYAL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_ARMOR_CLOTH_ROYAL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 24, "name": "Robes", "type": "armor" }
+    },
+    {
+      "id": 29,
+      "name": "Master's Scholar Robe",
+      "tier": "6.0",
+      "item_power": 900,
+      "identifier": "T6_ARMOR_CLOTH_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_ARMOR_CLOTH_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 24, "name": "Robes", "type": "armor" }
+    },
+    {
+      "id": 30,
+      "name": "Grandmaster's Cleric Robe",
+      "tier": "7.0",
+      "item_power": 1000,
+      "identifier": "T7_ARMOR_CLOTH_SET2",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_ARMOR_CLOTH_SET2@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 24, "name": "Robes", "type": "armor" }
+    },
+    {
+      "id": 31,
+      "name": "Grandmaster's Cultist Robe",
+      "tier": "7.0",
+      "item_power": 1075,
+      "identifier": "T7_ARMOR_CLOTH_MORGANA",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_ARMOR_CLOTH_MORGANA@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 24, "name": "Robes", "type": "armor" }
+    },
+    {
+      "id": 32,
+      "name": "Grandmaster's Druid Robe",
+      "tier": "7.0",
+      "item_power": 1025,
+      "identifier": "T7_ARMOR_CLOTH_KEEPER",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_ARMOR_CLOTH_KEEPER@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 24, "name": "Robes", "type": "armor" }
+    },
+    {
+      "id": 33,
+      "name": "Grandmaster's Feyscale Robe",
+      "tier": "7.0",
+      "item_power": 1075,
+      "identifier": "T7_ARMOR_CLOTH_FEY",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_ARMOR_CLOTH_FEY@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 24, "name": "Robes", "type": "armor" }
+    },
+    {
+      "id": 34,
+      "name": "Grandmaster's Fiend Robe",
+      "tier": "7.0",
+      "item_power": 1050,
+      "identifier": "T7_ARMOR_CLOTH_HELL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_ARMOR_CLOTH_HELL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 24, "name": "Robes", "type": "armor" }
+    },
+    {
+      "id": 35,
+      "name": "Grandmaster's Mage Robe",
+      "tier": "7.0",
+      "item_power": 1000,
+      "identifier": "T7_ARMOR_CLOTH_SET3",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_ARMOR_CLOTH_SET3@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 24, "name": "Robes", "type": "armor" }
+    },
+    {
+      "id": 36,
+      "name": "Grandmaster's Robe of Purity",
+      "tier": "7.0",
+      "item_power": 1100,
+      "identifier": "T7_ARMOR_CLOTH_AVALON",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_ARMOR_CLOTH_AVALON@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 24, "name": "Robes", "type": "armor" }
+    },
+    {
+      "id": 37,
+      "name": "Grandmaster's Royal Robe",
+      "tier": "7.0",
+      "item_power": 1025,
+      "identifier": "T7_ARMOR_CLOTH_ROYAL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_ARMOR_CLOTH_ROYAL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 24, "name": "Robes", "type": "armor" }
+    },
+    {
+      "id": 38,
+      "name": "Grandmaster's Scholar Robe",
+      "tier": "7.0",
+      "item_power": 1000,
+      "identifier": "T7_ARMOR_CLOTH_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_ARMOR_CLOTH_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 24, "name": "Robes", "type": "armor" }
+    },
+    {
+      "id": 39,
+      "name": "Elder's Cleric Robe",
+      "tier": "8.0",
+      "item_power": 1100,
+      "identifier": "T8_ARMOR_CLOTH_SET2",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_ARMOR_CLOTH_SET2@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 24, "name": "Robes", "type": "armor" }
+    },
+    {
+      "id": 40,
+      "name": "Elder's Cultist Robe",
+      "tier": "8.0",
+      "item_power": 1175,
+      "identifier": "T8_ARMOR_CLOTH_MORGANA",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_ARMOR_CLOTH_MORGANA@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 24, "name": "Robes", "type": "armor" }
+    },
+    {
+      "id": 41,
+      "name": "Elder's Druid Robe",
+      "tier": "8.0",
+      "item_power": 1125,
+      "identifier": "T8_ARMOR_CLOTH_KEEPER",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_ARMOR_CLOTH_KEEPER@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 24, "name": "Robes", "type": "armor" }
+    },
+    {
+      "id": 42,
+      "name": "Elder's Feyscale Robe",
+      "tier": "8.0",
+      "item_power": 1175,
+      "identifier": "T8_ARMOR_CLOTH_FEY",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_ARMOR_CLOTH_FEY@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 24, "name": "Robes", "type": "armor" }
+    },
+    {
+      "id": 43,
+      "name": "Elder's Fiend Robe",
+      "tier": "8.0",
+      "item_power": 1150,
+      "identifier": "T8_ARMOR_CLOTH_HELL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_ARMOR_CLOTH_HELL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 24, "name": "Robes", "type": "armor" }
+    },
+    {
+      "id": 44,
+      "name": "Elder's Mage Robe",
+      "tier": "8.0",
+      "item_power": 1100,
+      "identifier": "T8_ARMOR_CLOTH_SET3",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_ARMOR_CLOTH_SET3@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 24, "name": "Robes", "type": "armor" }
+    },
+    {
+      "id": 45,
+      "name": "Elder's Robe of Purity",
+      "tier": "8.0",
+      "item_power": 1200,
+      "identifier": "T8_ARMOR_CLOTH_AVALON",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_ARMOR_CLOTH_AVALON@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 24, "name": "Robes", "type": "armor" }
+    },
+    {
+      "id": 46,
+      "name": "Elder's Royal Robe",
+      "tier": "8.0",
+      "item_power": 1125,
+      "identifier": "T8_ARMOR_CLOTH_ROYAL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_ARMOR_CLOTH_ROYAL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 24, "name": "Robes", "type": "armor" }
+    },
+    {
+      "id": 47,
+      "name": "Elder's Scholar Robe",
+      "tier": "8.0",
+      "item_power": 1100,
+      "identifier": "T8_ARMOR_CLOTH_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_ARMOR_CLOTH_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 24, "name": "Robes", "type": "armor" }
+    },
+    {
+      "id": 48,
+      "name": "Beginner's Mercenary Jacket",
+      "tier": "1.0",
+      "item_power": 100,
+      "identifier": "T1_ARMOR_LEATHER_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T1_ARMOR_LEATHER_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 28, "name": "Jackets", "type": "armor" }
+    },
+    {
+      "id": 49,
+      "name": "Novice's Mercenary Jacket",
+      "tier": "2.0",
+      "item_power": 300,
+      "identifier": "T2_ARMOR_LEATHER_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T2_ARMOR_LEATHER_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 28, "name": "Jackets", "type": "armor" }
+    },
+    {
+      "id": 50,
+      "name": "Journeyman's Mercenary Jacket",
+      "tier": "3.0",
+      "item_power": 500,
+      "identifier": "T3_ARMOR_LEATHER_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T3_ARMOR_LEATHER_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 28, "name": "Jackets", "type": "armor" }
+    },
+    {
+      "id": 51,
+      "name": "Adept's Assassin Jacket",
+      "tier": "4.0",
+      "item_power": 700,
+      "identifier": "T4_ARMOR_LEATHER_SET3",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_ARMOR_LEATHER_SET3@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 28, "name": "Jackets", "type": "armor" }
+    },
+    {
+      "id": 52,
+      "name": "Adept's Hellion Jacket",
+      "tier": "4.0",
+      "item_power": 750,
+      "identifier": "T4_ARMOR_LEATHER_HELL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_ARMOR_LEATHER_HELL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 28, "name": "Jackets", "type": "armor" }
+    },
+    {
+      "id": 53,
+      "name": "Adept's Hunter Jacket",
+      "tier": "4.0",
+      "item_power": 700,
+      "identifier": "T4_ARMOR_LEATHER_SET2",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_ARMOR_LEATHER_SET2@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 28, "name": "Jackets", "type": "armor" }
+    },
+    {
+      "id": 54,
+      "name": "Adept's Jacket of Tenacity",
+      "tier": "4.0",
+      "item_power": 800,
+      "identifier": "T4_ARMOR_LEATHER_AVALON",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_ARMOR_LEATHER_AVALON@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 28, "name": "Jackets", "type": "armor" }
+    },
+    {
+      "id": 55,
+      "name": "Adept's Mercenary Jacket",
+      "tier": "4.0",
+      "item_power": 700,
+      "identifier": "T4_ARMOR_LEATHER_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_ARMOR_LEATHER_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 28, "name": "Jackets", "type": "armor" }
+    },
+    {
+      "id": 56,
+      "name": "Adept's Mistwalker Jacket",
+      "tier": "4.0",
+      "item_power": 775,
+      "identifier": "T4_ARMOR_LEATHER_FEY",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_ARMOR_LEATHER_FEY@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 28, "name": "Jackets", "type": "armor" }
+    },
+    {
+      "id": 57,
+      "name": "Adept's Royal Jacket",
+      "tier": "4.0",
+      "item_power": 725,
+      "identifier": "T4_ARMOR_LEATHER_ROYAL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_ARMOR_LEATHER_ROYAL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 28, "name": "Jackets", "type": "armor" }
+    },
+    {
+      "id": 58,
+      "name": "Adept's Specter Jacket",
+      "tier": "4.0",
+      "item_power": 775,
+      "identifier": "T4_ARMOR_LEATHER_UNDEAD",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_ARMOR_LEATHER_UNDEAD@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 28, "name": "Jackets", "type": "armor" }
+    },
+    {
+      "id": 59,
+      "name": "Adept's Stalker Jacket",
+      "tier": "4.0",
+      "item_power": 725,
+      "identifier": "T4_ARMOR_LEATHER_MORGANA",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_ARMOR_LEATHER_MORGANA@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 28, "name": "Jackets", "type": "armor" }
+    },
+    {
+      "id": 60,
+      "name": "Expert's Assassin Jacket",
+      "tier": "5.0",
+      "item_power": 800,
+      "identifier": "T5_ARMOR_LEATHER_SET3",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_ARMOR_LEATHER_SET3@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 28, "name": "Jackets", "type": "armor" }
+    },
+    {
+      "id": 61,
+      "name": "Expert's Hellion Jacket",
+      "tier": "5.0",
+      "item_power": 850,
+      "identifier": "T5_ARMOR_LEATHER_HELL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_ARMOR_LEATHER_HELL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 28, "name": "Jackets", "type": "armor" }
+    },
+    {
+      "id": 62,
+      "name": "Expert's Hunter Jacket",
+      "tier": "5.0",
+      "item_power": 800,
+      "identifier": "T5_ARMOR_LEATHER_SET2",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_ARMOR_LEATHER_SET2@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 28, "name": "Jackets", "type": "armor" }
+    },
+    {
+      "id": 63,
+      "name": "Expert's Jacket of Tenacity",
+      "tier": "5.0",
+      "item_power": 900,
+      "identifier": "T5_ARMOR_LEATHER_AVALON",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_ARMOR_LEATHER_AVALON@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 28, "name": "Jackets", "type": "armor" }
+    },
+    {
+      "id": 64,
+      "name": "Expert's Mercenary Jacket",
+      "tier": "5.0",
+      "item_power": 800,
+      "identifier": "T5_ARMOR_LEATHER_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_ARMOR_LEATHER_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 28, "name": "Jackets", "type": "armor" }
+    },
+    {
+      "id": 65,
+      "name": "Expert's Mistwalker Jacket",
+      "tier": "5.0",
+      "item_power": 875,
+      "identifier": "T5_ARMOR_LEATHER_FEY",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_ARMOR_LEATHER_FEY@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 28, "name": "Jackets", "type": "armor" }
+    },
+    {
+      "id": 66,
+      "name": "Expert's Royal Jacket",
+      "tier": "5.0",
+      "item_power": 825,
+      "identifier": "T5_ARMOR_LEATHER_ROYAL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_ARMOR_LEATHER_ROYAL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 28, "name": "Jackets", "type": "armor" }
+    },
+    {
+      "id": 67,
+      "name": "Expert's Specter Jacket",
+      "tier": "5.0",
+      "item_power": 875,
+      "identifier": "T5_ARMOR_LEATHER_UNDEAD",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_ARMOR_LEATHER_UNDEAD@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 28, "name": "Jackets", "type": "armor" }
+    },
+    {
+      "id": 68,
+      "name": "Expert's Stalker Jacket",
+      "tier": "5.0",
+      "item_power": 825,
+      "identifier": "T5_ARMOR_LEATHER_MORGANA",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_ARMOR_LEATHER_MORGANA@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 28, "name": "Jackets", "type": "armor" }
+    },
+    {
+      "id": 69,
+      "name": "Master's Assassin Jacket",
+      "tier": "6.0",
+      "item_power": 900,
+      "identifier": "T6_ARMOR_LEATHER_SET3",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_ARMOR_LEATHER_SET3@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 28, "name": "Jackets", "type": "armor" }
+    },
+    {
+      "id": 70,
+      "name": "Master's Hellion Jacket",
+      "tier": "6.0",
+      "item_power": 950,
+      "identifier": "T6_ARMOR_LEATHER_HELL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_ARMOR_LEATHER_HELL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 28, "name": "Jackets", "type": "armor" }
+    },
+    {
+      "id": 71,
+      "name": "Master's Hunter Jacket",
+      "tier": "6.0",
+      "item_power": 900,
+      "identifier": "T6_ARMOR_LEATHER_SET2",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_ARMOR_LEATHER_SET2@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 28, "name": "Jackets", "type": "armor" }
+    },
+    {
+      "id": 72,
+      "name": "Master's Jacket of Tenacity",
+      "tier": "6.0",
+      "item_power": 1000,
+      "identifier": "T6_ARMOR_LEATHER_AVALON",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_ARMOR_LEATHER_AVALON@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 28, "name": "Jackets", "type": "armor" }
+    },
+    {
+      "id": 73,
+      "name": "Master's Mercenary Jacket",
+      "tier": "6.0",
+      "item_power": 900,
+      "identifier": "T6_ARMOR_LEATHER_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_ARMOR_LEATHER_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 28, "name": "Jackets", "type": "armor" }
+    },
+    {
+      "id": 74,
+      "name": "Master's Mistwalker Jacket",
+      "tier": "6.0",
+      "item_power": 975,
+      "identifier": "T6_ARMOR_LEATHER_FEY",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_ARMOR_LEATHER_FEY@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 28, "name": "Jackets", "type": "armor" }
+    },
+    {
+      "id": 75,
+      "name": "Master's Royal Jacket",
+      "tier": "6.0",
+      "item_power": 925,
+      "identifier": "T6_ARMOR_LEATHER_ROYAL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_ARMOR_LEATHER_ROYAL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 28, "name": "Jackets", "type": "armor" }
+    },
+    {
+      "id": 76,
+      "name": "Master's Specter Jacket",
+      "tier": "6.0",
+      "item_power": 975,
+      "identifier": "T6_ARMOR_LEATHER_UNDEAD",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_ARMOR_LEATHER_UNDEAD@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 28, "name": "Jackets", "type": "armor" }
+    },
+    {
+      "id": 77,
+      "name": "Master's Stalker Jacket",
+      "tier": "6.0",
+      "item_power": 925,
+      "identifier": "T6_ARMOR_LEATHER_MORGANA",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_ARMOR_LEATHER_MORGANA@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 28, "name": "Jackets", "type": "armor" }
+    },
+    {
+      "id": 78,
+      "name": "Grandmaster's Assassin Jacket",
+      "tier": "7.0",
+      "item_power": 1000,
+      "identifier": "T7_ARMOR_LEATHER_SET3",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_ARMOR_LEATHER_SET3@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 28, "name": "Jackets", "type": "armor" }
+    },
+    {
+      "id": 79,
+      "name": "Grandmaster's Hellion Jacket",
+      "tier": "7.0",
+      "item_power": 1050,
+      "identifier": "T7_ARMOR_LEATHER_HELL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_ARMOR_LEATHER_HELL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 28, "name": "Jackets", "type": "armor" }
+    },
+    {
+      "id": 80,
+      "name": "Grandmaster's Hunter Jacket",
+      "tier": "7.0",
+      "item_power": 1000,
+      "identifier": "T7_ARMOR_LEATHER_SET2",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_ARMOR_LEATHER_SET2@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 28, "name": "Jackets", "type": "armor" }
+    },
+    {
+      "id": 81,
+      "name": "Grandmaster's Jacket of Tenacity",
+      "tier": "7.0",
+      "item_power": 1100,
+      "identifier": "T7_ARMOR_LEATHER_AVALON",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_ARMOR_LEATHER_AVALON@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 28, "name": "Jackets", "type": "armor" }
+    },
+    {
+      "id": 82,
+      "name": "Grandmaster's Mercenary Jacket",
+      "tier": "7.0",
+      "item_power": 1000,
+      "identifier": "T7_ARMOR_LEATHER_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_ARMOR_LEATHER_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 28, "name": "Jackets", "type": "armor" }
+    },
+    {
+      "id": 83,
+      "name": "Grandmaster's Mistwalker Jacket",
+      "tier": "7.0",
+      "item_power": 1075,
+      "identifier": "T7_ARMOR_LEATHER_FEY",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_ARMOR_LEATHER_FEY@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 28, "name": "Jackets", "type": "armor" }
+    },
+    {
+      "id": 84,
+      "name": "Grandmaster's Royal Jacket",
+      "tier": "7.0",
+      "item_power": 1025,
+      "identifier": "T7_ARMOR_LEATHER_ROYAL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_ARMOR_LEATHER_ROYAL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 28, "name": "Jackets", "type": "armor" }
+    },
+    {
+      "id": 85,
+      "name": "Grandmaster's Specter Jacket",
+      "tier": "7.0",
+      "item_power": 1075,
+      "identifier": "T7_ARMOR_LEATHER_UNDEAD",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_ARMOR_LEATHER_UNDEAD@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 28, "name": "Jackets", "type": "armor" }
+    },
+    {
+      "id": 86,
+      "name": "Grandmaster's Stalker Jacket",
+      "tier": "7.0",
+      "item_power": 1025,
+      "identifier": "T7_ARMOR_LEATHER_MORGANA",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_ARMOR_LEATHER_MORGANA@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 28, "name": "Jackets", "type": "armor" }
+    },
+    {
+      "id": 87,
+      "name": "Elder's Assassin Jacket",
+      "tier": "8.0",
+      "item_power": 1100,
+      "identifier": "T8_ARMOR_LEATHER_SET3",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_ARMOR_LEATHER_SET3@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 28, "name": "Jackets", "type": "armor" }
+    },
+    {
+      "id": 88,
+      "name": "Elder's Hellion Jacket",
+      "tier": "8.0",
+      "item_power": 1150,
+      "identifier": "T8_ARMOR_LEATHER_HELL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_ARMOR_LEATHER_HELL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 28, "name": "Jackets", "type": "armor" }
+    },
+    {
+      "id": 89,
+      "name": "Elder's Hunter Jacket",
+      "tier": "8.0",
+      "item_power": 1100,
+      "identifier": "T8_ARMOR_LEATHER_SET2",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_ARMOR_LEATHER_SET2@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 28, "name": "Jackets", "type": "armor" }
+    },
+    {
+      "id": 90,
+      "name": "Elder's Jacket of Tenacity",
+      "tier": "8.0",
+      "item_power": 1200,
+      "identifier": "T8_ARMOR_LEATHER_AVALON",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_ARMOR_LEATHER_AVALON@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 28, "name": "Jackets", "type": "armor" }
+    },
+    {
+      "id": 91,
+      "name": "Elder's Mercenary Jacket",
+      "tier": "8.0",
+      "item_power": 1100,
+      "identifier": "T8_ARMOR_LEATHER_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_ARMOR_LEATHER_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 28, "name": "Jackets", "type": "armor" }
+    },
+    {
+      "id": 92,
+      "name": "Elder's Mistwalker Jacket",
+      "tier": "8.0",
+      "item_power": 1175,
+      "identifier": "T8_ARMOR_LEATHER_FEY",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_ARMOR_LEATHER_FEY@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 28, "name": "Jackets", "type": "armor" }
+    },
+    {
+      "id": 93,
+      "name": "Elder's Royal Jacket",
+      "tier": "8.0",
+      "item_power": 1125,
+      "identifier": "T8_ARMOR_LEATHER_ROYAL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_ARMOR_LEATHER_ROYAL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 28, "name": "Jackets", "type": "armor" }
+    },
+    {
+      "id": 94,
+      "name": "Elder's Specter Jacket",
+      "tier": "8.0",
+      "item_power": 1175,
+      "identifier": "T8_ARMOR_LEATHER_UNDEAD",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_ARMOR_LEATHER_UNDEAD@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 28, "name": "Jackets", "type": "armor" }
+    },
+    {
+      "id": 95,
+      "name": "Elder's Stalker Jacket",
+      "tier": "8.0",
+      "item_power": 1125,
+      "identifier": "T8_ARMOR_LEATHER_MORGANA",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_ARMOR_LEATHER_MORGANA@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 28, "name": "Jackets", "type": "armor" }
+    },
+    {
+      "id": 96,
+      "name": "Beginner's Mercenary Hood",
+      "tier": "1.0",
+      "item_power": 100,
+      "identifier": "T1_HEAD_LEATHER_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T1_HEAD_LEATHER_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 29, "name": "Hoods", "type": "armor" }
+    },
+    {
+      "id": 97,
+      "name": "Novice's Mercenary Hood",
+      "tier": "2.0",
+      "item_power": 300,
+      "identifier": "T2_HEAD_LEATHER_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T2_HEAD_LEATHER_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 29, "name": "Hoods", "type": "armor" }
+    },
+    {
+      "id": 98,
+      "name": "Journeyman's Mercenary Hood",
+      "tier": "3.0",
+      "item_power": 500,
+      "identifier": "T3_HEAD_LEATHER_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T3_HEAD_LEATHER_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 29, "name": "Hoods", "type": "armor" }
+    },
+    {
+      "id": 99,
+      "name": "Adept's Assassin Hood",
+      "tier": "4.0",
+      "item_power": 700,
+      "identifier": "T4_HEAD_LEATHER_SET3",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_HEAD_LEATHER_SET3@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 29, "name": "Hoods", "type": "armor" }
+    },
+    {
+      "id": 100,
+      "name": "Adept's Hellion Hood",
+      "tier": "4.0",
+      "item_power": 750,
+      "identifier": "T4_HEAD_LEATHER_HELL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_HEAD_LEATHER_HELL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 29, "name": "Hoods", "type": "armor" }
+    },
+    {
+      "id": 101,
+      "name": "Adept's Hood of Tenacity",
+      "tier": "4.0",
+      "item_power": 800,
+      "identifier": "T4_HEAD_LEATHER_AVALON",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_HEAD_LEATHER_AVALON@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 29, "name": "Hoods", "type": "armor" }
+    },
+    {
+      "id": 102,
+      "name": "Adept's Hunter Hood",
+      "tier": "4.0",
+      "item_power": 700,
+      "identifier": "T4_HEAD_LEATHER_SET2",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_HEAD_LEATHER_SET2@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 29, "name": "Hoods", "type": "armor" }
+    },
+    {
+      "id": 103,
+      "name": "Adept's Mercenary Hood",
+      "tier": "4.0",
+      "item_power": 700,
+      "identifier": "T4_HEAD_LEATHER_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_HEAD_LEATHER_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 29, "name": "Hoods", "type": "armor" }
+    },
+    {
+      "id": 104,
+      "name": "Adept's Mistwalker Hood",
+      "tier": "4.0",
+      "item_power": 775,
+      "identifier": "T4_HEAD_LEATHER_FEY",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_HEAD_LEATHER_FEY@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 29, "name": "Hoods", "type": "armor" }
+    },
+    {
+      "id": 105,
+      "name": "Adept's Royal Hood",
+      "tier": "4.0",
+      "item_power": 725,
+      "identifier": "T4_HEAD_LEATHER_ROYAL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_HEAD_LEATHER_ROYAL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 29, "name": "Hoods", "type": "armor" }
+    },
+    {
+      "id": 106,
+      "name": "Adept's Specter Hood",
+      "tier": "4.0",
+      "item_power": 775,
+      "identifier": "T4_HEAD_LEATHER_UNDEAD",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_HEAD_LEATHER_UNDEAD@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 29, "name": "Hoods", "type": "armor" }
+    },
+    {
+      "id": 107,
+      "name": "Adept's Stalker Hood",
+      "tier": "4.0",
+      "item_power": 725,
+      "identifier": "T4_HEAD_LEATHER_MORGANA",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_HEAD_LEATHER_MORGANA@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 29, "name": "Hoods", "type": "armor" }
+    },
+    {
+      "id": 108,
+      "name": "Expert's Assassin Hood",
+      "tier": "5.0",
+      "item_power": 800,
+      "identifier": "T5_HEAD_LEATHER_SET3",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_HEAD_LEATHER_SET3@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 29, "name": "Hoods", "type": "armor" }
+    },
+    {
+      "id": 109,
+      "name": "Expert's Hellion Hood",
+      "tier": "5.0",
+      "item_power": 850,
+      "identifier": "T5_HEAD_LEATHER_HELL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_HEAD_LEATHER_HELL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 29, "name": "Hoods", "type": "armor" }
+    },
+    {
+      "id": 110,
+      "name": "Expert's Hood of Tenacity",
+      "tier": "5.0",
+      "item_power": 900,
+      "identifier": "T5_HEAD_LEATHER_AVALON",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_HEAD_LEATHER_AVALON@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 29, "name": "Hoods", "type": "armor" }
+    },
+    {
+      "id": 111,
+      "name": "Expert's Hunter Hood",
+      "tier": "5.0",
+      "item_power": 800,
+      "identifier": "T5_HEAD_LEATHER_SET2",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_HEAD_LEATHER_SET2@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 29, "name": "Hoods", "type": "armor" }
+    },
+    {
+      "id": 112,
+      "name": "Expert's Mercenary Hood",
+      "tier": "5.0",
+      "item_power": 800,
+      "identifier": "T5_HEAD_LEATHER_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_HEAD_LEATHER_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 29, "name": "Hoods", "type": "armor" }
+    },
+    {
+      "id": 113,
+      "name": "Expert's Mistwalker Hood",
+      "tier": "5.0",
+      "item_power": 875,
+      "identifier": "T5_HEAD_LEATHER_FEY",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_HEAD_LEATHER_FEY@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 29, "name": "Hoods", "type": "armor" }
+    },
+    {
+      "id": 114,
+      "name": "Expert's Royal Hood",
+      "tier": "5.0",
+      "item_power": 825,
+      "identifier": "T5_HEAD_LEATHER_ROYAL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_HEAD_LEATHER_ROYAL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 29, "name": "Hoods", "type": "armor" }
+    },
+    {
+      "id": 115,
+      "name": "Expert's Specter Hood",
+      "tier": "5.0",
+      "item_power": 875,
+      "identifier": "T5_HEAD_LEATHER_UNDEAD",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_HEAD_LEATHER_UNDEAD@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 29, "name": "Hoods", "type": "armor" }
+    },
+    {
+      "id": 116,
+      "name": "Expert's Stalker Hood",
+      "tier": "5.0",
+      "item_power": 825,
+      "identifier": "T5_HEAD_LEATHER_MORGANA",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_HEAD_LEATHER_MORGANA@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 29, "name": "Hoods", "type": "armor" }
+    },
+    {
+      "id": 117,
+      "name": "Master's Assassin Hood",
+      "tier": "6.0",
+      "item_power": 900,
+      "identifier": "T6_HEAD_LEATHER_SET3",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_HEAD_LEATHER_SET3@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 29, "name": "Hoods", "type": "armor" }
+    },
+    {
+      "id": 118,
+      "name": "Master's Hellion Hood",
+      "tier": "6.0",
+      "item_power": 950,
+      "identifier": "T6_HEAD_LEATHER_HELL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_HEAD_LEATHER_HELL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 29, "name": "Hoods", "type": "armor" }
+    },
+    {
+      "id": 119,
+      "name": "Master's Hood of Tenacity",
+      "tier": "6.0",
+      "item_power": 1000,
+      "identifier": "T6_HEAD_LEATHER_AVALON",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_HEAD_LEATHER_AVALON@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 29, "name": "Hoods", "type": "armor" }
+    },
+    {
+      "id": 120,
+      "name": "Master's Hunter Hood",
+      "tier": "6.0",
+      "item_power": 900,
+      "identifier": "T6_HEAD_LEATHER_SET2",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_HEAD_LEATHER_SET2@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 29, "name": "Hoods", "type": "armor" }
+    },
+    {
+      "id": 121,
+      "name": "Master's Mercenary Hood",
+      "tier": "6.0",
+      "item_power": 900,
+      "identifier": "T6_HEAD_LEATHER_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_HEAD_LEATHER_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 29, "name": "Hoods", "type": "armor" }
+    },
+    {
+      "id": 122,
+      "name": "Master's Mistwalker Hood",
+      "tier": "6.0",
+      "item_power": 975,
+      "identifier": "T6_HEAD_LEATHER_FEY",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_HEAD_LEATHER_FEY@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 29, "name": "Hoods", "type": "armor" }
+    },
+    {
+      "id": 123,
+      "name": "Master's Royal Hood",
+      "tier": "6.0",
+      "item_power": 925,
+      "identifier": "T6_HEAD_LEATHER_ROYAL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_HEAD_LEATHER_ROYAL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 29, "name": "Hoods", "type": "armor" }
+    },
+    {
+      "id": 124,
+      "name": "Master's Specter Hood",
+      "tier": "6.0",
+      "item_power": 975,
+      "identifier": "T6_HEAD_LEATHER_UNDEAD",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_HEAD_LEATHER_UNDEAD@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 29, "name": "Hoods", "type": "armor" }
+    },
+    {
+      "id": 125,
+      "name": "Master's Stalker Hood",
+      "tier": "6.0",
+      "item_power": 925,
+      "identifier": "T6_HEAD_LEATHER_MORGANA",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_HEAD_LEATHER_MORGANA@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 29, "name": "Hoods", "type": "armor" }
+    },
+    {
+      "id": 126,
+      "name": "Grandmaster's Assassin Hood",
+      "tier": "7.0",
+      "item_power": 1000,
+      "identifier": "T7_HEAD_LEATHER_SET3",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_HEAD_LEATHER_SET3@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 29, "name": "Hoods", "type": "armor" }
+    },
+    {
+      "id": 127,
+      "name": "Grandmaster's Hellion Hood",
+      "tier": "7.0",
+      "item_power": 1050,
+      "identifier": "T7_HEAD_LEATHER_HELL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_HEAD_LEATHER_HELL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 29, "name": "Hoods", "type": "armor" }
+    },
+    {
+      "id": 128,
+      "name": "Grandmaster's Hood of Tenacity",
+      "tier": "7.0",
+      "item_power": 1100,
+      "identifier": "T7_HEAD_LEATHER_AVALON",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_HEAD_LEATHER_AVALON@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 29, "name": "Hoods", "type": "armor" }
+    },
+    {
+      "id": 129,
+      "name": "Grandmaster's Hunter Hood",
+      "tier": "7.0",
+      "item_power": 1000,
+      "identifier": "T7_HEAD_LEATHER_SET2",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_HEAD_LEATHER_SET2@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 29, "name": "Hoods", "type": "armor" }
+    },
+    {
+      "id": 130,
+      "name": "Grandmaster's Mercenary Hood",
+      "tier": "7.0",
+      "item_power": 1000,
+      "identifier": "T7_HEAD_LEATHER_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_HEAD_LEATHER_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 29, "name": "Hoods", "type": "armor" }
+    },
+    {
+      "id": 131,
+      "name": "Grandmaster's Mistwalker Hood",
+      "tier": "7.0",
+      "item_power": 1075,
+      "identifier": "T7_HEAD_LEATHER_FEY",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_HEAD_LEATHER_FEY@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 29, "name": "Hoods", "type": "armor" }
+    },
+    {
+      "id": 132,
+      "name": "Grandmaster's Royal Hood",
+      "tier": "7.0",
+      "item_power": 1025,
+      "identifier": "T7_HEAD_LEATHER_ROYAL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_HEAD_LEATHER_ROYAL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 29, "name": "Hoods", "type": "armor" }
+    },
+    {
+      "id": 133,
+      "name": "Grandmaster's Specter Hood",
+      "tier": "7.0",
+      "item_power": 1075,
+      "identifier": "T7_HEAD_LEATHER_UNDEAD",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_HEAD_LEATHER_UNDEAD@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 29, "name": "Hoods", "type": "armor" }
+    },
+    {
+      "id": 134,
+      "name": "Grandmaster's Stalker Hood",
+      "tier": "7.0",
+      "item_power": 1025,
+      "identifier": "T7_HEAD_LEATHER_MORGANA",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_HEAD_LEATHER_MORGANA@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 29, "name": "Hoods", "type": "armor" }
+    },
+    {
+      "id": 135,
+      "name": "Elder's Assassin Hood",
+      "tier": "8.0",
+      "item_power": 1100,
+      "identifier": "T8_HEAD_LEATHER_SET3",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_HEAD_LEATHER_SET3@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 29, "name": "Hoods", "type": "armor" }
+    },
+    {
+      "id": 136,
+      "name": "Elder's Hellion Hood",
+      "tier": "8.0",
+      "item_power": 1150,
+      "identifier": "T8_HEAD_LEATHER_HELL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_HEAD_LEATHER_HELL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 29, "name": "Hoods", "type": "armor" }
+    },
+    {
+      "id": 137,
+      "name": "Elder's Hood of Tenacity",
+      "tier": "8.0",
+      "item_power": 1200,
+      "identifier": "T8_HEAD_LEATHER_AVALON",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_HEAD_LEATHER_AVALON@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 29, "name": "Hoods", "type": "armor" }
+    },
+    {
+      "id": 138,
+      "name": "Elder's Hunter Hood",
+      "tier": "8.0",
+      "item_power": 1100,
+      "identifier": "T8_HEAD_LEATHER_SET2",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_HEAD_LEATHER_SET2@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 29, "name": "Hoods", "type": "armor" }
+    },
+    {
+      "id": 139,
+      "name": "Elder's Mercenary Hood",
+      "tier": "8.0",
+      "item_power": 1100,
+      "identifier": "T8_HEAD_LEATHER_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_HEAD_LEATHER_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 29, "name": "Hoods", "type": "armor" }
+    },
+    {
+      "id": 140,
+      "name": "Elder's Mistwalker Hood",
+      "tier": "8.0",
+      "item_power": 1175,
+      "identifier": "T8_HEAD_LEATHER_FEY",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_HEAD_LEATHER_FEY@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 29, "name": "Hoods", "type": "armor" }
+    },
+    {
+      "id": 141,
+      "name": "Elder's Royal Hood",
+      "tier": "8.0",
+      "item_power": 1125,
+      "identifier": "T8_HEAD_LEATHER_ROYAL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_HEAD_LEATHER_ROYAL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 29, "name": "Hoods", "type": "armor" }
+    },
+    {
+      "id": 142,
+      "name": "Elder's Specter Hood",
+      "tier": "8.0",
+      "item_power": 1175,
+      "identifier": "T8_HEAD_LEATHER_UNDEAD",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_HEAD_LEATHER_UNDEAD@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 29, "name": "Hoods", "type": "armor" }
+    },
+    {
+      "id": 143,
+      "name": "Elder's Stalker Hood",
+      "tier": "8.0",
+      "item_power": 1125,
+      "identifier": "T8_HEAD_LEATHER_MORGANA",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_HEAD_LEATHER_MORGANA@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 29, "name": "Hoods", "type": "armor" }
+    },
+    {
+      "id": 144,
+      "name": "Beginner's Mercenary Shoes",
+      "tier": "1.0",
+      "item_power": 100,
+      "identifier": "T1_SHOES_LEATHER_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T1_SHOES_LEATHER_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 30, "name": "Shoes", "type": "armor" }
+    },
+    {
+      "id": 145,
+      "name": "Novice's Mercenary Shoes",
+      "tier": "2.0",
+      "item_power": 300,
+      "identifier": "T2_SHOES_LEATHER_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T2_SHOES_LEATHER_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 30, "name": "Shoes", "type": "armor" }
+    },
+    {
+      "id": 146,
+      "name": "Journeyman's Mercenary Shoes",
+      "tier": "3.0",
+      "item_power": 500,
+      "identifier": "T3_SHOES_LEATHER_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T3_SHOES_LEATHER_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 30, "name": "Shoes", "type": "armor" }
+    },
+    {
+      "id": 147,
+      "name": "Adept's Assassin Shoes",
+      "tier": "4.0",
+      "item_power": 700,
+      "identifier": "T4_SHOES_LEATHER_SET3",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_SHOES_LEATHER_SET3@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 30, "name": "Shoes", "type": "armor" }
+    },
+    {
+      "id": 148,
+      "name": "Adept's Hellion Shoes",
+      "tier": "4.0",
+      "item_power": 750,
+      "identifier": "T4_SHOES_LEATHER_HELL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_SHOES_LEATHER_HELL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 30, "name": "Shoes", "type": "armor" }
+    },
+    {
+      "id": 149,
+      "name": "Adept's Hunter Shoes",
+      "tier": "4.0",
+      "item_power": 700,
+      "identifier": "T4_SHOES_LEATHER_SET2",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_SHOES_LEATHER_SET2@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 30, "name": "Shoes", "type": "armor" }
+    },
+    {
+      "id": 150,
+      "name": "Adept's Mercenary Shoes",
+      "tier": "4.0",
+      "item_power": 700,
+      "identifier": "T4_SHOES_LEATHER_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_SHOES_LEATHER_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 30, "name": "Shoes", "type": "armor" }
+    },
+    {
+      "id": 151,
+      "name": "Adept's Mistwalker Shoes",
+      "tier": "4.0",
+      "item_power": 775,
+      "identifier": "T4_SHOES_LEATHER_FEY",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_SHOES_LEATHER_FEY@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 30, "name": "Shoes", "type": "armor" }
+    },
+    {
+      "id": 152,
+      "name": "Adept's Royal Shoes",
+      "tier": "4.0",
+      "item_power": 725,
+      "identifier": "T4_SHOES_LEATHER_ROYAL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_SHOES_LEATHER_ROYAL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 30, "name": "Shoes", "type": "armor" }
+    },
+    {
+      "id": 153,
+      "name": "Adept's Shoes of Tenacity",
+      "tier": "4.0",
+      "item_power": 800,
+      "identifier": "T4_SHOES_LEATHER_AVALON",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_SHOES_LEATHER_AVALON@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 30, "name": "Shoes", "type": "armor" }
+    },
+    {
+      "id": 154,
+      "name": "Adept's Specter Shoes",
+      "tier": "4.0",
+      "item_power": 775,
+      "identifier": "T4_SHOES_LEATHER_UNDEAD",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_SHOES_LEATHER_UNDEAD@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 30, "name": "Shoes", "type": "armor" }
+    },
+    {
+      "id": 155,
+      "name": "Adept's Stalker Shoes",
+      "tier": "4.0",
+      "item_power": 725,
+      "identifier": "T4_SHOES_LEATHER_MORGANA",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_SHOES_LEATHER_MORGANA@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 30, "name": "Shoes", "type": "armor" }
+    },
+    {
+      "id": 156,
+      "name": "Expert's Assassin Shoes",
+      "tier": "5.0",
+      "item_power": 800,
+      "identifier": "T5_SHOES_LEATHER_SET3",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_SHOES_LEATHER_SET3@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 30, "name": "Shoes", "type": "armor" }
+    },
+    {
+      "id": 157,
+      "name": "Expert's Hellion Shoes",
+      "tier": "5.0",
+      "item_power": 850,
+      "identifier": "T5_SHOES_LEATHER_HELL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_SHOES_LEATHER_HELL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 30, "name": "Shoes", "type": "armor" }
+    },
+    {
+      "id": 158,
+      "name": "Expert's Hunter Shoes",
+      "tier": "5.0",
+      "item_power": 800,
+      "identifier": "T5_SHOES_LEATHER_SET2",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_SHOES_LEATHER_SET2@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 30, "name": "Shoes", "type": "armor" }
+    },
+    {
+      "id": 159,
+      "name": "Expert's Mercenary Shoes",
+      "tier": "5.0",
+      "item_power": 800,
+      "identifier": "T5_SHOES_LEATHER_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_SHOES_LEATHER_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 30, "name": "Shoes", "type": "armor" }
+    },
+    {
+      "id": 160,
+      "name": "Expert's Mistwalker Shoes",
+      "tier": "5.0",
+      "item_power": 875,
+      "identifier": "T5_SHOES_LEATHER_FEY",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_SHOES_LEATHER_FEY@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 30, "name": "Shoes", "type": "armor" }
+    },
+    {
+      "id": 161,
+      "name": "Expert's Royal Shoes",
+      "tier": "5.0",
+      "item_power": 825,
+      "identifier": "T5_SHOES_LEATHER_ROYAL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_SHOES_LEATHER_ROYAL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 30, "name": "Shoes", "type": "armor" }
+    },
+    {
+      "id": 162,
+      "name": "Expert's Shoes of Tenacity",
+      "tier": "5.0",
+      "item_power": 900,
+      "identifier": "T5_SHOES_LEATHER_AVALON",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_SHOES_LEATHER_AVALON@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 30, "name": "Shoes", "type": "armor" }
+    },
+    {
+      "id": 163,
+      "name": "Expert's Specter Shoes",
+      "tier": "5.0",
+      "item_power": 875,
+      "identifier": "T5_SHOES_LEATHER_UNDEAD",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_SHOES_LEATHER_UNDEAD@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 30, "name": "Shoes", "type": "armor" }
+    },
+    {
+      "id": 164,
+      "name": "Expert's Stalker Shoes",
+      "tier": "5.0",
+      "item_power": 825,
+      "identifier": "T5_SHOES_LEATHER_MORGANA",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_SHOES_LEATHER_MORGANA@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 30, "name": "Shoes", "type": "armor" }
+    },
+    {
+      "id": 165,
+      "name": "Master's Assassin Shoes",
+      "tier": "6.0",
+      "item_power": 900,
+      "identifier": "T6_SHOES_LEATHER_SET3",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_SHOES_LEATHER_SET3@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 30, "name": "Shoes", "type": "armor" }
+    },
+    {
+      "id": 166,
+      "name": "Master's Hellion Shoes",
+      "tier": "6.0",
+      "item_power": 950,
+      "identifier": "T6_SHOES_LEATHER_HELL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_SHOES_LEATHER_HELL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 30, "name": "Shoes", "type": "armor" }
+    },
+    {
+      "id": 167,
+      "name": "Master's Hunter Shoes",
+      "tier": "6.0",
+      "item_power": 900,
+      "identifier": "T6_SHOES_LEATHER_SET2",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_SHOES_LEATHER_SET2@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 30, "name": "Shoes", "type": "armor" }
+    },
+    {
+      "id": 168,
+      "name": "Master's Mercenary Shoes",
+      "tier": "6.0",
+      "item_power": 900,
+      "identifier": "T6_SHOES_LEATHER_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_SHOES_LEATHER_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 30, "name": "Shoes", "type": "armor" }
+    },
+    {
+      "id": 169,
+      "name": "Master's Mistwalker Shoes",
+      "tier": "6.0",
+      "item_power": 975,
+      "identifier": "T6_SHOES_LEATHER_FEY",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_SHOES_LEATHER_FEY@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 30, "name": "Shoes", "type": "armor" }
+    },
+    {
+      "id": 170,
+      "name": "Master's Royal Shoes",
+      "tier": "6.0",
+      "item_power": 925,
+      "identifier": "T6_SHOES_LEATHER_ROYAL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_SHOES_LEATHER_ROYAL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 30, "name": "Shoes", "type": "armor" }
+    },
+    {
+      "id": 171,
+      "name": "Master's Shoes of Tenacity",
+      "tier": "6.0",
+      "item_power": 1000,
+      "identifier": "T6_SHOES_LEATHER_AVALON",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_SHOES_LEATHER_AVALON@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 30, "name": "Shoes", "type": "armor" }
+    },
+    {
+      "id": 172,
+      "name": "Master's Specter Shoes",
+      "tier": "6.0",
+      "item_power": 975,
+      "identifier": "T6_SHOES_LEATHER_UNDEAD",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_SHOES_LEATHER_UNDEAD@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 30, "name": "Shoes", "type": "armor" }
+    },
+    {
+      "id": 173,
+      "name": "Master's Stalker Shoes",
+      "tier": "6.0",
+      "item_power": 925,
+      "identifier": "T6_SHOES_LEATHER_MORGANA",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_SHOES_LEATHER_MORGANA@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 30, "name": "Shoes", "type": "armor" }
+    },
+    {
+      "id": 174,
+      "name": "Grandmaster's Assassin Shoes",
+      "tier": "7.0",
+      "item_power": 1000,
+      "identifier": "T7_SHOES_LEATHER_SET3",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_SHOES_LEATHER_SET3@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 30, "name": "Shoes", "type": "armor" }
+    },
+    {
+      "id": 175,
+      "name": "Grandmaster's Hellion Shoes",
+      "tier": "7.0",
+      "item_power": 1050,
+      "identifier": "T7_SHOES_LEATHER_HELL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_SHOES_LEATHER_HELL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 30, "name": "Shoes", "type": "armor" }
+    },
+    {
+      "id": 176,
+      "name": "Grandmaster's Hunter Shoes",
+      "tier": "7.0",
+      "item_power": 1000,
+      "identifier": "T7_SHOES_LEATHER_SET2",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_SHOES_LEATHER_SET2@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 30, "name": "Shoes", "type": "armor" }
+    },
+    {
+      "id": 177,
+      "name": "Grandmaster's Mercenary Shoes",
+      "tier": "7.0",
+      "item_power": 1000,
+      "identifier": "T7_SHOES_LEATHER_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_SHOES_LEATHER_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 30, "name": "Shoes", "type": "armor" }
+    },
+    {
+      "id": 178,
+      "name": "Grandmaster's Mistwalker Shoes",
+      "tier": "7.0",
+      "item_power": 1075,
+      "identifier": "T7_SHOES_LEATHER_FEY",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_SHOES_LEATHER_FEY@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 30, "name": "Shoes", "type": "armor" }
+    },
+    {
+      "id": 179,
+      "name": "Grandmaster's Royal Shoes",
+      "tier": "7.0",
+      "item_power": 1025,
+      "identifier": "T7_SHOES_LEATHER_ROYAL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_SHOES_LEATHER_ROYAL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 30, "name": "Shoes", "type": "armor" }
+    },
+    {
+      "id": 180,
+      "name": "Grandmaster's Shoes of Tenacity",
+      "tier": "7.0",
+      "item_power": 1100,
+      "identifier": "T7_SHOES_LEATHER_AVALON",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_SHOES_LEATHER_AVALON@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 30, "name": "Shoes", "type": "armor" }
+    },
+    {
+      "id": 181,
+      "name": "Grandmaster's Specter Shoes",
+      "tier": "7.0",
+      "item_power": 1075,
+      "identifier": "T7_SHOES_LEATHER_UNDEAD",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_SHOES_LEATHER_UNDEAD@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 30, "name": "Shoes", "type": "armor" }
+    },
+    {
+      "id": 182,
+      "name": "Grandmaster's Stalker Shoes",
+      "tier": "7.0",
+      "item_power": 1025,
+      "identifier": "T7_SHOES_LEATHER_MORGANA",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_SHOES_LEATHER_MORGANA@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 30, "name": "Shoes", "type": "armor" }
+    },
+    {
+      "id": 183,
+      "name": "Elder's Assassin Shoes",
+      "tier": "8.0",
+      "item_power": 1100,
+      "identifier": "T8_SHOES_LEATHER_SET3",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_SHOES_LEATHER_SET3@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 30, "name": "Shoes", "type": "armor" }
+    },
+    {
+      "id": 184,
+      "name": "Elder's Hellion Shoes",
+      "tier": "8.0",
+      "item_power": 1150,
+      "identifier": "T8_SHOES_LEATHER_HELL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_SHOES_LEATHER_HELL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 30, "name": "Shoes", "type": "armor" }
+    },
+    {
+      "id": 185,
+      "name": "Elder's Hunter Shoes",
+      "tier": "8.0",
+      "item_power": 1100,
+      "identifier": "T8_SHOES_LEATHER_SET2",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_SHOES_LEATHER_SET2@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 30, "name": "Shoes", "type": "armor" }
+    },
+    {
+      "id": 186,
+      "name": "Elder's Mercenary Shoes",
+      "tier": "8.0",
+      "item_power": 1100,
+      "identifier": "T8_SHOES_LEATHER_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_SHOES_LEATHER_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 30, "name": "Shoes", "type": "armor" }
+    },
+    {
+      "id": 187,
+      "name": "Elder's Mistwalker Shoes",
+      "tier": "8.0",
+      "item_power": 1175,
+      "identifier": "T8_SHOES_LEATHER_FEY",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_SHOES_LEATHER_FEY@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 30, "name": "Shoes", "type": "armor" }
+    },
+    {
+      "id": 188,
+      "name": "Elder's Royal Shoes",
+      "tier": "8.0",
+      "item_power": 1125,
+      "identifier": "T8_SHOES_LEATHER_ROYAL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_SHOES_LEATHER_ROYAL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 30, "name": "Shoes", "type": "armor" }
+    },
+    {
+      "id": 189,
+      "name": "Elder's Shoes of Tenacity",
+      "tier": "8.0",
+      "item_power": 1200,
+      "identifier": "T8_SHOES_LEATHER_AVALON",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_SHOES_LEATHER_AVALON@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 30, "name": "Shoes", "type": "armor" }
+    },
+    {
+      "id": 190,
+      "name": "Elder's Specter Shoes",
+      "tier": "8.0",
+      "item_power": 1175,
+      "identifier": "T8_SHOES_LEATHER_UNDEAD",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_SHOES_LEATHER_UNDEAD@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 30, "name": "Shoes", "type": "armor" }
+    },
+    {
+      "id": 191,
+      "name": "Elder's Stalker Shoes",
+      "tier": "8.0",
+      "item_power": 1125,
+      "identifier": "T8_SHOES_LEATHER_MORGANA",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_SHOES_LEATHER_MORGANA@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 27, "name": "Leather Armor", "type": "armor" },
+      "subcategory": { "id": 30, "name": "Shoes", "type": "armor" }
+    },
+    {
+      "id": 192,
+      "name": "Novice's Soldier Armor",
+      "tier": "2.0",
+      "item_power": 300,
+      "identifier": "T2_ARMOR_PLATE_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T2_ARMOR_PLATE_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 32, "name": "Armors", "type": "armor" }
+    },
+    {
+      "id": 193,
+      "name": "Journeyman's Soldier Armor",
+      "tier": "3.0",
+      "item_power": 500,
+      "identifier": "T3_ARMOR_PLATE_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T3_ARMOR_PLATE_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 32, "name": "Armors", "type": "armor" }
+    },
+    {
+      "id": 194,
+      "name": "Adept's Armor of Valor",
+      "tier": "4.0",
+      "item_power": 800,
+      "identifier": "T4_ARMOR_PLATE_AVALON",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_ARMOR_PLATE_AVALON@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 32, "name": "Armors", "type": "armor" }
+    },
+    {
+      "id": 195,
+      "name": "Adept's Demon Armor",
+      "tier": "4.0",
+      "item_power": 750,
+      "identifier": "T4_ARMOR_PLATE_HELL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_ARMOR_PLATE_HELL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 32, "name": "Armors", "type": "armor" }
+    },
+    {
+      "id": 196,
+      "name": "Adept's Duskweaver Armor",
+      "tier": "4.0",
+      "item_power": 775,
+      "identifier": "T4_ARMOR_PLATE_FEY",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_ARMOR_PLATE_FEY@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 32, "name": "Armors", "type": "armor" }
+    },
+    {
+      "id": 197,
+      "name": "Adept's Graveguard Armor",
+      "tier": "4.0",
+      "item_power": 725,
+      "identifier": "T4_ARMOR_PLATE_UNDEAD",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_ARMOR_PLATE_UNDEAD@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 32, "name": "Armors", "type": "armor" }
+    },
+    {
+      "id": 198,
+      "name": "Adept's Guardian Armor",
+      "tier": "4.0",
+      "item_power": 700,
+      "identifier": "T4_ARMOR_PLATE_SET3",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_ARMOR_PLATE_SET3@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 32, "name": "Armors", "type": "armor" }
+    },
+    {
+      "id": 199,
+      "name": "Adept's Judicator Armor",
+      "tier": "4.0",
+      "item_power": 775,
+      "identifier": "T4_ARMOR_PLATE_KEEPER",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_ARMOR_PLATE_KEEPER@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 32, "name": "Armors", "type": "armor" }
+    },
+    {
+      "id": 200,
+      "name": "Adept's Knight Armor",
+      "tier": "4.0",
+      "item_power": 700,
+      "identifier": "T4_ARMOR_PLATE_SET2",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_ARMOR_PLATE_SET2@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 32, "name": "Armors", "type": "armor" }
+    },
+    {
+      "id": 201,
+      "name": "Adept's Royal Armor",
+      "tier": "4.0",
+      "item_power": 725,
+      "identifier": "T4_ARMOR_PLATE_ROYAL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_ARMOR_PLATE_ROYAL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 32, "name": "Armors", "type": "armor" }
+    },
+    {
+      "id": 202,
+      "name": "Adept's Soldier Armor",
+      "tier": "4.0",
+      "item_power": 700,
+      "identifier": "T4_ARMOR_PLATE_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_ARMOR_PLATE_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 32, "name": "Armors", "type": "armor" }
+    },
+    {
+      "id": 203,
+      "name": "Expert's Armor of Valor",
+      "tier": "5.0",
+      "item_power": 900,
+      "identifier": "T5_ARMOR_PLATE_AVALON",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_ARMOR_PLATE_AVALON@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 32, "name": "Armors", "type": "armor" }
+    },
+    {
+      "id": 204,
+      "name": "Expert's Demon Armor",
+      "tier": "5.0",
+      "item_power": 850,
+      "identifier": "T5_ARMOR_PLATE_HELL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_ARMOR_PLATE_HELL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 32, "name": "Armors", "type": "armor" }
+    },
+    {
+      "id": 205,
+      "name": "Expert's Duskweaver Armor",
+      "tier": "5.0",
+      "item_power": 875,
+      "identifier": "T5_ARMOR_PLATE_FEY",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_ARMOR_PLATE_FEY@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 32, "name": "Armors", "type": "armor" }
+    },
+    {
+      "id": 206,
+      "name": "Expert's Graveguard Armor",
+      "tier": "5.0",
+      "item_power": 825,
+      "identifier": "T5_ARMOR_PLATE_UNDEAD",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_ARMOR_PLATE_UNDEAD@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 32, "name": "Armors", "type": "armor" }
+    },
+    {
+      "id": 207,
+      "name": "Expert's Guardian Armor",
+      "tier": "5.0",
+      "item_power": 800,
+      "identifier": "T5_ARMOR_PLATE_SET3",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_ARMOR_PLATE_SET3@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 32, "name": "Armors", "type": "armor" }
+    },
+    {
+      "id": 208,
+      "name": "Expert's Judicator Armor",
+      "tier": "5.0",
+      "item_power": 875,
+      "identifier": "T5_ARMOR_PLATE_KEEPER",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_ARMOR_PLATE_KEEPER@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 32, "name": "Armors", "type": "armor" }
+    },
+    {
+      "id": 209,
+      "name": "Expert's Knight Armor",
+      "tier": "5.0",
+      "item_power": 800,
+      "identifier": "T5_ARMOR_PLATE_SET2",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_ARMOR_PLATE_SET2@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 32, "name": "Armors", "type": "armor" }
+    },
+    {
+      "id": 210,
+      "name": "Expert's Royal Armor",
+      "tier": "5.0",
+      "item_power": 825,
+      "identifier": "T5_ARMOR_PLATE_ROYAL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_ARMOR_PLATE_ROYAL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 32, "name": "Armors", "type": "armor" }
+    },
+    {
+      "id": 211,
+      "name": "Expert's Soldier Armor",
+      "tier": "5.0",
+      "item_power": 800,
+      "identifier": "T5_ARMOR_PLATE_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_ARMOR_PLATE_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 32, "name": "Armors", "type": "armor" }
+    },
+    {
+      "id": 212,
+      "name": "Master's Armor of Valor",
+      "tier": "6.0",
+      "item_power": 1000,
+      "identifier": "T6_ARMOR_PLATE_AVALON",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_ARMOR_PLATE_AVALON@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 32, "name": "Armors", "type": "armor" }
+    },
+    {
+      "id": 213,
+      "name": "Master's Demon Armor",
+      "tier": "6.0",
+      "item_power": 950,
+      "identifier": "T6_ARMOR_PLATE_HELL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_ARMOR_PLATE_HELL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 32, "name": "Armors", "type": "armor" }
+    },
+    {
+      "id": 214,
+      "name": "Master's Duskweaver Armor",
+      "tier": "6.0",
+      "item_power": 975,
+      "identifier": "T6_ARMOR_PLATE_FEY",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_ARMOR_PLATE_FEY@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 32, "name": "Armors", "type": "armor" }
+    },
+    {
+      "id": 215,
+      "name": "Master's Graveguard Armor",
+      "tier": "6.0",
+      "item_power": 925,
+      "identifier": "T6_ARMOR_PLATE_UNDEAD",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_ARMOR_PLATE_UNDEAD@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 32, "name": "Armors", "type": "armor" }
+    },
+    {
+      "id": 216,
+      "name": "Master's Guardian Armor",
+      "tier": "6.0",
+      "item_power": 900,
+      "identifier": "T6_ARMOR_PLATE_SET3",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_ARMOR_PLATE_SET3@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 32, "name": "Armors", "type": "armor" }
+    },
+    {
+      "id": 217,
+      "name": "Master's Judicator Armor",
+      "tier": "6.0",
+      "item_power": 975,
+      "identifier": "T6_ARMOR_PLATE_KEEPER",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_ARMOR_PLATE_KEEPER@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 32, "name": "Armors", "type": "armor" }
+    },
+    {
+      "id": 218,
+      "name": "Master's Knight Armor",
+      "tier": "6.0",
+      "item_power": 900,
+      "identifier": "T6_ARMOR_PLATE_SET2",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_ARMOR_PLATE_SET2@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 32, "name": "Armors", "type": "armor" }
+    },
+    {
+      "id": 219,
+      "name": "Master's Royal Armor",
+      "tier": "6.0",
+      "item_power": 925,
+      "identifier": "T6_ARMOR_PLATE_ROYAL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_ARMOR_PLATE_ROYAL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 32, "name": "Armors", "type": "armor" }
+    },
+    {
+      "id": 220,
+      "name": "Master's Soldier Armor",
+      "tier": "6.0",
+      "item_power": 900,
+      "identifier": "T6_ARMOR_PLATE_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_ARMOR_PLATE_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 32, "name": "Armors", "type": "armor" }
+    },
+    {
+      "id": 221,
+      "name": "Grandmaster's Armor of Valor",
+      "tier": "7.0",
+      "item_power": 1100,
+      "identifier": "T7_ARMOR_PLATE_AVALON",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_ARMOR_PLATE_AVALON@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 32, "name": "Armors", "type": "armor" }
+    },
+    {
+      "id": 222,
+      "name": "Grandmaster's Demon Armor",
+      "tier": "7.0",
+      "item_power": 1050,
+      "identifier": "T7_ARMOR_PLATE_HELL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_ARMOR_PLATE_HELL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 32, "name": "Armors", "type": "armor" }
+    },
+    {
+      "id": 223,
+      "name": "Grandmaster's Duskweaver Armor",
+      "tier": "7.0",
+      "item_power": 1075,
+      "identifier": "T7_ARMOR_PLATE_FEY",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_ARMOR_PLATE_FEY@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 32, "name": "Armors", "type": "armor" }
+    },
+    {
+      "id": 224,
+      "name": "Grandmaster's Graveguard Armor",
+      "tier": "7.0",
+      "item_power": 1025,
+      "identifier": "T7_ARMOR_PLATE_UNDEAD",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_ARMOR_PLATE_UNDEAD@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 32, "name": "Armors", "type": "armor" }
+    },
+    {
+      "id": 225,
+      "name": "Grandmaster's Guardian Armor",
+      "tier": "7.0",
+      "item_power": 1000,
+      "identifier": "T7_ARMOR_PLATE_SET3",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_ARMOR_PLATE_SET3@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 32, "name": "Armors", "type": "armor" }
+    },
+    {
+      "id": 226,
+      "name": "Grandmaster's Judicator Armor",
+      "tier": "7.0",
+      "item_power": 1075,
+      "identifier": "T7_ARMOR_PLATE_KEEPER",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_ARMOR_PLATE_KEEPER@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 32, "name": "Armors", "type": "armor" }
+    },
+    {
+      "id": 227,
+      "name": "Grandmaster's Knight Armor",
+      "tier": "7.0",
+      "item_power": 1000,
+      "identifier": "T7_ARMOR_PLATE_SET2",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_ARMOR_PLATE_SET2@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 32, "name": "Armors", "type": "armor" }
+    },
+    {
+      "id": 228,
+      "name": "Grandmaster's Royal Armor",
+      "tier": "7.0",
+      "item_power": 1025,
+      "identifier": "T7_ARMOR_PLATE_ROYAL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_ARMOR_PLATE_ROYAL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 32, "name": "Armors", "type": "armor" }
+    },
+    {
+      "id": 229,
+      "name": "Grandmaster's Soldier Armor",
+      "tier": "7.0",
+      "item_power": 1000,
+      "identifier": "T7_ARMOR_PLATE_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_ARMOR_PLATE_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 32, "name": "Armors", "type": "armor" }
+    },
+    {
+      "id": 230,
+      "name": "Elder's Armor of Valor",
+      "tier": "8.0",
+      "item_power": 1200,
+      "identifier": "T8_ARMOR_PLATE_AVALON",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_ARMOR_PLATE_AVALON@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 32, "name": "Armors", "type": "armor" }
+    },
+    {
+      "id": 231,
+      "name": "Elder's Demon Armor",
+      "tier": "8.0",
+      "item_power": 1150,
+      "identifier": "T8_ARMOR_PLATE_HELL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_ARMOR_PLATE_HELL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 32, "name": "Armors", "type": "armor" }
+    },
+    {
+      "id": 232,
+      "name": "Elder's Duskweaver Armor",
+      "tier": "8.0",
+      "item_power": 1175,
+      "identifier": "T8_ARMOR_PLATE_FEY",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_ARMOR_PLATE_FEY@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 32, "name": "Armors", "type": "armor" }
+    },
+    {
+      "id": 233,
+      "name": "Elder's Graveguard Armor",
+      "tier": "8.0",
+      "item_power": 1125,
+      "identifier": "T8_ARMOR_PLATE_UNDEAD",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_ARMOR_PLATE_UNDEAD@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 32, "name": "Armors", "type": "armor" }
+    },
+    {
+      "id": 234,
+      "name": "Elder's Guardian Armor",
+      "tier": "8.0",
+      "item_power": 1100,
+      "identifier": "T8_ARMOR_PLATE_SET3",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_ARMOR_PLATE_SET3@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 32, "name": "Armors", "type": "armor" }
+    },
+    {
+      "id": 235,
+      "name": "Elder's Judicator Armor",
+      "tier": "8.0",
+      "item_power": 1175,
+      "identifier": "T8_ARMOR_PLATE_KEEPER",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_ARMOR_PLATE_KEEPER@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 32, "name": "Armors", "type": "armor" }
+    },
+    {
+      "id": 236,
+      "name": "Elder's Knight Armor",
+      "tier": "8.0",
+      "item_power": 1100,
+      "identifier": "T8_ARMOR_PLATE_SET2",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_ARMOR_PLATE_SET2@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 32, "name": "Armors", "type": "armor" }
+    },
+    {
+      "id": 237,
+      "name": "Elder's Royal Armor",
+      "tier": "8.0",
+      "item_power": 1125,
+      "identifier": "T8_ARMOR_PLATE_ROYAL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_ARMOR_PLATE_ROYAL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 32, "name": "Armors", "type": "armor" }
+    },
+    {
+      "id": 238,
+      "name": "Elder's Soldier Armor",
+      "tier": "8.0",
+      "item_power": 1100,
+      "identifier": "T8_ARMOR_PLATE_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_ARMOR_PLATE_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 32, "name": "Armors", "type": "armor" }
+    },
+    {
+      "id": 239,
+      "name": "Novice's Soldier Helmet",
+      "tier": "2.0",
+      "item_power": 300,
+      "identifier": "T2_HEAD_PLATE_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T2_HEAD_PLATE_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 33, "name": "Helmets", "type": "armor" }
+    },
+    {
+      "id": 240,
+      "name": "Journeyman's Soldier Helmet",
+      "tier": "3.0",
+      "item_power": 500,
+      "identifier": "T3_HEAD_PLATE_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T3_HEAD_PLATE_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 33, "name": "Helmets", "type": "armor" }
+    },
+    {
+      "id": 241,
+      "name": "Adept's Demon Helmet",
+      "tier": "4.0",
+      "item_power": 750,
+      "identifier": "T4_HEAD_PLATE_HELL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_HEAD_PLATE_HELL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 33, "name": "Helmets", "type": "armor" }
+    },
+    {
+      "id": 242,
+      "name": "Adept's Duskweaver Helmet",
+      "tier": "4.0",
+      "item_power": 775,
+      "identifier": "T4_HEAD_PLATE_FEY",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_HEAD_PLATE_FEY@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 33, "name": "Helmets", "type": "armor" }
+    },
+    {
+      "id": 243,
+      "name": "Adept's Graveguard Helmet",
+      "tier": "4.0",
+      "item_power": 725,
+      "identifier": "T4_HEAD_PLATE_UNDEAD",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_HEAD_PLATE_UNDEAD@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 33, "name": "Helmets", "type": "armor" }
+    },
+    {
+      "id": 244,
+      "name": "Adept's Guardian Helmet",
+      "tier": "4.0",
+      "item_power": 700,
+      "identifier": "T4_HEAD_PLATE_SET3",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_HEAD_PLATE_SET3@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 33, "name": "Helmets", "type": "armor" }
+    },
+    {
+      "id": 245,
+      "name": "Adept's Helmet of Valor",
+      "tier": "4.0",
+      "item_power": 800,
+      "identifier": "T4_HEAD_PLATE_AVALON",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_HEAD_PLATE_AVALON@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 33, "name": "Helmets", "type": "armor" }
+    },
+    {
+      "id": 246,
+      "name": "Adept's Judicator Helmet",
+      "tier": "4.0",
+      "item_power": 775,
+      "identifier": "T4_HEAD_PLATE_KEEPER",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_HEAD_PLATE_KEEPER@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 33, "name": "Helmets", "type": "armor" }
+    },
+    {
+      "id": 247,
+      "name": "Adept's Knight Helmet",
+      "tier": "4.0",
+      "item_power": 700,
+      "identifier": "T4_HEAD_PLATE_SET2",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_HEAD_PLATE_SET2@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 33, "name": "Helmets", "type": "armor" }
+    },
+    {
+      "id": 248,
+      "name": "Adept's Royal Helmet",
+      "tier": "4.0",
+      "item_power": 725,
+      "identifier": "T4_HEAD_PLATE_ROYAL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_HEAD_PLATE_ROYAL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 33, "name": "Helmets", "type": "armor" }
+    },
+    {
+      "id": 249,
+      "name": "Adept's Soldier Helmet",
+      "tier": "4.0",
+      "item_power": 700,
+      "identifier": "T4_HEAD_PLATE_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_HEAD_PLATE_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 33, "name": "Helmets", "type": "armor" }
+    },
+    {
+      "id": 250,
+      "name": "Expert's Demon Helmet",
+      "tier": "5.0",
+      "item_power": 850,
+      "identifier": "T5_HEAD_PLATE_HELL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_HEAD_PLATE_HELL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 33, "name": "Helmets", "type": "armor" }
+    },
+    {
+      "id": 251,
+      "name": "Expert's Duskweaver Helmet",
+      "tier": "5.0",
+      "item_power": 875,
+      "identifier": "T5_HEAD_PLATE_FEY",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_HEAD_PLATE_FEY@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 33, "name": "Helmets", "type": "armor" }
+    },
+    {
+      "id": 252,
+      "name": "Expert's Graveguard Helmet",
+      "tier": "5.0",
+      "item_power": 825,
+      "identifier": "T5_HEAD_PLATE_UNDEAD",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_HEAD_PLATE_UNDEAD@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 33, "name": "Helmets", "type": "armor" }
+    },
+    {
+      "id": 253,
+      "name": "Expert's Guardian Helmet",
+      "tier": "5.0",
+      "item_power": 800,
+      "identifier": "T5_HEAD_PLATE_SET3",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_HEAD_PLATE_SET3@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 33, "name": "Helmets", "type": "armor" }
+    },
+    {
+      "id": 254,
+      "name": "Expert's Helmet of Valor",
+      "tier": "5.0",
+      "item_power": 900,
+      "identifier": "T5_HEAD_PLATE_AVALON",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_HEAD_PLATE_AVALON@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 33, "name": "Helmets", "type": "armor" }
+    },
+    {
+      "id": 255,
+      "name": "Expert's Judicator Helmet",
+      "tier": "5.0",
+      "item_power": 875,
+      "identifier": "T5_HEAD_PLATE_KEEPER",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_HEAD_PLATE_KEEPER@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 33, "name": "Helmets", "type": "armor" }
+    },
+    {
+      "id": 256,
+      "name": "Expert's Knight Helmet",
+      "tier": "5.0",
+      "item_power": 800,
+      "identifier": "T5_HEAD_PLATE_SET2",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_HEAD_PLATE_SET2@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 33, "name": "Helmets", "type": "armor" }
+    },
+    {
+      "id": 257,
+      "name": "Expert's Royal Helmet",
+      "tier": "5.0",
+      "item_power": 825,
+      "identifier": "T5_HEAD_PLATE_ROYAL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_HEAD_PLATE_ROYAL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 33, "name": "Helmets", "type": "armor" }
+    },
+    {
+      "id": 258,
+      "name": "Expert's Soldier Helmet",
+      "tier": "5.0",
+      "item_power": 800,
+      "identifier": "T5_HEAD_PLATE_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_HEAD_PLATE_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 33, "name": "Helmets", "type": "armor" }
+    },
+    {
+      "id": 259,
+      "name": "Master's Demon Helmet",
+      "tier": "6.0",
+      "item_power": 950,
+      "identifier": "T6_HEAD_PLATE_HELL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_HEAD_PLATE_HELL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 33, "name": "Helmets", "type": "armor" }
+    },
+    {
+      "id": 260,
+      "name": "Master's Duskweaver Helmet",
+      "tier": "6.0",
+      "item_power": 975,
+      "identifier": "T6_HEAD_PLATE_FEY",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_HEAD_PLATE_FEY@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 33, "name": "Helmets", "type": "armor" }
+    },
+    {
+      "id": 261,
+      "name": "Master's Graveguard Helmet",
+      "tier": "6.0",
+      "item_power": 925,
+      "identifier": "T6_HEAD_PLATE_UNDEAD",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_HEAD_PLATE_UNDEAD@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 33, "name": "Helmets", "type": "armor" }
+    },
+    {
+      "id": 262,
+      "name": "Master's Guardian Helmet",
+      "tier": "6.0",
+      "item_power": 900,
+      "identifier": "T6_HEAD_PLATE_SET3",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_HEAD_PLATE_SET3@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 33, "name": "Helmets", "type": "armor" }
+    },
+    {
+      "id": 263,
+      "name": "Master's Helmet of Valor",
+      "tier": "6.0",
+      "item_power": 1000,
+      "identifier": "T6_HEAD_PLATE_AVALON",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_HEAD_PLATE_AVALON@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 33, "name": "Helmets", "type": "armor" }
+    },
+    {
+      "id": 264,
+      "name": "Master's Judicator Helmet",
+      "tier": "6.0",
+      "item_power": 975,
+      "identifier": "T6_HEAD_PLATE_KEEPER",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_HEAD_PLATE_KEEPER@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 33, "name": "Helmets", "type": "armor" }
+    },
+    {
+      "id": 265,
+      "name": "Master's Knight Helmet",
+      "tier": "6.0",
+      "item_power": 900,
+      "identifier": "T6_HEAD_PLATE_SET2",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_HEAD_PLATE_SET2@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 33, "name": "Helmets", "type": "armor" }
+    },
+    {
+      "id": 266,
+      "name": "Master's Royal Helmet",
+      "tier": "6.0",
+      "item_power": 925,
+      "identifier": "T6_HEAD_PLATE_ROYAL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_HEAD_PLATE_ROYAL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 33, "name": "Helmets", "type": "armor" }
+    },
+    {
+      "id": 267,
+      "name": "Master's Soldier Helmet",
+      "tier": "6.0",
+      "item_power": 900,
+      "identifier": "T6_HEAD_PLATE_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_HEAD_PLATE_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 33, "name": "Helmets", "type": "armor" }
+    },
+    {
+      "id": 268,
+      "name": "Grandmaster's Demon Helmet",
+      "tier": "7.0",
+      "item_power": 1050,
+      "identifier": "T7_HEAD_PLATE_HELL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_HEAD_PLATE_HELL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 33, "name": "Helmets", "type": "armor" }
+    },
+    {
+      "id": 269,
+      "name": "Grandmaster's Duskweaver Helmet",
+      "tier": "7.0",
+      "item_power": 1075,
+      "identifier": "T7_HEAD_PLATE_FEY",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_HEAD_PLATE_FEY@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 33, "name": "Helmets", "type": "armor" }
+    },
+    {
+      "id": 270,
+      "name": "Grandmaster's Graveguard Helmet",
+      "tier": "7.0",
+      "item_power": 1025,
+      "identifier": "T7_HEAD_PLATE_UNDEAD",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_HEAD_PLATE_UNDEAD@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 33, "name": "Helmets", "type": "armor" }
+    },
+    {
+      "id": 271,
+      "name": "Grandmaster's Guardian Helmet",
+      "tier": "7.0",
+      "item_power": 1000,
+      "identifier": "T7_HEAD_PLATE_SET3",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_HEAD_PLATE_SET3@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 33, "name": "Helmets", "type": "armor" }
+    },
+    {
+      "id": 272,
+      "name": "Grandmaster's Helmet of Valor",
+      "tier": "7.0",
+      "item_power": 1100,
+      "identifier": "T7_HEAD_PLATE_AVALON",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_HEAD_PLATE_AVALON@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 33, "name": "Helmets", "type": "armor" }
+    },
+    {
+      "id": 273,
+      "name": "Grandmaster's Judicator Helmet",
+      "tier": "7.0",
+      "item_power": 1075,
+      "identifier": "T7_HEAD_PLATE_KEEPER",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_HEAD_PLATE_KEEPER@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 33, "name": "Helmets", "type": "armor" }
+    },
+    {
+      "id": 274,
+      "name": "Grandmaster's Knight Helmet",
+      "tier": "7.0",
+      "item_power": 1000,
+      "identifier": "T7_HEAD_PLATE_SET2",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_HEAD_PLATE_SET2@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 33, "name": "Helmets", "type": "armor" }
+    },
+    {
+      "id": 275,
+      "name": "Grandmaster's Royal Helmet",
+      "tier": "7.0",
+      "item_power": 1025,
+      "identifier": "T7_HEAD_PLATE_ROYAL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_HEAD_PLATE_ROYAL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 33, "name": "Helmets", "type": "armor" }
+    },
+    {
+      "id": 276,
+      "name": "Grandmaster's Soldier Helmet",
+      "tier": "7.0",
+      "item_power": 1000,
+      "identifier": "T7_HEAD_PLATE_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_HEAD_PLATE_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 33, "name": "Helmets", "type": "armor" }
+    },
+    {
+      "id": 277,
+      "name": "Elder's Demon Helmet",
+      "tier": "8.0",
+      "item_power": 1150,
+      "identifier": "T8_HEAD_PLATE_HELL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_HEAD_PLATE_HELL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 33, "name": "Helmets", "type": "armor" }
+    },
+    {
+      "id": 278,
+      "name": "Elder's Duskweaver Helmet",
+      "tier": "8.0",
+      "item_power": 1175,
+      "identifier": "T8_HEAD_PLATE_FEY",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_HEAD_PLATE_FEY@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 33, "name": "Helmets", "type": "armor" }
+    },
+    {
+      "id": 279,
+      "name": "Elder's Graveguard Helmet",
+      "tier": "8.0",
+      "item_power": 1125,
+      "identifier": "T8_HEAD_PLATE_UNDEAD",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_HEAD_PLATE_UNDEAD@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 33, "name": "Helmets", "type": "armor" }
+    },
+    {
+      "id": 280,
+      "name": "Elder's Guardian Helmet",
+      "tier": "8.0",
+      "item_power": 1100,
+      "identifier": "T8_HEAD_PLATE_SET3",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_HEAD_PLATE_SET3@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 33, "name": "Helmets", "type": "armor" }
+    },
+    {
+      "id": 281,
+      "name": "Elder's Helmet of Valor",
+      "tier": "8.0",
+      "item_power": 1200,
+      "identifier": "T8_HEAD_PLATE_AVALON",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_HEAD_PLATE_AVALON@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 33, "name": "Helmets", "type": "armor" }
+    },
+    {
+      "id": 282,
+      "name": "Elder's Judicator Helmet",
+      "tier": "8.0",
+      "item_power": 1175,
+      "identifier": "T8_HEAD_PLATE_KEEPER",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_HEAD_PLATE_KEEPER@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 33, "name": "Helmets", "type": "armor" }
+    },
+    {
+      "id": 283,
+      "name": "Elder's Knight Helmet",
+      "tier": "8.0",
+      "item_power": 1100,
+      "identifier": "T8_HEAD_PLATE_SET2",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_HEAD_PLATE_SET2@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 33, "name": "Helmets", "type": "armor" }
+    },
+    {
+      "id": 284,
+      "name": "Elder's Royal Helmet",
+      "tier": "8.0",
+      "item_power": 1125,
+      "identifier": "T8_HEAD_PLATE_ROYAL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_HEAD_PLATE_ROYAL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 33, "name": "Helmets", "type": "armor" }
+    },
+    {
+      "id": 285,
+      "name": "Elder's Soldier Helmet",
+      "tier": "8.0",
+      "item_power": 1100,
+      "identifier": "T8_HEAD_PLATE_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_HEAD_PLATE_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 33, "name": "Helmets", "type": "armor" }
+    },
+    {
+      "id": 286,
+      "name": "Novice's Soldier Boots",
+      "tier": "2.0",
+      "item_power": 300,
+      "identifier": "T2_SHOES_PLATE_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T2_SHOES_PLATE_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 34, "name": "Boots", "type": "armor" }
+    },
+    {
+      "id": 287,
+      "name": "Journeyman's Soldier Boots",
+      "tier": "3.0",
+      "item_power": 500,
+      "identifier": "T3_SHOES_PLATE_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T3_SHOES_PLATE_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 34, "name": "Boots", "type": "armor" }
+    },
+    {
+      "id": 288,
+      "name": "Adept's Boots of Valor",
+      "tier": "4.0",
+      "item_power": 800,
+      "identifier": "T4_SHOES_PLATE_AVALON",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_SHOES_PLATE_AVALON@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 34, "name": "Boots", "type": "armor" }
+    },
+    {
+      "id": 289,
+      "name": "Adept's Demon Boots",
+      "tier": "4.0",
+      "item_power": 750,
+      "identifier": "T4_SHOES_PLATE_HELL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_SHOES_PLATE_HELL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 34, "name": "Boots", "type": "armor" }
+    },
+    {
+      "id": 290,
+      "name": "Adept's Duskweaver Boots",
+      "tier": "4.0",
+      "item_power": 775,
+      "identifier": "T4_SHOES_PLATE_FEY",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_SHOES_PLATE_FEY@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 34, "name": "Boots", "type": "armor" }
+    },
+    {
+      "id": 291,
+      "name": "Adept's Graveguard Boots",
+      "tier": "4.0",
+      "item_power": 725,
+      "identifier": "T4_SHOES_PLATE_UNDEAD",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_SHOES_PLATE_UNDEAD@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 34, "name": "Boots", "type": "armor" }
+    },
+    {
+      "id": 292,
+      "name": "Adept's Guardian Boots",
+      "tier": "4.0",
+      "item_power": 700,
+      "identifier": "T4_SHOES_PLATE_SET3",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_SHOES_PLATE_SET3@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 34, "name": "Boots", "type": "armor" }
+    },
+    {
+      "id": 293,
+      "name": "Adept's Judicator Boots",
+      "tier": "4.0",
+      "item_power": 775,
+      "identifier": "T4_SHOES_PLATE_KEEPER",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_SHOES_PLATE_KEEPER@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 34, "name": "Boots", "type": "armor" }
+    },
+    {
+      "id": 294,
+      "name": "Adept's Knight Boots",
+      "tier": "4.0",
+      "item_power": 700,
+      "identifier": "T4_SHOES_PLATE_SET2",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_SHOES_PLATE_SET2@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 34, "name": "Boots", "type": "armor" }
+    },
+    {
+      "id": 295,
+      "name": "Adept's Royal Boots",
+      "tier": "4.0",
+      "item_power": 725,
+      "identifier": "T4_SHOES_PLATE_ROYAL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_SHOES_PLATE_ROYAL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 34, "name": "Boots", "type": "armor" }
+    },
+    {
+      "id": 296,
+      "name": "Adept's Soldier Boots",
+      "tier": "4.0",
+      "item_power": 700,
+      "identifier": "T4_SHOES_PLATE_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_SHOES_PLATE_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 34, "name": "Boots", "type": "armor" }
+    },
+    {
+      "id": 297,
+      "name": "Expert's Boots of Valor",
+      "tier": "5.0",
+      "item_power": 900,
+      "identifier": "T5_SHOES_PLATE_AVALON",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_SHOES_PLATE_AVALON@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 34, "name": "Boots", "type": "armor" }
+    },
+    {
+      "id": 298,
+      "name": "Expert's Demon Boots",
+      "tier": "5.0",
+      "item_power": 850,
+      "identifier": "T5_SHOES_PLATE_HELL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_SHOES_PLATE_HELL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 34, "name": "Boots", "type": "armor" }
+    },
+    {
+      "id": 299,
+      "name": "Expert's Duskweaver Boots",
+      "tier": "5.0",
+      "item_power": 875,
+      "identifier": "T5_SHOES_PLATE_FEY",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_SHOES_PLATE_FEY@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 34, "name": "Boots", "type": "armor" }
+    },
+    {
+      "id": 300,
+      "name": "Expert's Graveguard Boots",
+      "tier": "5.0",
+      "item_power": 825,
+      "identifier": "T5_SHOES_PLATE_UNDEAD",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_SHOES_PLATE_UNDEAD@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 34, "name": "Boots", "type": "armor" }
+    },
+    {
+      "id": 301,
+      "name": "Expert's Guardian Boots",
+      "tier": "5.0",
+      "item_power": 800,
+      "identifier": "T5_SHOES_PLATE_SET3",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_SHOES_PLATE_SET3@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 34, "name": "Boots", "type": "armor" }
+    },
+    {
+      "id": 302,
+      "name": "Expert's Judicator Boots",
+      "tier": "5.0",
+      "item_power": 875,
+      "identifier": "T5_SHOES_PLATE_KEEPER",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_SHOES_PLATE_KEEPER@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 34, "name": "Boots", "type": "armor" }
+    },
+    {
+      "id": 303,
+      "name": "Expert's Knight Boots",
+      "tier": "5.0",
+      "item_power": 800,
+      "identifier": "T5_SHOES_PLATE_SET2",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_SHOES_PLATE_SET2@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 34, "name": "Boots", "type": "armor" }
+    },
+    {
+      "id": 304,
+      "name": "Expert's Royal Boots",
+      "tier": "5.0",
+      "item_power": 825,
+      "identifier": "T5_SHOES_PLATE_ROYAL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_SHOES_PLATE_ROYAL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 34, "name": "Boots", "type": "armor" }
+    },
+    {
+      "id": 305,
+      "name": "Expert's Soldier Boots",
+      "tier": "5.0",
+      "item_power": 800,
+      "identifier": "T5_SHOES_PLATE_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_SHOES_PLATE_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 34, "name": "Boots", "type": "armor" }
+    },
+    {
+      "id": 306,
+      "name": "Master's Boots of Valor",
+      "tier": "6.0",
+      "item_power": 1000,
+      "identifier": "T6_SHOES_PLATE_AVALON",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_SHOES_PLATE_AVALON@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 34, "name": "Boots", "type": "armor" }
+    },
+    {
+      "id": 307,
+      "name": "Master's Demon Boots",
+      "tier": "6.0",
+      "item_power": 950,
+      "identifier": "T6_SHOES_PLATE_HELL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_SHOES_PLATE_HELL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 34, "name": "Boots", "type": "armor" }
+    },
+    {
+      "id": 308,
+      "name": "Master's Duskweaver Boots",
+      "tier": "6.0",
+      "item_power": 975,
+      "identifier": "T6_SHOES_PLATE_FEY",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_SHOES_PLATE_FEY@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 34, "name": "Boots", "type": "armor" }
+    },
+    {
+      "id": 309,
+      "name": "Master's Graveguard Boots",
+      "tier": "6.0",
+      "item_power": 925,
+      "identifier": "T6_SHOES_PLATE_UNDEAD",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_SHOES_PLATE_UNDEAD@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 34, "name": "Boots", "type": "armor" }
+    },
+    {
+      "id": 310,
+      "name": "Master's Guardian Boots",
+      "tier": "6.0",
+      "item_power": 900,
+      "identifier": "T6_SHOES_PLATE_SET3",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_SHOES_PLATE_SET3@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 34, "name": "Boots", "type": "armor" }
+    },
+    {
+      "id": 311,
+      "name": "Master's Judicator Boots",
+      "tier": "6.0",
+      "item_power": 975,
+      "identifier": "T6_SHOES_PLATE_KEEPER",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_SHOES_PLATE_KEEPER@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 34, "name": "Boots", "type": "armor" }
+    },
+    {
+      "id": 312,
+      "name": "Master's Knight Boots",
+      "tier": "6.0",
+      "item_power": 900,
+      "identifier": "T6_SHOES_PLATE_SET2",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_SHOES_PLATE_SET2@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 34, "name": "Boots", "type": "armor" }
+    },
+    {
+      "id": 313,
+      "name": "Master's Royal Boots",
+      "tier": "6.0",
+      "item_power": 925,
+      "identifier": "T6_SHOES_PLATE_ROYAL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_SHOES_PLATE_ROYAL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 34, "name": "Boots", "type": "armor" }
+    },
+    {
+      "id": 314,
+      "name": "Master's Soldier Boots",
+      "tier": "6.0",
+      "item_power": 900,
+      "identifier": "T6_SHOES_PLATE_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_SHOES_PLATE_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 34, "name": "Boots", "type": "armor" }
+    },
+    {
+      "id": 315,
+      "name": "Grandmaster's Boots of Valor",
+      "tier": "7.0",
+      "item_power": 1100,
+      "identifier": "T7_SHOES_PLATE_AVALON",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_SHOES_PLATE_AVALON@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 34, "name": "Boots", "type": "armor" }
+    },
+    {
+      "id": 316,
+      "name": "Grandmaster's Demon Boots",
+      "tier": "7.0",
+      "item_power": 1050,
+      "identifier": "T7_SHOES_PLATE_HELL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_SHOES_PLATE_HELL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 34, "name": "Boots", "type": "armor" }
+    },
+    {
+      "id": 317,
+      "name": "Grandmaster's Duskweaver Boots",
+      "tier": "7.0",
+      "item_power": 1075,
+      "identifier": "T7_SHOES_PLATE_FEY",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_SHOES_PLATE_FEY@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 34, "name": "Boots", "type": "armor" }
+    },
+    {
+      "id": 318,
+      "name": "Grandmaster's Graveguard Boots",
+      "tier": "7.0",
+      "item_power": 1025,
+      "identifier": "T7_SHOES_PLATE_UNDEAD",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_SHOES_PLATE_UNDEAD@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 34, "name": "Boots", "type": "armor" }
+    },
+    {
+      "id": 319,
+      "name": "Grandmaster's Guardian Boots",
+      "tier": "7.0",
+      "item_power": 1000,
+      "identifier": "T7_SHOES_PLATE_SET3",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_SHOES_PLATE_SET3@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 34, "name": "Boots", "type": "armor" }
+    },
+    {
+      "id": 320,
+      "name": "Grandmaster's Judicator Boots",
+      "tier": "7.0",
+      "item_power": 1075,
+      "identifier": "T7_SHOES_PLATE_KEEPER",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_SHOES_PLATE_KEEPER@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 34, "name": "Boots", "type": "armor" }
+    },
+    {
+      "id": 321,
+      "name": "Grandmaster's Knight Boots",
+      "tier": "7.0",
+      "item_power": 1000,
+      "identifier": "T7_SHOES_PLATE_SET2",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_SHOES_PLATE_SET2@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 34, "name": "Boots", "type": "armor" }
+    },
+    {
+      "id": 322,
+      "name": "Grandmaster's Royal Boots",
+      "tier": "7.0",
+      "item_power": 1025,
+      "identifier": "T7_SHOES_PLATE_ROYAL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_SHOES_PLATE_ROYAL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 34, "name": "Boots", "type": "armor" }
+    },
+    {
+      "id": 323,
+      "name": "Grandmaster's Soldier Boots",
+      "tier": "7.0",
+      "item_power": 1000,
+      "identifier": "T7_SHOES_PLATE_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_SHOES_PLATE_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 34, "name": "Boots", "type": "armor" }
+    },
+    {
+      "id": 324,
+      "name": "Elder's Boots of Valor",
+      "tier": "8.0",
+      "item_power": 1200,
+      "identifier": "T8_SHOES_PLATE_AVALON",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_SHOES_PLATE_AVALON@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 34, "name": "Boots", "type": "armor" }
+    },
+    {
+      "id": 325,
+      "name": "Elder's Demon Boots",
+      "tier": "8.0",
+      "item_power": 1150,
+      "identifier": "T8_SHOES_PLATE_HELL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_SHOES_PLATE_HELL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 34, "name": "Boots", "type": "armor" }
+    },
+    {
+      "id": 326,
+      "name": "Elder's Duskweaver Boots",
+      "tier": "8.0",
+      "item_power": 1175,
+      "identifier": "T8_SHOES_PLATE_FEY",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_SHOES_PLATE_FEY@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 34, "name": "Boots", "type": "armor" }
+    },
+    {
+      "id": 327,
+      "name": "Elder's Graveguard Boots",
+      "tier": "8.0",
+      "item_power": 1125,
+      "identifier": "T8_SHOES_PLATE_UNDEAD",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_SHOES_PLATE_UNDEAD@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 34, "name": "Boots", "type": "armor" }
+    },
+    {
+      "id": 328,
+      "name": "Elder's Guardian Boots",
+      "tier": "8.0",
+      "item_power": 1100,
+      "identifier": "T8_SHOES_PLATE_SET3",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_SHOES_PLATE_SET3@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 34, "name": "Boots", "type": "armor" }
+    },
+    {
+      "id": 329,
+      "name": "Elder's Judicator Boots",
+      "tier": "8.0",
+      "item_power": 1175,
+      "identifier": "T8_SHOES_PLATE_KEEPER",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_SHOES_PLATE_KEEPER@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 34, "name": "Boots", "type": "armor" }
+    },
+    {
+      "id": 330,
+      "name": "Elder's Knight Boots",
+      "tier": "8.0",
+      "item_power": 1100,
+      "identifier": "T8_SHOES_PLATE_SET2",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_SHOES_PLATE_SET2@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 34, "name": "Boots", "type": "armor" }
+    },
+    {
+      "id": 331,
+      "name": "Elder's Royal Boots",
+      "tier": "8.0",
+      "item_power": 1125,
+      "identifier": "T8_SHOES_PLATE_ROYAL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_SHOES_PLATE_ROYAL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 34, "name": "Boots", "type": "armor" }
+    },
+    {
+      "id": 332,
+      "name": "Elder's Soldier Boots",
+      "tier": "8.0",
+      "item_power": 1100,
+      "identifier": "T8_SHOES_PLATE_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_SHOES_PLATE_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 31, "name": "Plate Armor", "type": "armor" },
+      "subcategory": { "id": 34, "name": "Boots", "type": "armor" }
+    },
+    {
+      "id": 333,
+      "name": "Novice's Scholar Sandals",
+      "tier": "2.0",
+      "item_power": 300,
+      "identifier": "T2_SHOES_CLOTH_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T2_SHOES_CLOTH_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 26, "name": "Sandals", "type": "armor" }
+    },
+    {
+      "id": 334,
+      "name": "Journeyman's Scholar Sandals",
+      "tier": "3.0",
+      "item_power": 500,
+      "identifier": "T3_SHOES_CLOTH_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T3_SHOES_CLOTH_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 26, "name": "Sandals", "type": "armor" }
+    },
+    {
+      "id": 335,
+      "name": "Adept's Cleric Sandals",
+      "tier": "4.0",
+      "item_power": 700,
+      "identifier": "T4_SHOES_CLOTH_SET2",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_SHOES_CLOTH_SET2@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 26, "name": "Sandals", "type": "armor" }
+    },
+    {
+      "id": 336,
+      "name": "Adept's Cultist Sandals",
+      "tier": "4.0",
+      "item_power": 775,
+      "identifier": "T4_SHOES_CLOTH_MORGANA",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_SHOES_CLOTH_MORGANA@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 26, "name": "Sandals", "type": "armor" }
+    },
+    {
+      "id": 337,
+      "name": "Adept's Druid Sandals",
+      "tier": "4.0",
+      "item_power": 725,
+      "identifier": "T4_SHOES_CLOTH_KEEPER",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_SHOES_CLOTH_KEEPER@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 26, "name": "Sandals", "type": "armor" }
+    },
+    {
+      "id": 338,
+      "name": "Adept's Feyscale Sandals",
+      "tier": "4.0",
+      "item_power": 775,
+      "identifier": "T4_SHOES_CLOTH_FEY",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_SHOES_CLOTH_FEY@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 26, "name": "Sandals", "type": "armor" }
+    },
+    {
+      "id": 339,
+      "name": "Adept's Fiend Sandals",
+      "tier": "4.0",
+      "item_power": 750,
+      "identifier": "T4_SHOES_CLOTH_HELL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_SHOES_CLOTH_HELL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 26, "name": "Sandals", "type": "armor" }
+    },
+    {
+      "id": 340,
+      "name": "Adept's Mage Sandals",
+      "tier": "4.0",
+      "item_power": 700,
+      "identifier": "T4_SHOES_CLOTH_SET3",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_SHOES_CLOTH_SET3@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 26, "name": "Sandals", "type": "armor" }
+    },
+    {
+      "id": 341,
+      "name": "Adept's Royal Sandals",
+      "tier": "4.0",
+      "item_power": 725,
+      "identifier": "T4_SHOES_CLOTH_ROYAL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_SHOES_CLOTH_ROYAL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 26, "name": "Sandals", "type": "armor" }
+    },
+    {
+      "id": 342,
+      "name": "Adept's Sandals of Purity",
+      "tier": "4.0",
+      "item_power": 800,
+      "identifier": "T4_SHOES_CLOTH_AVALON",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_SHOES_CLOTH_AVALON@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 26, "name": "Sandals", "type": "armor" }
+    },
+    {
+      "id": 343,
+      "name": "Adept's Scholar Sandals",
+      "tier": "4.0",
+      "item_power": 700,
+      "identifier": "T4_SHOES_CLOTH_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_SHOES_CLOTH_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 26, "name": "Sandals", "type": "armor" }
+    },
+    {
+      "id": 344,
+      "name": "Expert's Cleric Sandals",
+      "tier": "5.0",
+      "item_power": 800,
+      "identifier": "T5_SHOES_CLOTH_SET2",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_SHOES_CLOTH_SET2@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 26, "name": "Sandals", "type": "armor" }
+    },
+    {
+      "id": 345,
+      "name": "Expert's Cultist Sandals",
+      "tier": "5.0",
+      "item_power": 875,
+      "identifier": "T5_SHOES_CLOTH_MORGANA",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_SHOES_CLOTH_MORGANA@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 26, "name": "Sandals", "type": "armor" }
+    },
+    {
+      "id": 346,
+      "name": "Expert's Druid Sandals",
+      "tier": "5.0",
+      "item_power": 825,
+      "identifier": "T5_SHOES_CLOTH_KEEPER",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_SHOES_CLOTH_KEEPER@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 26, "name": "Sandals", "type": "armor" }
+    },
+    {
+      "id": 347,
+      "name": "Expert's Feyscale Sandals",
+      "tier": "5.0",
+      "item_power": 875,
+      "identifier": "T5_SHOES_CLOTH_FEY",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_SHOES_CLOTH_FEY@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 26, "name": "Sandals", "type": "armor" }
+    },
+    {
+      "id": 348,
+      "name": "Expert's Fiend Sandals",
+      "tier": "5.0",
+      "item_power": 850,
+      "identifier": "T5_SHOES_CLOTH_HELL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_SHOES_CLOTH_HELL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 26, "name": "Sandals", "type": "armor" }
+    },
+    {
+      "id": 349,
+      "name": "Expert's Mage Sandals",
+      "tier": "5.0",
+      "item_power": 800,
+      "identifier": "T5_SHOES_CLOTH_SET3",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_SHOES_CLOTH_SET3@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 26, "name": "Sandals", "type": "armor" }
+    },
+    {
+      "id": 350,
+      "name": "Expert's Royal Sandals",
+      "tier": "5.0",
+      "item_power": 825,
+      "identifier": "T5_SHOES_CLOTH_ROYAL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_SHOES_CLOTH_ROYAL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 26, "name": "Sandals", "type": "armor" }
+    },
+    {
+      "id": 351,
+      "name": "Expert's Sandals of Purity",
+      "tier": "5.0",
+      "item_power": 900,
+      "identifier": "T5_SHOES_CLOTH_AVALON",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_SHOES_CLOTH_AVALON@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 26, "name": "Sandals", "type": "armor" }
+    },
+    {
+      "id": 352,
+      "name": "Expert's Scholar Sandals",
+      "tier": "5.0",
+      "item_power": 800,
+      "identifier": "T5_SHOES_CLOTH_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_SHOES_CLOTH_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 26, "name": "Sandals", "type": "armor" }
+    },
+    {
+      "id": 353,
+      "name": "Master's Cleric Sandals",
+      "tier": "6.0",
+      "item_power": 900,
+      "identifier": "T6_SHOES_CLOTH_SET2",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_SHOES_CLOTH_SET2@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 26, "name": "Sandals", "type": "armor" }
+    },
+    {
+      "id": 354,
+      "name": "Master's Cultist Sandals",
+      "tier": "6.0",
+      "item_power": 975,
+      "identifier": "T6_SHOES_CLOTH_MORGANA",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_SHOES_CLOTH_MORGANA@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 26, "name": "Sandals", "type": "armor" }
+    },
+    {
+      "id": 355,
+      "name": "Master's Druid Sandals",
+      "tier": "6.0",
+      "item_power": 925,
+      "identifier": "T6_SHOES_CLOTH_KEEPER",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_SHOES_CLOTH_KEEPER@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 26, "name": "Sandals", "type": "armor" }
+    },
+    {
+      "id": 356,
+      "name": "Master's Feyscale Sandals",
+      "tier": "6.0",
+      "item_power": 975,
+      "identifier": "T6_SHOES_CLOTH_FEY",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_SHOES_CLOTH_FEY@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 26, "name": "Sandals", "type": "armor" }
+    },
+    {
+      "id": 357,
+      "name": "Master's Fiend Sandals",
+      "tier": "6.0",
+      "item_power": 950,
+      "identifier": "T6_SHOES_CLOTH_HELL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_SHOES_CLOTH_HELL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 26, "name": "Sandals", "type": "armor" }
+    },
+    {
+      "id": 358,
+      "name": "Master's Mage Sandals",
+      "tier": "6.0",
+      "item_power": 900,
+      "identifier": "T6_SHOES_CLOTH_SET3",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_SHOES_CLOTH_SET3@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 26, "name": "Sandals", "type": "armor" }
+    },
+    {
+      "id": 359,
+      "name": "Master's Royal Sandals",
+      "tier": "6.0",
+      "item_power": 925,
+      "identifier": "T6_SHOES_CLOTH_ROYAL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_SHOES_CLOTH_ROYAL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 26, "name": "Sandals", "type": "armor" }
+    },
+    {
+      "id": 360,
+      "name": "Master's Sandals of Purity",
+      "tier": "6.0",
+      "item_power": 1000,
+      "identifier": "T6_SHOES_CLOTH_AVALON",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_SHOES_CLOTH_AVALON@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 26, "name": "Sandals", "type": "armor" }
+    },
+    {
+      "id": 361,
+      "name": "Master's Scholar Sandals",
+      "tier": "6.0",
+      "item_power": 900,
+      "identifier": "T6_SHOES_CLOTH_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_SHOES_CLOTH_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 26, "name": "Sandals", "type": "armor" }
+    },
+    {
+      "id": 362,
+      "name": "Grandmaster's Cleric Sandals",
+      "tier": "7.0",
+      "item_power": 1000,
+      "identifier": "T7_SHOES_CLOTH_SET2",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_SHOES_CLOTH_SET2@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 26, "name": "Sandals", "type": "armor" }
+    },
+    {
+      "id": 363,
+      "name": "Grandmaster's Cultist Sandals",
+      "tier": "7.0",
+      "item_power": 1075,
+      "identifier": "T7_SHOES_CLOTH_MORGANA",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_SHOES_CLOTH_MORGANA@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 26, "name": "Sandals", "type": "armor" }
+    },
+    {
+      "id": 364,
+      "name": "Grandmaster's Druid Sandals",
+      "tier": "7.0",
+      "item_power": 1025,
+      "identifier": "T7_SHOES_CLOTH_KEEPER",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_SHOES_CLOTH_KEEPER@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 26, "name": "Sandals", "type": "armor" }
+    },
+    {
+      "id": 365,
+      "name": "Grandmaster's Feyscale Sandals",
+      "tier": "7.0",
+      "item_power": 1075,
+      "identifier": "T7_SHOES_CLOTH_FEY",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_SHOES_CLOTH_FEY@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 26, "name": "Sandals", "type": "armor" }
+    },
+    {
+      "id": 366,
+      "name": "Grandmaster's Fiend Sandals",
+      "tier": "7.0",
+      "item_power": 1050,
+      "identifier": "T7_SHOES_CLOTH_HELL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_SHOES_CLOTH_HELL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 26, "name": "Sandals", "type": "armor" }
+    },
+    {
+      "id": 367,
+      "name": "Grandmaster's Mage Sandals",
+      "tier": "7.0",
+      "item_power": 1000,
+      "identifier": "T7_SHOES_CLOTH_SET3",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_SHOES_CLOTH_SET3@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 26, "name": "Sandals", "type": "armor" }
+    },
+    {
+      "id": 368,
+      "name": "Grandmaster's Royal Sandals",
+      "tier": "7.0",
+      "item_power": 1025,
+      "identifier": "T7_SHOES_CLOTH_ROYAL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_SHOES_CLOTH_ROYAL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 26, "name": "Sandals", "type": "armor" }
+    },
+    {
+      "id": 369,
+      "name": "Grandmaster's Sandals of Purity",
+      "tier": "7.0",
+      "item_power": 1100,
+      "identifier": "T7_SHOES_CLOTH_AVALON",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_SHOES_CLOTH_AVALON@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 26, "name": "Sandals", "type": "armor" }
+    },
+    {
+      "id": 370,
+      "name": "Grandmaster's Scholar Sandals",
+      "tier": "7.0",
+      "item_power": 1000,
+      "identifier": "T7_SHOES_CLOTH_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_SHOES_CLOTH_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 26, "name": "Sandals", "type": "armor" }
+    },
+    {
+      "id": 371,
+      "name": "Elder's Cleric Sandals",
+      "tier": "8.0",
+      "item_power": 1100,
+      "identifier": "T8_SHOES_CLOTH_SET2",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_SHOES_CLOTH_SET2@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 26, "name": "Sandals", "type": "armor" }
+    },
+    {
+      "id": 372,
+      "name": "Elder's Cultist Sandals",
+      "tier": "8.0",
+      "item_power": 1175,
+      "identifier": "T8_SHOES_CLOTH_MORGANA",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_SHOES_CLOTH_MORGANA@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 26, "name": "Sandals", "type": "armor" }
+    },
+    {
+      "id": 373,
+      "name": "Elder's Druid Sandals",
+      "tier": "8.0",
+      "item_power": 1125,
+      "identifier": "T8_SHOES_CLOTH_KEEPER",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_SHOES_CLOTH_KEEPER@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 26, "name": "Sandals", "type": "armor" }
+    },
+    {
+      "id": 374,
+      "name": "Elder's Feyscale Sandals",
+      "tier": "8.0",
+      "item_power": 1175,
+      "identifier": "T8_SHOES_CLOTH_FEY",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_SHOES_CLOTH_FEY@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 26, "name": "Sandals", "type": "armor" }
+    },
+    {
+      "id": 375,
+      "name": "Elder's Fiend Sandals",
+      "tier": "8.0",
+      "item_power": 1150,
+      "identifier": "T8_SHOES_CLOTH_HELL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_SHOES_CLOTH_HELL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 26, "name": "Sandals", "type": "armor" }
+    },
+    {
+      "id": 376,
+      "name": "Elder's Mage Sandals",
+      "tier": "8.0",
+      "item_power": 1100,
+      "identifier": "T8_SHOES_CLOTH_SET3",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_SHOES_CLOTH_SET3@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 26, "name": "Sandals", "type": "armor" }
+    },
+    {
+      "id": 377,
+      "name": "Elder's Royal Sandals",
+      "tier": "8.0",
+      "item_power": 1125,
+      "identifier": "T8_SHOES_CLOTH_ROYAL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_SHOES_CLOTH_ROYAL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 26, "name": "Sandals", "type": "armor" }
+    },
+    {
+      "id": 378,
+      "name": "Elder's Sandals of Purity",
+      "tier": "8.0",
+      "item_power": 1200,
+      "identifier": "T8_SHOES_CLOTH_AVALON",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_SHOES_CLOTH_AVALON@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 26, "name": "Sandals", "type": "armor" }
+    },
+    {
+      "id": 379,
+      "name": "Elder's Scholar Sandals",
+      "tier": "8.0",
+      "item_power": 1100,
+      "identifier": "T8_SHOES_CLOTH_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_SHOES_CLOTH_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 26, "name": "Sandals", "type": "armor" }
+    },
+    {
+      "id": 380,
+      "name": "Novice's Scholar Cowl",
+      "tier": "2.0",
+      "item_power": 300,
+      "identifier": "T2_HEAD_CLOTH_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T2_HEAD_CLOTH_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 25, "name": "Cowl", "type": "armor" }
+    },
+    {
+      "id": 381,
+      "name": "Journeyman's Scholar Cowl",
+      "tier": "3.0",
+      "item_power": 500,
+      "identifier": "T3_HEAD_CLOTH_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T3_HEAD_CLOTH_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 25, "name": "Cowl", "type": "armor" }
+    },
+    {
+      "id": 382,
+      "name": "Adept's Cleric Cowl",
+      "tier": "4.0",
+      "item_power": 700,
+      "identifier": "T4_HEAD_CLOTH_SET2",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_HEAD_CLOTH_SET2@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 25, "name": "Cowl", "type": "armor" }
+    },
+    {
+      "id": 383,
+      "name": "Adept's Cowl of Purity",
+      "tier": "4.0",
+      "item_power": 800,
+      "identifier": "T4_HEAD_CLOTH_AVALON",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_HEAD_CLOTH_AVALON@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 25, "name": "Cowl", "type": "armor" }
+    },
+    {
+      "id": 384,
+      "name": "Adept's Cultist Cowl",
+      "tier": "4.0",
+      "item_power": 775,
+      "identifier": "T4_HEAD_CLOTH_MORGANA",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_HEAD_CLOTH_MORGANA@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 25, "name": "Cowl", "type": "armor" }
+    },
+    {
+      "id": 385,
+      "name": "Adept's Druid Cowl",
+      "tier": "4.0",
+      "item_power": 725,
+      "identifier": "T4_HEAD_CLOTH_KEEPER",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_HEAD_CLOTH_KEEPER@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 25, "name": "Cowl", "type": "armor" }
+    },
+    {
+      "id": 386,
+      "name": "Adept's Feyscale Hat",
+      "tier": "4.0",
+      "item_power": 775,
+      "identifier": "T4_HEAD_CLOTH_FEY",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_HEAD_CLOTH_FEY@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 25, "name": "Cowl", "type": "armor" }
+    },
+    {
+      "id": 387,
+      "name": "Adept's Fiend Cowl",
+      "tier": "4.0",
+      "item_power": 750,
+      "identifier": "T4_HEAD_CLOTH_HELL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_HEAD_CLOTH_HELL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 25, "name": "Cowl", "type": "armor" }
+    },
+    {
+      "id": 388,
+      "name": "Adept's Mage Cowl",
+      "tier": "4.0",
+      "item_power": 700,
+      "identifier": "T4_HEAD_CLOTH_SET3",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_HEAD_CLOTH_SET3@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 25, "name": "Cowl", "type": "armor" }
+    },
+    {
+      "id": 389,
+      "name": "Adept's Royal Cowl",
+      "tier": "4.0",
+      "item_power": 725,
+      "identifier": "T4_HEAD_CLOTH_ROYAL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_HEAD_CLOTH_ROYAL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 25, "name": "Cowl", "type": "armor" }
+    },
+    {
+      "id": 390,
+      "name": "Adept's Scholar Cowl",
+      "tier": "4.0",
+      "item_power": 700,
+      "identifier": "T4_HEAD_CLOTH_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_HEAD_CLOTH_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 25, "name": "Cowl", "type": "armor" }
+    },
+    {
+      "id": 391,
+      "name": "Expert's Cleric Cowl",
+      "tier": "5.0",
+      "item_power": 800,
+      "identifier": "T5_HEAD_CLOTH_SET2",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_HEAD_CLOTH_SET2@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 25, "name": "Cowl", "type": "armor" }
+    },
+    {
+      "id": 392,
+      "name": "Expert's Cowl of Purity",
+      "tier": "5.0",
+      "item_power": 900,
+      "identifier": "T5_HEAD_CLOTH_AVALON",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_HEAD_CLOTH_AVALON@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 25, "name": "Cowl", "type": "armor" }
+    },
+    {
+      "id": 393,
+      "name": "Expert's Cultist Cowl",
+      "tier": "5.0",
+      "item_power": 875,
+      "identifier": "T5_HEAD_CLOTH_MORGANA",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_HEAD_CLOTH_MORGANA@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 25, "name": "Cowl", "type": "armor" }
+    },
+    {
+      "id": 394,
+      "name": "Expert's Druid Cowl",
+      "tier": "5.0",
+      "item_power": 825,
+      "identifier": "T5_HEAD_CLOTH_KEEPER",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_HEAD_CLOTH_KEEPER@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 25, "name": "Cowl", "type": "armor" }
+    },
+    {
+      "id": 395,
+      "name": "Expert's Feyscale Hat",
+      "tier": "5.0",
+      "item_power": 875,
+      "identifier": "T5_HEAD_CLOTH_FEY",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_HEAD_CLOTH_FEY@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 25, "name": "Cowl", "type": "armor" }
+    },
+    {
+      "id": 396,
+      "name": "Expert's Fiend Cowl",
+      "tier": "5.0",
+      "item_power": 850,
+      "identifier": "T5_HEAD_CLOTH_HELL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_HEAD_CLOTH_HELL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 25, "name": "Cowl", "type": "armor" }
+    },
+    {
+      "id": 397,
+      "name": "Expert's Mage Cowl",
+      "tier": "5.0",
+      "item_power": 800,
+      "identifier": "T5_HEAD_CLOTH_SET3",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_HEAD_CLOTH_SET3@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 25, "name": "Cowl", "type": "armor" }
+    },
+    {
+      "id": 398,
+      "name": "Expert's Royal Cowl",
+      "tier": "5.0",
+      "item_power": 825,
+      "identifier": "T5_HEAD_CLOTH_ROYAL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_HEAD_CLOTH_ROYAL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 25, "name": "Cowl", "type": "armor" }
+    },
+    {
+      "id": 399,
+      "name": "Expert's Scholar Cowl",
+      "tier": "5.0",
+      "item_power": 800,
+      "identifier": "T5_HEAD_CLOTH_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_HEAD_CLOTH_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 25, "name": "Cowl", "type": "armor" }
+    },
+    {
+      "id": 400,
+      "name": "Master's Cleric Cowl",
+      "tier": "6.0",
+      "item_power": 900,
+      "identifier": "T6_HEAD_CLOTH_SET2",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_HEAD_CLOTH_SET2@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 25, "name": "Cowl", "type": "armor" }
+    },
+    {
+      "id": 401,
+      "name": "Master's Cowl of Purity",
+      "tier": "6.0",
+      "item_power": 1000,
+      "identifier": "T6_HEAD_CLOTH_AVALON",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_HEAD_CLOTH_AVALON@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 25, "name": "Cowl", "type": "armor" }
+    },
+    {
+      "id": 402,
+      "name": "Master's Cultist Cowl",
+      "tier": "6.0",
+      "item_power": 975,
+      "identifier": "T6_HEAD_CLOTH_MORGANA",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_HEAD_CLOTH_MORGANA@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 25, "name": "Cowl", "type": "armor" }
+    },
+    {
+      "id": 403,
+      "name": "Master's Druid Cowl",
+      "tier": "6.0",
+      "item_power": 925,
+      "identifier": "T6_HEAD_CLOTH_KEEPER",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_HEAD_CLOTH_KEEPER@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 25, "name": "Cowl", "type": "armor" }
+    },
+    {
+      "id": 404,
+      "name": "Master's Feyscale Hat",
+      "tier": "6.0",
+      "item_power": 975,
+      "identifier": "T6_HEAD_CLOTH_FEY",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_HEAD_CLOTH_FEY@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 25, "name": "Cowl", "type": "armor" }
+    },
+    {
+      "id": 405,
+      "name": "Master's Fiend Cowl",
+      "tier": "6.0",
+      "item_power": 950,
+      "identifier": "T6_HEAD_CLOTH_HELL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_HEAD_CLOTH_HELL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 25, "name": "Cowl", "type": "armor" }
+    },
+    {
+      "id": 406,
+      "name": "Master's Mage Cowl",
+      "tier": "6.0",
+      "item_power": 900,
+      "identifier": "T6_HEAD_CLOTH_SET3",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_HEAD_CLOTH_SET3@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 25, "name": "Cowl", "type": "armor" }
+    },
+    {
+      "id": 407,
+      "name": "Master's Royal Cowl",
+      "tier": "6.0",
+      "item_power": 925,
+      "identifier": "T6_HEAD_CLOTH_ROYAL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_HEAD_CLOTH_ROYAL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 25, "name": "Cowl", "type": "armor" }
+    },
+    {
+      "id": 408,
+      "name": "Master's Scholar Cowl",
+      "tier": "6.0",
+      "item_power": 900,
+      "identifier": "T6_HEAD_CLOTH_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_HEAD_CLOTH_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 25, "name": "Cowl", "type": "armor" }
+    },
+    {
+      "id": 409,
+      "name": "Grandmaster's Cleric Cowl",
+      "tier": "7.0",
+      "item_power": 1000,
+      "identifier": "T7_HEAD_CLOTH_SET2",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_HEAD_CLOTH_SET2@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 25, "name": "Cowl", "type": "armor" }
+    },
+    {
+      "id": 410,
+      "name": "Grandmaster's Cowl of Purity",
+      "tier": "7.0",
+      "item_power": 1100,
+      "identifier": "T7_HEAD_CLOTH_AVALON",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_HEAD_CLOTH_AVALON@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 25, "name": "Cowl", "type": "armor" }
+    },
+    {
+      "id": 411,
+      "name": "Grandmaster's Cultist Cowl",
+      "tier": "7.0",
+      "item_power": 1075,
+      "identifier": "T7_HEAD_CLOTH_MORGANA",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_HEAD_CLOTH_MORGANA@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 25, "name": "Cowl", "type": "armor" }
+    },
+    {
+      "id": 412,
+      "name": "Grandmaster's Druid Cowl",
+      "tier": "7.0",
+      "item_power": 1025,
+      "identifier": "T7_HEAD_CLOTH_KEEPER",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_HEAD_CLOTH_KEEPER@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 25, "name": "Cowl", "type": "armor" }
+    },
+    {
+      "id": 413,
+      "name": "Grandmaster's Feyscale Hat",
+      "tier": "7.0",
+      "item_power": 1075,
+      "identifier": "T7_HEAD_CLOTH_FEY",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_HEAD_CLOTH_FEY@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 25, "name": "Cowl", "type": "armor" }
+    },
+    {
+      "id": 414,
+      "name": "Grandmaster's Fiend Cowl",
+      "tier": "7.0",
+      "item_power": 1050,
+      "identifier": "T7_HEAD_CLOTH_HELL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_HEAD_CLOTH_HELL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 25, "name": "Cowl", "type": "armor" }
+    },
+    {
+      "id": 415,
+      "name": "Grandmaster's Mage Cowl",
+      "tier": "7.0",
+      "item_power": 1000,
+      "identifier": "T7_HEAD_CLOTH_SET3",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_HEAD_CLOTH_SET3@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 25, "name": "Cowl", "type": "armor" }
+    },
+    {
+      "id": 416,
+      "name": "Grandmaster's Royal Cowl",
+      "tier": "7.0",
+      "item_power": 1025,
+      "identifier": "T7_HEAD_CLOTH_ROYAL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_HEAD_CLOTH_ROYAL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 25, "name": "Cowl", "type": "armor" }
+    },
+    {
+      "id": 417,
+      "name": "Grandmaster's Scholar Cowl",
+      "tier": "7.0",
+      "item_power": 1000,
+      "identifier": "T7_HEAD_CLOTH_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_HEAD_CLOTH_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 25, "name": "Cowl", "type": "armor" }
+    },
+    {
+      "id": 418,
+      "name": "Elder's Cleric Cowl",
+      "tier": "8.0",
+      "item_power": 1100,
+      "identifier": "T8_HEAD_CLOTH_SET2",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_HEAD_CLOTH_SET2@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 25, "name": "Cowl", "type": "armor" }
+    },
+    {
+      "id": 419,
+      "name": "Elder's Cowl of Purity",
+      "tier": "8.0",
+      "item_power": 1200,
+      "identifier": "T8_HEAD_CLOTH_AVALON",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_HEAD_CLOTH_AVALON@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 25, "name": "Cowl", "type": "armor" }
+    },
+    {
+      "id": 420,
+      "name": "Elder's Cultist Cowl",
+      "tier": "8.0",
+      "item_power": 1175,
+      "identifier": "T8_HEAD_CLOTH_MORGANA",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_HEAD_CLOTH_MORGANA@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 25, "name": "Cowl", "type": "armor" }
+    },
+    {
+      "id": 421,
+      "name": "Elder's Druid Cowl",
+      "tier": "8.0",
+      "item_power": 1125,
+      "identifier": "T8_HEAD_CLOTH_KEEPER",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_HEAD_CLOTH_KEEPER@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 25, "name": "Cowl", "type": "armor" }
+    },
+    {
+      "id": 422,
+      "name": "Elder's Feyscale Hat",
+      "tier": "8.0",
+      "item_power": 1175,
+      "identifier": "T8_HEAD_CLOTH_FEY",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_HEAD_CLOTH_FEY@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 25, "name": "Cowl", "type": "armor" }
+    },
+    {
+      "id": 423,
+      "name": "Elder's Fiend Cowl",
+      "tier": "8.0",
+      "item_power": 1150,
+      "identifier": "T8_HEAD_CLOTH_HELL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_HEAD_CLOTH_HELL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 25, "name": "Cowl", "type": "armor" }
+    },
+    {
+      "id": 424,
+      "name": "Elder's Mage Cowl",
+      "tier": "8.0",
+      "item_power": 1100,
+      "identifier": "T8_HEAD_CLOTH_SET3",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_HEAD_CLOTH_SET3@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 25, "name": "Cowl", "type": "armor" }
+    },
+    {
+      "id": 425,
+      "name": "Elder's Royal Cowl",
+      "tier": "8.0",
+      "item_power": 1125,
+      "identifier": "T8_HEAD_CLOTH_ROYAL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_HEAD_CLOTH_ROYAL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 25, "name": "Cowl", "type": "armor" }
+    },
+    {
+      "id": 426,
+      "name": "Elder's Scholar Cowl",
+      "tier": "8.0",
+      "item_power": 1100,
+      "identifier": "T8_HEAD_CLOTH_SET1",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_HEAD_CLOTH_SET1@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 23, "name": "Cloth Armor", "type": "armor" },
+      "subcategory": { "id": 25, "name": "Cowl", "type": "armor" }
+    }
+  ]
+}

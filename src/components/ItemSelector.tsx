@@ -3,6 +3,7 @@ import { Search, ChevronRight, ChevronDown } from "lucide-react";
 import { BaseItem, searchBaseItems } from "@/lib/base-items";
 import { CATEGORY_TREE, CategoryNode } from "@/lib/categories";
 import { useLanguage } from "@/contexts/LanguageContext";
+import { useImagePreloader } from "@/hooks/useImagePreloader";
 
 interface Props {
   selectedItem: BaseItem | null;
@@ -57,6 +58,8 @@ export function ItemSelector({
     return items.slice(0, 50);
   }, [search, selectedCategoryId, lang]);
 
+  useImagePreloader(filtered);
+
   const displayValue = selectedItem
     ? selectedItem.name[lang]
     : customItemId || "";
@@ -73,23 +76,24 @@ export function ItemSelector({
             isSelected ? "bg-secondary font-medium" : ""
           }`}
           style={{ paddingLeft: `${depth * 12 + 8}px` }}
-          onClick={() =>
-            setSelectedCategoryId(
-              node.id === selectedCategoryId ? null : node.id,
-            )
-          }
+          onClick={(e) => {
+            if (hasChildren) {
+              toggleCategory(node.id, e);
+            } else {
+              setSelectedCategoryId(
+                node.id === selectedCategoryId ? null : node.id,
+              );
+            }
+          }}
         >
           {hasChildren ? (
-            <button
-              onClick={(e) => toggleCategory(node.id, e)}
-              className="mr-1 text-muted-foreground hover:text-foreground"
-            >
+            <div className="mr-1 text-muted-foreground">
               {isExpanded ? (
                 <ChevronDown className="h-4 w-4" />
               ) : (
                 <ChevronRight className="h-4 w-4" />
               )}
-            </button>
+            </div>
           ) : (
             <span className="w-5" />
           )}
@@ -125,9 +129,9 @@ export function ItemSelector({
       </div>
 
       {open && (
-        <div className="absolute z-50 mt-1 w-full rounded-lg border border-border bg-popover shadow-xl animate-fade-in max-h-[500px] flex flex-col sm:flex-row overflow-hidden">
+        <div className="absolute z-50 mt-1 w-full sm:min-w-[600px] rounded-lg border border-border bg-popover shadow-xl animate-fade-in max-h-[500px] flex flex-col sm:flex-row overflow-hidden">
           {/* Categories Sidebar */}
-          <div className="w-full sm:w-48 border-b sm:border-b-0 sm:border-r border-border overflow-y-auto bg-card/50 max-h-40 sm:max-h-full">
+          <div className="w-full sm:w-64 border-b sm:border-b-0 sm:border-r border-border overflow-y-auto bg-card/50 max-h-40 sm:max-h-full">
             <div className="p-2 border-b border-border bg-card sticky top-0 z-10">
               <button
                 onClick={() => setSelectedCategoryId(null)}

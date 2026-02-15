@@ -1,0 +1,2016 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Novice's Cape",
+      "tier": "2.0",
+      "item_power": 300,
+      "identifier": "T2_CAPE",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T2_CAPE@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 37, "name": "Normal Capes", "type": "accessory" }
+    },
+    {
+      "id": 2,
+      "name": "Journeyman's Cape",
+      "tier": "3.0",
+      "item_power": 500,
+      "identifier": "T3_CAPE",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T3_CAPE@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 37, "name": "Normal Capes", "type": "accessory" }
+    },
+    {
+      "id": 3,
+      "name": "Adept's Bridgewatch Cape",
+      "tier": "4.0",
+      "item_power": 700,
+      "identifier": "T4_CAPEITEM_FW_BRIDGEWATCH",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_CAPEITEM_FW_BRIDGEWATCH@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 38, "name": "Faction Capes", "type": "accessory" }
+    },
+    {
+      "id": 4,
+      "name": "Adept's Caerleon Cape",
+      "tier": "4.0",
+      "item_power": 700,
+      "identifier": "T4_CAPEITEM_FW_CAERLEON",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_CAPEITEM_FW_CAERLEON@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 38, "name": "Faction Capes", "type": "accessory" }
+    },
+    {
+      "id": 5,
+      "name": "Adept's Cape",
+      "tier": "4.0",
+      "item_power": 700,
+      "identifier": "T4_CAPE",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_CAPE@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 37, "name": "Normal Capes", "type": "accessory" }
+    },
+    {
+      "id": 6,
+      "name": "Adept's Demon Cape",
+      "tier": "4.0",
+      "item_power": 700,
+      "identifier": "T4_CAPEITEM_DEMON",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_CAPEITEM_DEMON@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 38, "name": "Faction Capes", "type": "accessory" }
+    },
+    {
+      "id": 7,
+      "name": "Adept's Fort Sterling Cape",
+      "tier": "4.0",
+      "item_power": 700,
+      "identifier": "T4_CAPEITEM_FW_FORTSTERLING",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_CAPEITEM_FW_FORTSTERLING@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 38, "name": "Faction Capes", "type": "accessory" }
+    },
+    {
+      "id": 8,
+      "name": "Adept's Heretic Cape",
+      "tier": "4.0",
+      "item_power": 700,
+      "identifier": "T4_CAPEITEM_HERETIC",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_CAPEITEM_HERETIC@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 38, "name": "Faction Capes", "type": "accessory" }
+    },
+    {
+      "id": 9,
+      "name": "Adept's Keeper Cape",
+      "tier": "4.0",
+      "item_power": 700,
+      "identifier": "T4_CAPEITEM_KEEPER",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_CAPEITEM_KEEPER@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 38, "name": "Faction Capes", "type": "accessory" }
+    },
+    {
+      "id": 10,
+      "name": "Adept's Lymhurst Cape",
+      "tier": "4.0",
+      "item_power": 700,
+      "identifier": "T4_CAPEITEM_FW_LYMHURST",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_CAPEITEM_FW_LYMHURST@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 38, "name": "Faction Capes", "type": "accessory" }
+    },
+    {
+      "id": 11,
+      "name": "Adept's Martlock Cape",
+      "tier": "4.0",
+      "item_power": 700,
+      "identifier": "T4_CAPEITEM_FW_MARTLOCK",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_CAPEITEM_FW_MARTLOCK@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 38, "name": "Faction Capes", "type": "accessory" }
+    },
+    {
+      "id": 12,
+      "name": "Adept's Morgana Cape",
+      "tier": "4.0",
+      "item_power": 700,
+      "identifier": "T4_CAPEITEM_MORGANA",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_CAPEITEM_MORGANA@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 38, "name": "Faction Capes", "type": "accessory" }
+    },
+    {
+      "id": 13,
+      "name": "Adept's Thetford Cape",
+      "tier": "4.0",
+      "item_power": 700,
+      "identifier": "T4_CAPEITEM_FW_THETFORD",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_CAPEITEM_FW_THETFORD@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 38, "name": "Faction Capes", "type": "accessory" }
+    },
+    {
+      "id": 14,
+      "name": "Adept's Undead Cape",
+      "tier": "4.0",
+      "item_power": 700,
+      "identifier": "T4_CAPEITEM_UNDEAD",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_CAPEITEM_UNDEAD@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 38, "name": "Faction Capes", "type": "accessory" }
+    },
+    {
+      "id": 15,
+      "name": "Expert's Bridgewatch Cape",
+      "tier": "5.0",
+      "item_power": 800,
+      "identifier": "T5_CAPEITEM_FW_BRIDGEWATCH",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_CAPEITEM_FW_BRIDGEWATCH@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 38, "name": "Faction Capes", "type": "accessory" }
+    },
+    {
+      "id": 16,
+      "name": "Expert's Caerleon Cape",
+      "tier": "5.0",
+      "item_power": 800,
+      "identifier": "T5_CAPEITEM_FW_CAERLEON",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_CAPEITEM_FW_CAERLEON@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 38, "name": "Faction Capes", "type": "accessory" }
+    },
+    {
+      "id": 17,
+      "name": "Expert's Cape",
+      "tier": "5.0",
+      "item_power": 800,
+      "identifier": "T5_CAPE",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_CAPE@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 37, "name": "Normal Capes", "type": "accessory" }
+    },
+    {
+      "id": 18,
+      "name": "Expert's Demon Cape",
+      "tier": "5.0",
+      "item_power": 800,
+      "identifier": "T5_CAPEITEM_DEMON",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_CAPEITEM_DEMON@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 38, "name": "Faction Capes", "type": "accessory" }
+    },
+    {
+      "id": 19,
+      "name": "Expert's Fort Sterling Cape",
+      "tier": "5.0",
+      "item_power": 800,
+      "identifier": "T5_CAPEITEM_FW_FORTSTERLING",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_CAPEITEM_FW_FORTSTERLING@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 38, "name": "Faction Capes", "type": "accessory" }
+    },
+    {
+      "id": 20,
+      "name": "Expert's Heretic Cape",
+      "tier": "5.0",
+      "item_power": 800,
+      "identifier": "T5_CAPEITEM_HERETIC",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_CAPEITEM_HERETIC@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 38, "name": "Faction Capes", "type": "accessory" }
+    },
+    {
+      "id": 21,
+      "name": "Expert's Keeper Cape",
+      "tier": "5.0",
+      "item_power": 800,
+      "identifier": "T5_CAPEITEM_KEEPER",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_CAPEITEM_KEEPER@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 38, "name": "Faction Capes", "type": "accessory" }
+    },
+    {
+      "id": 22,
+      "name": "Expert's Lymhurst Cape",
+      "tier": "5.0",
+      "item_power": 800,
+      "identifier": "T5_CAPEITEM_FW_LYMHURST",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_CAPEITEM_FW_LYMHURST@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 38, "name": "Faction Capes", "type": "accessory" }
+    },
+    {
+      "id": 23,
+      "name": "Expert's Martlock Cape",
+      "tier": "5.0",
+      "item_power": 800,
+      "identifier": "T5_CAPEITEM_FW_MARTLOCK",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_CAPEITEM_FW_MARTLOCK@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 38, "name": "Faction Capes", "type": "accessory" }
+    },
+    {
+      "id": 24,
+      "name": "Expert's Morgana Cape",
+      "tier": "5.0",
+      "item_power": 800,
+      "identifier": "T5_CAPEITEM_MORGANA",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_CAPEITEM_MORGANA@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 38, "name": "Faction Capes", "type": "accessory" }
+    },
+    {
+      "id": 25,
+      "name": "Expert's Thetford Cape",
+      "tier": "5.0",
+      "item_power": 800,
+      "identifier": "T5_CAPEITEM_FW_THETFORD",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_CAPEITEM_FW_THETFORD@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 38, "name": "Faction Capes", "type": "accessory" }
+    },
+    {
+      "id": 26,
+      "name": "Expert's Undead Cape",
+      "tier": "5.0",
+      "item_power": 800,
+      "identifier": "T5_CAPEITEM_UNDEAD",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_CAPEITEM_UNDEAD@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 38, "name": "Faction Capes", "type": "accessory" }
+    },
+    {
+      "id": 27,
+      "name": "Master's Bridgewatch Cape",
+      "tier": "6.0",
+      "item_power": 900,
+      "identifier": "T6_CAPEITEM_FW_BRIDGEWATCH",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_CAPEITEM_FW_BRIDGEWATCH@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 38, "name": "Faction Capes", "type": "accessory" }
+    },
+    {
+      "id": 28,
+      "name": "Master's Caerleon Cape",
+      "tier": "6.0",
+      "item_power": 900,
+      "identifier": "T6_CAPEITEM_FW_CAERLEON",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_CAPEITEM_FW_CAERLEON@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 38, "name": "Faction Capes", "type": "accessory" }
+    },
+    {
+      "id": 29,
+      "name": "Master's Cape",
+      "tier": "6.0",
+      "item_power": 900,
+      "identifier": "T6_CAPE",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_CAPE@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 37, "name": "Normal Capes", "type": "accessory" }
+    },
+    {
+      "id": 30,
+      "name": "Master's Demon Cape",
+      "tier": "6.0",
+      "item_power": 900,
+      "identifier": "T6_CAPEITEM_DEMON",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_CAPEITEM_DEMON@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 38, "name": "Faction Capes", "type": "accessory" }
+    },
+    {
+      "id": 31,
+      "name": "Master's Fort Sterling Cape",
+      "tier": "6.0",
+      "item_power": 900,
+      "identifier": "T6_CAPEITEM_FW_FORTSTERLING",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_CAPEITEM_FW_FORTSTERLING@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 38, "name": "Faction Capes", "type": "accessory" }
+    },
+    {
+      "id": 32,
+      "name": "Master's Heretic Cape",
+      "tier": "6.0",
+      "item_power": 900,
+      "identifier": "T6_CAPEITEM_HERETIC",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_CAPEITEM_HERETIC@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 38, "name": "Faction Capes", "type": "accessory" }
+    },
+    {
+      "id": 33,
+      "name": "Master's Keeper Cape",
+      "tier": "6.0",
+      "item_power": 900,
+      "identifier": "T6_CAPEITEM_KEEPER",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_CAPEITEM_KEEPER@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 38, "name": "Faction Capes", "type": "accessory" }
+    },
+    {
+      "id": 34,
+      "name": "Master's Lymhurst Cape",
+      "tier": "6.0",
+      "item_power": 900,
+      "identifier": "T6_CAPEITEM_FW_LYMHURST",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_CAPEITEM_FW_LYMHURST@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 38, "name": "Faction Capes", "type": "accessory" }
+    },
+    {
+      "id": 35,
+      "name": "Master's Martlock Cape",
+      "tier": "6.0",
+      "item_power": 900,
+      "identifier": "T6_CAPEITEM_FW_MARTLOCK",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_CAPEITEM_FW_MARTLOCK@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 38, "name": "Faction Capes", "type": "accessory" }
+    },
+    {
+      "id": 36,
+      "name": "Master's Morgana Cape",
+      "tier": "6.0",
+      "item_power": 900,
+      "identifier": "T6_CAPEITEM_MORGANA",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_CAPEITEM_MORGANA@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 38, "name": "Faction Capes", "type": "accessory" }
+    },
+    {
+      "id": 37,
+      "name": "Master's Thetford Cape",
+      "tier": "6.0",
+      "item_power": 900,
+      "identifier": "T6_CAPEITEM_FW_THETFORD",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_CAPEITEM_FW_THETFORD@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 38, "name": "Faction Capes", "type": "accessory" }
+    },
+    {
+      "id": 38,
+      "name": "Master's Undead Cape",
+      "tier": "6.0",
+      "item_power": 900,
+      "identifier": "T6_CAPEITEM_UNDEAD",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_CAPEITEM_UNDEAD@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 38, "name": "Faction Capes", "type": "accessory" }
+    },
+    {
+      "id": 39,
+      "name": "Grandmaster's Bridgewatch Cape",
+      "tier": "7.0",
+      "item_power": 1000,
+      "identifier": "T7_CAPEITEM_FW_BRIDGEWATCH",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_CAPEITEM_FW_BRIDGEWATCH@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 38, "name": "Faction Capes", "type": "accessory" }
+    },
+    {
+      "id": 40,
+      "name": "Grandmaster's Caerleon Cape",
+      "tier": "7.0",
+      "item_power": 1000,
+      "identifier": "T7_CAPEITEM_FW_CAERLEON",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_CAPEITEM_FW_CAERLEON@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 38, "name": "Faction Capes", "type": "accessory" }
+    },
+    {
+      "id": 41,
+      "name": "Grandmaster's Cape",
+      "tier": "7.0",
+      "item_power": 1000,
+      "identifier": "T7_CAPE",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_CAPE@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 37, "name": "Normal Capes", "type": "accessory" }
+    },
+    {
+      "id": 42,
+      "name": "Grandmaster's Demon Cape",
+      "tier": "7.0",
+      "item_power": 1000,
+      "identifier": "T7_CAPEITEM_DEMON",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_CAPEITEM_DEMON@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 38, "name": "Faction Capes", "type": "accessory" }
+    },
+    {
+      "id": 43,
+      "name": "Grandmaster's Fort Sterling Cape",
+      "tier": "7.0",
+      "item_power": 1000,
+      "identifier": "T7_CAPEITEM_FW_FORTSTERLING",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_CAPEITEM_FW_FORTSTERLING@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 38, "name": "Faction Capes", "type": "accessory" }
+    },
+    {
+      "id": 44,
+      "name": "Grandmaster's Heretic Cape",
+      "tier": "7.0",
+      "item_power": 1000,
+      "identifier": "T7_CAPEITEM_HERETIC",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_CAPEITEM_HERETIC@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 38, "name": "Faction Capes", "type": "accessory" }
+    },
+    {
+      "id": 45,
+      "name": "Grandmaster's Keeper Cape",
+      "tier": "7.0",
+      "item_power": 1000,
+      "identifier": "T7_CAPEITEM_KEEPER",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_CAPEITEM_KEEPER@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 38, "name": "Faction Capes", "type": "accessory" }
+    },
+    {
+      "id": 46,
+      "name": "Grandmaster's Lymhurst Cape",
+      "tier": "7.0",
+      "item_power": 1000,
+      "identifier": "T7_CAPEITEM_FW_LYMHURST",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_CAPEITEM_FW_LYMHURST@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 38, "name": "Faction Capes", "type": "accessory" }
+    },
+    {
+      "id": 47,
+      "name": "Grandmaster's Martlock Cape",
+      "tier": "7.0",
+      "item_power": 1000,
+      "identifier": "T7_CAPEITEM_FW_MARTLOCK",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_CAPEITEM_FW_MARTLOCK@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 38, "name": "Faction Capes", "type": "accessory" }
+    },
+    {
+      "id": 48,
+      "name": "Grandmaster's Morgana Cape",
+      "tier": "7.0",
+      "item_power": 1000,
+      "identifier": "T7_CAPEITEM_MORGANA",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_CAPEITEM_MORGANA@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 38, "name": "Faction Capes", "type": "accessory" }
+    },
+    {
+      "id": 49,
+      "name": "Grandmaster's Thetford Cape",
+      "tier": "7.0",
+      "item_power": 1000,
+      "identifier": "T7_CAPEITEM_FW_THETFORD",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_CAPEITEM_FW_THETFORD@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 38, "name": "Faction Capes", "type": "accessory" }
+    },
+    {
+      "id": 50,
+      "name": "Grandmaster's Undead Cape",
+      "tier": "7.0",
+      "item_power": 1000,
+      "identifier": "T7_CAPEITEM_UNDEAD",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_CAPEITEM_UNDEAD@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 38, "name": "Faction Capes", "type": "accessory" }
+    },
+    {
+      "id": 51,
+      "name": "Elder's Bridgewatch Cape",
+      "tier": "8.0",
+      "item_power": 1100,
+      "identifier": "T8_CAPEITEM_FW_BRIDGEWATCH",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_CAPEITEM_FW_BRIDGEWATCH@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 38, "name": "Faction Capes", "type": "accessory" }
+    },
+    {
+      "id": 52,
+      "name": "Elder's Caerleon Cape",
+      "tier": "8.0",
+      "item_power": 1100,
+      "identifier": "T8_CAPEITEM_FW_CAERLEON",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_CAPEITEM_FW_CAERLEON@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 38, "name": "Faction Capes", "type": "accessory" }
+    },
+    {
+      "id": 53,
+      "name": "Elder's Cape",
+      "tier": "8.0",
+      "item_power": 1100,
+      "identifier": "T8_CAPE",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_CAPE@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 37, "name": "Normal Capes", "type": "accessory" }
+    },
+    {
+      "id": 54,
+      "name": "Elder's Demon Cape",
+      "tier": "8.0",
+      "item_power": 1100,
+      "identifier": "T8_CAPEITEM_DEMON",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_CAPEITEM_DEMON@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 38, "name": "Faction Capes", "type": "accessory" }
+    },
+    {
+      "id": 55,
+      "name": "Elder's Fort Sterling Cape",
+      "tier": "8.0",
+      "item_power": 1100,
+      "identifier": "T8_CAPEITEM_FW_FORTSTERLING",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_CAPEITEM_FW_FORTSTERLING@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 38, "name": "Faction Capes", "type": "accessory" }
+    },
+    {
+      "id": 56,
+      "name": "Elder's Heretic Cape",
+      "tier": "8.0",
+      "item_power": 1100,
+      "identifier": "T8_CAPEITEM_HERETIC",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_CAPEITEM_HERETIC@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 38, "name": "Faction Capes", "type": "accessory" }
+    },
+    {
+      "id": 57,
+      "name": "Elder's Keeper Cape",
+      "tier": "8.0",
+      "item_power": 1100,
+      "identifier": "T8_CAPEITEM_KEEPER",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_CAPEITEM_KEEPER@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 38, "name": "Faction Capes", "type": "accessory" }
+    },
+    {
+      "id": 58,
+      "name": "Elder's Lymhurst Cape",
+      "tier": "8.0",
+      "item_power": 1100,
+      "identifier": "T8_CAPEITEM_FW_LYMHURST",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_CAPEITEM_FW_LYMHURST@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 38, "name": "Faction Capes", "type": "accessory" }
+    },
+    {
+      "id": 59,
+      "name": "Elder's Martlock Cape",
+      "tier": "8.0",
+      "item_power": 1100,
+      "identifier": "T8_CAPEITEM_FW_MARTLOCK",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_CAPEITEM_FW_MARTLOCK@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 38, "name": "Faction Capes", "type": "accessory" }
+    },
+    {
+      "id": 60,
+      "name": "Elder's Morgana Cape",
+      "tier": "8.0",
+      "item_power": 1100,
+      "identifier": "T8_CAPEITEM_MORGANA",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_CAPEITEM_MORGANA@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 38, "name": "Faction Capes", "type": "accessory" }
+    },
+    {
+      "id": 61,
+      "name": "Elder's Thetford Cape",
+      "tier": "8.0",
+      "item_power": 1100,
+      "identifier": "T8_CAPEITEM_FW_THETFORD",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_CAPEITEM_FW_THETFORD@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 38, "name": "Faction Capes", "type": "accessory" }
+    },
+    {
+      "id": 62,
+      "name": "Elder's Undead Cape",
+      "tier": "8.0",
+      "item_power": 1100,
+      "identifier": "T8_CAPEITEM_UNDEAD",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_CAPEITEM_UNDEAD@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 35, "name": "Cape", "type": "accessory" },
+      "subcategory": { "id": 38, "name": "Faction Capes", "type": "accessory" }
+    },
+    {
+      "id": 63,
+      "name": "Adept's Satchel of Insight",
+      "tier": "4.0",
+      "item_power": 700,
+      "identifier": "T4_BAG_INSIGHT",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_BAG_INSIGHT@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 36, "name": "Bag", "type": "accessory" },
+      "subcategory": { "id": 39, "name": "Normal Bags", "type": "accessory" }
+    },
+    {
+      "id": 64,
+      "name": "Expert's Bag",
+      "tier": "5.0",
+      "item_power": 800,
+      "identifier": "T5_BAG",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_BAG@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 36, "name": "Bag", "type": "accessory" },
+      "subcategory": { "id": 39, "name": "Normal Bags", "type": "accessory" }
+    },
+    {
+      "id": 65,
+      "name": "Expert's Satchel of Insight",
+      "tier": "5.0",
+      "item_power": 800,
+      "identifier": "T5_BAG_INSIGHT",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_BAG_INSIGHT@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 36, "name": "Bag", "type": "accessory" },
+      "subcategory": { "id": 39, "name": "Normal Bags", "type": "accessory" }
+    },
+    {
+      "id": 66,
+      "name": "Master's Bag",
+      "tier": "6.0",
+      "item_power": 900,
+      "identifier": "T6_BAG",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_BAG@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 36, "name": "Bag", "type": "accessory" },
+      "subcategory": { "id": 39, "name": "Normal Bags", "type": "accessory" }
+    },
+    {
+      "id": 67,
+      "name": "Master's Satchel of Insight",
+      "tier": "6.0",
+      "item_power": 900,
+      "identifier": "T6_BAG_INSIGHT",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_BAG_INSIGHT@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 36, "name": "Bag", "type": "accessory" },
+      "subcategory": { "id": 39, "name": "Normal Bags", "type": "accessory" }
+    },
+    {
+      "id": 68,
+      "name": "Grandmaster's Bag",
+      "tier": "7.0",
+      "item_power": 1000,
+      "identifier": "T7_BAG",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_BAG@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 36, "name": "Bag", "type": "accessory" },
+      "subcategory": { "id": 39, "name": "Normal Bags", "type": "accessory" }
+    },
+    {
+      "id": 69,
+      "name": "Grandmaster's Satchel of Insight",
+      "tier": "7.0",
+      "item_power": 1000,
+      "identifier": "T7_BAG_INSIGHT",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_BAG_INSIGHT@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 36, "name": "Bag", "type": "accessory" },
+      "subcategory": { "id": 39, "name": "Normal Bags", "type": "accessory" }
+    },
+    {
+      "id": 70,
+      "name": "Elder's Bag",
+      "tier": "8.0",
+      "item_power": 1100,
+      "identifier": "T8_BAG",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_BAG@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 36, "name": "Bag", "type": "accessory" },
+      "subcategory": { "id": 39, "name": "Normal Bags", "type": "accessory" }
+    },
+    {
+      "id": 71,
+      "name": "Elder's Satchel of Insight",
+      "tier": "8.0",
+      "item_power": 1100,
+      "identifier": "T8_BAG_INSIGHT",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_BAG_INSIGHT@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 36, "name": "Bag", "type": "accessory" },
+      "subcategory": { "id": 39, "name": "Normal Bags", "type": "accessory" }
+    },
+    {
+      "id": 72,
+      "name": "Expert's Armored Horse",
+      "tier": "5.0",
+      "item_power": 800,
+      "identifier": "T5_MOUNT_ARMORED_HORSE",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_MOUNT_ARMORED_HORSE@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": { "id": 41, "name": "Armored Horses", "type": "accessory" }
+    },
+    {
+      "id": 73,
+      "name": "Master's Armored Horse",
+      "tier": "6.0",
+      "item_power": 900,
+      "identifier": "T6_MOUNT_ARMORED_HORSE",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_MOUNT_ARMORED_HORSE@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": { "id": 41, "name": "Armored Horses", "type": "accessory" }
+    },
+    {
+      "id": 74,
+      "name": "Grandmaster's Armored Horse",
+      "tier": "7.0",
+      "item_power": 1000,
+      "identifier": "T7_MOUNT_ARMORED_HORSE",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_MOUNT_ARMORED_HORSE@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": { "id": 41, "name": "Armored Horses", "type": "accessory" }
+    },
+    {
+      "id": 75,
+      "name": "Elder's Armored Horse",
+      "tier": "8.0",
+      "item_power": 1100,
+      "identifier": "T8_MOUNT_ARMORED_HORSE",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_MOUNT_ARMORED_HORSE@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": { "id": 41, "name": "Armored Horses", "type": "accessory" }
+    },
+    {
+      "id": 76,
+      "name": "Novice's Mule",
+      "tier": "2.0",
+      "item_power": 300,
+      "identifier": "T2_MOUNT_MULE",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T2_MOUNT_MULE@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": { "id": 42, "name": "Mules", "type": "accessory" }
+    },
+    {
+      "id": 77,
+      "name": "Siege Ballista",
+      "tier": "6.0",
+      "item_power": null,
+      "identifier": "T6_MOUNT_SIEGE_BALLISTA",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_MOUNT_SIEGE_BALLISTA@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 43,
+        "name": "Battle Mounts (Other)",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 78,
+      "name": "Flame Basilisk",
+      "tier": "7.0",
+      "item_power": null,
+      "identifier": "T7_MOUNT_SWAMPDRAGON_BATTLE",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_MOUNT_SWAMPDRAGON_BATTLE@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 43,
+        "name": "Battle Mounts (Other)",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 79,
+      "name": "Venom Basilisk",
+      "tier": "7.0",
+      "item_power": null,
+      "identifier": "T7_MOUNT_ARMORED_SWAMPDRAGON_BATTLE",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_MOUNT_ARMORED_SWAMPDRAGON_BATTLE@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 43,
+        "name": "Battle Mounts (Other)",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 80,
+      "name": "Elder's Command Mammoth",
+      "tier": "8.0",
+      "item_power": null,
+      "identifier": "T8_MOUNT_MAMMOTH_BATTLE",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_MOUNT_MAMMOTH_BATTLE@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 43,
+        "name": "Battle Mounts (Other)",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 81,
+      "name": "Saddled Bighorn Ram",
+      "tier": "5.0",
+      "item_power": 800,
+      "identifier": "T5_MOUNT_RAM_FW_MARTLOCK",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_MOUNT_RAM_FW_MARTLOCK@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 44,
+        "name": "City Faction Mount",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 82,
+      "name": "Saddled Greywolf",
+      "tier": "5.0",
+      "item_power": 800,
+      "identifier": "T5_MOUNT_GREYWOLF_FW_CAERLEON",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_MOUNT_GREYWOLF_FW_CAERLEON@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 44,
+        "name": "City Faction Mount",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 83,
+      "name": "Saddled Moabird",
+      "tier": "5.0",
+      "item_power": 800,
+      "identifier": "T5_MOUNT_MOABIRD_FW_BRIDGEWATCH",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_MOUNT_MOABIRD_FW_BRIDGEWATCH@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 44,
+        "name": "City Faction Mount",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 84,
+      "name": "Saddled Mystic Owl",
+      "tier": "5.0",
+      "item_power": null,
+      "identifier": "T5_MOUNT_OWL_FW_BRECILIEN",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_MOUNT_OWL_FW_BRECILIEN@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 44,
+        "name": "City Faction Mount",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 85,
+      "name": "Saddled Swamp Salamander",
+      "tier": "5.0",
+      "item_power": 800,
+      "identifier": "T5_MOUNT_SWAMPDRAGON_FW_THETFORD",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_MOUNT_SWAMPDRAGON_FW_THETFORD@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 44,
+        "name": "City Faction Mount",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 86,
+      "name": "Saddled Wild Boar",
+      "tier": "5.0",
+      "item_power": 800,
+      "identifier": "T5_MOUNT_DIREBOAR_FW_LYMHURST",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_MOUNT_DIREBOAR_FW_LYMHURST@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 44,
+        "name": "City Faction Mount",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 87,
+      "name": "Saddled Winter Bear",
+      "tier": "5.0",
+      "item_power": 800,
+      "identifier": "T5_MOUNT_DIREBEAR_FW_FORTSTERLING",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_MOUNT_DIREBEAR_FW_FORTSTERLING@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 44,
+        "name": "City Faction Mount",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 88,
+      "name": "Elite Bighorn Ram",
+      "tier": "8.0",
+      "item_power": 1100,
+      "identifier": "T8_MOUNT_RAM_FW_MARTLOCK_ELITE",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_MOUNT_RAM_FW_MARTLOCK_ELITE@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 44,
+        "name": "City Faction Mount",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 89,
+      "name": "Elite Greywolf",
+      "tier": "8.0",
+      "item_power": 1100,
+      "identifier": "T8_MOUNT_GREYWOLF_FW_CAERLEON_ELITE",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_MOUNT_GREYWOLF_FW_CAERLEON_ELITE@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 44,
+        "name": "City Faction Mount",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 90,
+      "name": "Elite Mystic Owl",
+      "tier": "8.0",
+      "item_power": null,
+      "identifier": "T8_MOUNT_OWL_FW_BRECILIEN_ELITE",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_MOUNT_OWL_FW_BRECILIEN_ELITE@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 44,
+        "name": "City Faction Mount",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 91,
+      "name": "Elite TerrorBird",
+      "tier": "8.0",
+      "item_power": 1100,
+      "identifier": "T8_MOUNT_MOABIRD_FW_BRIDGEWATCH_ELITE",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_MOUNT_MOABIRD_FW_BRIDGEWATCH_ELITE@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 44,
+        "name": "City Faction Mount",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 92,
+      "name": "Elite Swamp Salamander",
+      "tier": "8.0",
+      "item_power": 1100,
+      "identifier": "T8_MOUNT_SWAMPDRAGON_FW_THETFORD_ELITE",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_MOUNT_SWAMPDRAGON_FW_THETFORD_ELITE@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 44,
+        "name": "City Faction Mount",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 93,
+      "name": "Elite Wild Boar",
+      "tier": "8.0",
+      "item_power": 1100,
+      "identifier": "T8_MOUNT_DIREBOAR_FW_LYMHURST_ELITE",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_MOUNT_DIREBOAR_FW_LYMHURST_ELITE@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 44,
+        "name": "City Faction Mount",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 94,
+      "name": "Elite Winter Bear",
+      "tier": "8.0",
+      "item_power": 1100,
+      "identifier": "T8_MOUNT_DIREBEAR_FW_FORTSTERLING_ELITE",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_MOUNT_DIREBEAR_FW_FORTSTERLING_ELITE@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 44,
+        "name": "City Faction Mount",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 95,
+      "name": "Recruiter's Giant Frog",
+      "tier": null,
+      "item_power": null,
+      "identifier": "UNIQUE_MOUNT_GIANTTOAD_02_TELLAFRIEND",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/UNIQUE_MOUNT_GIANTTOAD_02_TELLAFRIEND@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 45,
+        "name": "Recruiter's Mount",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 96,
+      "name": "Recruiter's Ram",
+      "tier": null,
+      "item_power": 500,
+      "identifier": "UNIQUE_MOUNT_RAM_TELLAFRIEND",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/UNIQUE_MOUNT_RAM_TELLAFRIEND@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 45,
+        "name": "Recruiter's Mount",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 97,
+      "name": "Yule Ram",
+      "tier": null,
+      "item_power": null,
+      "identifier": "UNIQUE_MOUNT_RAM_XMAS",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/UNIQUE_MOUNT_RAM_XMAS@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 45,
+        "name": "Recruiter's Mount",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 98,
+      "name": "Recruiter's Saddled Bat",
+      "tier": null,
+      "item_power": 500,
+      "identifier": "UNIQUE_MOUNT_BAT_TELLAFRIEND",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/UNIQUE_MOUNT_BAT_TELLAFRIEND@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 45,
+        "name": "Recruiter's Mount",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 99,
+      "name": "Recruiter's Toad",
+      "tier": null,
+      "item_power": null,
+      "identifier": "UNIQUE_MOUNT_GIANTTOAD_TELLAFRIEND",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/UNIQUE_MOUNT_GIANTTOAD_TELLAFRIEND@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 45,
+        "name": "Recruiter's Mount",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 100,
+      "name": "Recruiter's Moabird",
+      "tier": null,
+      "item_power": 900,
+      "identifier": "UNIQUE_MOUNT_MOABIRD_TELLAFRIEND",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/UNIQUE_MOUNT_MOABIRD_TELLAFRIEND@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 45,
+        "name": "Recruiter's Mount",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 101,
+      "name": "Expert's Warhorse",
+      "tier": "5.0",
+      "item_power": 800,
+      "identifier": "T5_MOUNT_ARMORED_HORSE_SKIN_01",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_MOUNT_ARMORED_HORSE_SKIN_01@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": { "id": 46, "name": "Warhorses", "type": "accessory" }
+    },
+    {
+      "id": 102,
+      "name": "Master's Warhorse",
+      "tier": "6.0",
+      "item_power": 900,
+      "identifier": "T6_MOUNT_ARMORED_HORSE_SKIN_01",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_MOUNT_ARMORED_HORSE_SKIN_01@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": { "id": 46, "name": "Warhorses", "type": "accessory" }
+    },
+    {
+      "id": 103,
+      "name": "Grandmaster's Warhorse",
+      "tier": "7.0",
+      "item_power": 980,
+      "identifier": "T7_MOUNT_ARMORED_HORSE_SKIN_01",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_MOUNT_ARMORED_HORSE_SKIN_01@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": { "id": 46, "name": "Warhorses", "type": "accessory" }
+    },
+    {
+      "id": 104,
+      "name": "Elder's Warhorse",
+      "tier": "8.0",
+      "item_power": 1060,
+      "identifier": "T8_MOUNT_ARMORED_HORSE_SKIN_01",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_MOUNT_ARMORED_HORSE_SKIN_01@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": { "id": 46, "name": "Warhorses", "type": "accessory" }
+    },
+    {
+      "id": 105,
+      "name": "Journeyman's Riding Horse",
+      "tier": "3.0",
+      "item_power": 500,
+      "identifier": "T3_MOUNT_HORSE",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T3_MOUNT_HORSE@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": { "id": 47, "name": "Riding Horses", "type": "accessory" }
+    },
+    {
+      "id": 106,
+      "name": "Adept's Riding Horse",
+      "tier": "4.0",
+      "item_power": 700,
+      "identifier": "T4_MOUNT_HORSE",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_MOUNT_HORSE@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": { "id": 47, "name": "Riding Horses", "type": "accessory" }
+    },
+    {
+      "id": 107,
+      "name": "Expert's Riding Horse",
+      "tier": "5.0",
+      "item_power": 800,
+      "identifier": "T5_MOUNT_HORSE",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_MOUNT_HORSE@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": { "id": 47, "name": "Riding Horses", "type": "accessory" }
+    },
+    {
+      "id": 108,
+      "name": "Master's Riding Horse",
+      "tier": "6.0",
+      "item_power": 900,
+      "identifier": "T6_MOUNT_HORSE",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_MOUNT_HORSE@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": { "id": 47, "name": "Riding Horses", "type": "accessory" }
+    },
+    {
+      "id": 109,
+      "name": "Grandmaster's Riding Horse",
+      "tier": "7.0",
+      "item_power": 1000,
+      "identifier": "T7_MOUNT_HORSE",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_MOUNT_HORSE@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": { "id": 47, "name": "Riding Horses", "type": "accessory" }
+    },
+    {
+      "id": 110,
+      "name": "Elder's Riding Horse",
+      "tier": "8.0",
+      "item_power": 1100,
+      "identifier": "T8_MOUNT_HORSE",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_MOUNT_HORSE@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": { "id": 47, "name": "Riding Horses", "type": "accessory" }
+    },
+    {
+      "id": 111,
+      "name": "Journeyman's Transport Ox",
+      "tier": "3.0",
+      "item_power": 500,
+      "identifier": "T3_MOUNT_OX",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T3_MOUNT_OX@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": { "id": 48, "name": "Transport Oxen", "type": "accessory" }
+    },
+    {
+      "id": 112,
+      "name": "Adept's Transport Ox",
+      "tier": "4.0",
+      "item_power": 700,
+      "identifier": "T4_MOUNT_OX",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_MOUNT_OX@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": { "id": 48, "name": "Transport Oxen", "type": "accessory" }
+    },
+    {
+      "id": 113,
+      "name": "Expert's Transport Ox",
+      "tier": "5.0",
+      "item_power": 800,
+      "identifier": "T5_MOUNT_OX",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_MOUNT_OX@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": { "id": 48, "name": "Transport Oxen", "type": "accessory" }
+    },
+    {
+      "id": 114,
+      "name": "Master's Transport Ox",
+      "tier": "6.0",
+      "item_power": 900,
+      "identifier": "T6_MOUNT_OX",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_MOUNT_OX@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": { "id": 48, "name": "Transport Oxen", "type": "accessory" }
+    },
+    {
+      "id": 115,
+      "name": "Grandmaster's Transport Ox",
+      "tier": "7.0",
+      "item_power": 1000,
+      "identifier": "T7_MOUNT_OX",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_MOUNT_OX@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": { "id": 48, "name": "Transport Oxen", "type": "accessory" }
+    },
+    {
+      "id": 116,
+      "name": "Elder's Transport Ox",
+      "tier": "8.0",
+      "item_power": 1100,
+      "identifier": "T8_MOUNT_OX",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_MOUNT_OX@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": { "id": 48, "name": "Transport Oxen", "type": "accessory" }
+    },
+    {
+      "id": 117,
+      "name": "Divine Owl",
+      "tier": null,
+      "item_power": null,
+      "identifier": "UNIQUE_MOUNT_DIVINE_OWL_ADC",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/UNIQUE_MOUNT_DIVINE_OWL_ADC@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 49,
+        "name": "Adventurer's Challenge Mount",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 118,
+      "name": "Frost Ram",
+      "tier": "6.0",
+      "item_power": null,
+      "identifier": "T6_MOUNT_FROSTRAM_ADC",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_MOUNT_FROSTRAM_ADC@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 49,
+        "name": "Adventurer's Challenge Mount",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 119,
+      "name": "Heretic Combat Mule",
+      "tier": null,
+      "item_power": null,
+      "identifier": "UNIQUE_MOUNT_HERETIC_MULE_ADC",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/UNIQUE_MOUNT_HERETIC_MULE_ADC@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 49,
+        "name": "Adventurer's Challenge Mount",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 120,
+      "name": "Morgana Raven (Mount)",
+      "tier": null,
+      "item_power": null,
+      "identifier": "UNIQUE_MOUNT_MORGANA_RAVEN_ADC",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/UNIQUE_MOUNT_MORGANA_RAVEN_ADC@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 49,
+        "name": "Adventurer's Challenge Mount",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 121,
+      "name": "Gallant Horse",
+      "tier": null,
+      "item_power": null,
+      "identifier": "UNIQUE_MOUNT_GIANT_HORSE_ADC",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/UNIQUE_MOUNT_GIANT_HORSE_ADC@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 49,
+        "name": "Adventurer's Challenge Mount",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 122,
+      "name": "Grizzly Bear",
+      "tier": null,
+      "item_power": null,
+      "identifier": "UNIQUE_MOUNT_BEAR_KEEPER_ADC",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/UNIQUE_MOUNT_BEAR_KEEPER_ADC@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 49,
+        "name": "Adventurer's Challenge Mount",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 123,
+      "name": "Pest Lizard",
+      "tier": "7.0",
+      "item_power": null,
+      "identifier": "T7_MOUNT_MONITORLIZARD_ADC",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_MOUNT_MONITORLIZARD_ADC@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 49,
+        "name": "Adventurer's Challenge Mount",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 124,
+      "name": "Snow Husky",
+      "tier": "7.0",
+      "item_power": null,
+      "identifier": "T7_MOUNT_HUSKY_ADC",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_MOUNT_HUSKY_ADC@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 49,
+        "name": "Adventurer's Challenge Mount",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 125,
+      "name": "Spectral Bat",
+      "tier": null,
+      "item_power": null,
+      "identifier": "UNIQUE_MOUNT_BAT_PERSONAL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/UNIQUE_MOUNT_BAT_PERSONAL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 49,
+        "name": "Adventurer's Challenge Mount",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 126,
+      "name": "Spectral Direboar",
+      "tier": null,
+      "item_power": null,
+      "identifier": "UNIQUE_MOUNT_UNDEAD_DIREBOAR_ADC",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/UNIQUE_MOUNT_UNDEAD_DIREBOAR_ADC@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 49,
+        "name": "Adventurer's Challenge Mount",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 127,
+      "name": "Saddled Terrorbird",
+      "tier": "7.0",
+      "item_power": null,
+      "identifier": "T7_MOUNT_TERRORBIRD_ADC",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_MOUNT_TERRORBIRD_ADC@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 49,
+        "name": "Adventurer's Challenge Mount",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 128,
+      "name": "Black Panther",
+      "tier": null,
+      "item_power": null,
+      "identifier": "UNIQUE_MOUNT_BLACK_PANTHER_ADC",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/UNIQUE_MOUNT_BLACK_PANTHER_ADC@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 49,
+        "name": "Adventurer's Challenge Mount",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 129,
+      "name": "Morgana Raven",
+      "tier": null,
+      "item_power": null,
+      "identifier": "UNIQUE_MOUNT_MORGANA_RAVEN_ADC",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/UNIQUE_MOUNT_MORGANA_RAVEN_ADC@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 49,
+        "name": "Adventurer's Challenge Mount",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 130,
+      "name": "Adept's Giant Stag",
+      "tier": "4.0",
+      "item_power": null,
+      "identifier": "T4_MOUNT_GIANTSTAG",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T4_MOUNT_GIANTSTAG@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": { "id": 50, "name": "Other Mounts", "type": "accessory" }
+    },
+    {
+      "id": 131,
+      "name": "Swiftclaw",
+      "tier": "5.0",
+      "item_power": null,
+      "identifier": "T5_MOUNT_COUGAR_KEEPER",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T5_MOUNT_COUGAR_KEEPER@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": { "id": 50, "name": "Other Mounts", "type": "accessory" }
+    },
+    {
+      "id": 132,
+      "name": "Direwolf",
+      "tier": "6.0",
+      "item_power": 900,
+      "identifier": "T6_MOUNT_DIREWOLF",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_MOUNT_DIREWOLF@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": { "id": 50, "name": "Other Mounts", "type": "accessory" }
+    },
+    {
+      "id": 133,
+      "name": "Moose",
+      "tier": "6.0",
+      "item_power": null,
+      "identifier": "T6_MOUNT_GIANTSTAG_MOOSE",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T6_MOUNT_GIANTSTAG_MOOSE@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": { "id": 50, "name": "Other Mounts", "type": "accessory" }
+    },
+    {
+      "id": 134,
+      "name": "Saddled Direboar",
+      "tier": "7.0",
+      "item_power": 1000,
+      "identifier": "T7_MOUNT_DIREBOAR",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_MOUNT_DIREBOAR@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": { "id": 50, "name": "Other Mounts", "type": "accessory" }
+    },
+    {
+      "id": 135,
+      "name": "Saddled Swamp Dragon",
+      "tier": "7.0",
+      "item_power": 1000,
+      "identifier": "T7_MOUNT_SWAMPDRAGON",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_MOUNT_SWAMPDRAGON@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": { "id": 50, "name": "Other Mounts", "type": "accessory" }
+    },
+    {
+      "id": 136,
+      "name": "Avalonian Basilisk",
+      "tier": "7.0",
+      "item_power": null,
+      "identifier": "T7_MOUNT_SWAMPDRAGON_AVALON_BASILISK",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T7_MOUNT_SWAMPDRAGON_AVALON_BASILISK@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": { "id": 50, "name": "Other Mounts", "type": "accessory" }
+    },
+    {
+      "id": 137,
+      "name": "Elder's Transport Mammoth",
+      "tier": "8.0",
+      "item_power": 1100,
+      "identifier": "T8_MOUNT_MAMMOTH_TRANSPORT",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_MOUNT_MAMMOTH_TRANSPORT@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": { "id": 50, "name": "Other Mounts", "type": "accessory" }
+    },
+    {
+      "id": 138,
+      "name": "Saddled Direbear",
+      "tier": "8.0",
+      "item_power": 1100,
+      "identifier": "T8_MOUNT_DIREBEAR",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_MOUNT_DIREBEAR@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": { "id": 50, "name": "Other Mounts", "type": "accessory" }
+    },
+    {
+      "id": 139,
+      "name": "Morgana Nightmare",
+      "tier": "8.0",
+      "item_power": null,
+      "identifier": "T8_MOUNT_ARMORED_HORSE_MORGANA",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_MOUNT_ARMORED_HORSE_MORGANA@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": { "id": 50, "name": "Other Mounts", "type": "accessory" }
+    },
+    {
+      "id": 140,
+      "name": "Rageclaw",
+      "tier": "8.0",
+      "item_power": null,
+      "identifier": "T8_MOUNT_COUGAR_KEEPER",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_MOUNT_COUGAR_KEEPER@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": { "id": 50, "name": "Other Mounts", "type": "accessory" }
+    },
+    {
+      "id": 141,
+      "name": "Spectral Bonehorse",
+      "tier": "8.0",
+      "item_power": null,
+      "identifier": "T8_MOUNT_HORSE_UNDEAD",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_MOUNT_HORSE_UNDEAD@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": { "id": 50, "name": "Other Mounts", "type": "accessory" }
+    },
+    {
+      "id": 142,
+      "name": "Spring Cottontail",
+      "tier": "8.0",
+      "item_power": 1100,
+      "identifier": "T8_MOUNT_RABBIT_EASTER",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_MOUNT_RABBIT_EASTER@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": { "id": 50, "name": "Other Mounts", "type": "accessory" }
+    },
+    {
+      "id": 143,
+      "name": "Caerleon Cottontail",
+      "tier": "8.0",
+      "item_power": 1100,
+      "identifier": "T8_MOUNT_RABBIT_EASTER_DARK",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/T8_MOUNT_RABBIT_EASTER_DARK@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": { "id": 50, "name": "Other Mounts", "type": "accessory" }
+    },
+    {
+      "id": 144,
+      "name": "Bronze Battle Rhino",
+      "tier": null,
+      "item_power": null,
+      "identifier": "UNIQUE_MOUNT_RHINO_SEASON_BRONZE",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/UNIQUE_MOUNT_RHINO_SEASON_BRONZE@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 51,
+        "name": "Battle Mounts (Season)",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 145,
+      "name": "Silver Ancient Ent",
+      "tier": null,
+      "item_power": null,
+      "identifier": "UNIQUE_MOUNT_ENT_SILVER",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/UNIQUE_MOUNT_ENT_SILVER@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 51,
+        "name": "Battle Mounts (Season)",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 146,
+      "name": "Silver Battle Eagle",
+      "tier": null,
+      "item_power": null,
+      "identifier": "UNIQUE_MOUNT_ARMORED_EAGLE_SILVER",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/UNIQUE_MOUNT_ARMORED_EAGLE_SILVER@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 51,
+        "name": "Battle Mounts (Season)",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 147,
+      "name": "Silver Battle Rhino",
+      "tier": null,
+      "item_power": null,
+      "identifier": "UNIQUE_MOUNT_RHINO_SEASON_SILVER",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/UNIQUE_MOUNT_RHINO_SEASON_SILVER@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 51,
+        "name": "Battle Mounts (Season)",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 148,
+      "name": "Silver Behemoth",
+      "tier": null,
+      "item_power": null,
+      "identifier": "UNIQUE_MOUNT_BEHEMOTH_SILVER",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/UNIQUE_MOUNT_BEHEMOTH_SILVER@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 51,
+        "name": "Battle Mounts (Season)",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 149,
+      "name": "Silver Colossus Beetle",
+      "tier": null,
+      "item_power": null,
+      "identifier": "UNIQUE_MOUNT_BEETLE_SILVER",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/UNIQUE_MOUNT_BEETLE_SILVER@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 51,
+        "name": "Battle Mounts (Season)",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 150,
+      "name": "Silver Goliath Horseeater",
+      "tier": null,
+      "item_power": null,
+      "identifier": "UNIQUE_MOUNT_BATTLESPIDER_SILVER",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/UNIQUE_MOUNT_BATTLESPIDER_SILVER@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 51,
+        "name": "Battle Mounts (Season)",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 151,
+      "name": "Silver Juggernaut",
+      "tier": null,
+      "item_power": null,
+      "identifier": "UNIQUE_MOUNT_JUGGERNAUT_SILVER",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/UNIQUE_MOUNT_JUGGERNAUT_SILVER@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 51,
+        "name": "Battle Mounts (Season)",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 152,
+      "name": "Silver Phalanx Beetle",
+      "tier": null,
+      "item_power": null,
+      "identifier": "UNIQUE_MOUNT_TANKBEETLE_SILVER",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/UNIQUE_MOUNT_TANKBEETLE_SILVER@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 51,
+        "name": "Battle Mounts (Season)",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 153,
+      "name": "Silver Roving Bastion",
+      "tier": null,
+      "item_power": null,
+      "identifier": "UNIQUE_MOUNT_BASTION_SILVER",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/UNIQUE_MOUNT_BASTION_SILVER@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 51,
+        "name": "Battle Mounts (Season)",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 154,
+      "name": "Silver Tower Chariot",
+      "tier": null,
+      "item_power": null,
+      "identifier": "UNIQUE_MOUNT_TOWER_CHARIOT_SILVER",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/UNIQUE_MOUNT_TOWER_CHARIOT_SILVER@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 51,
+        "name": "Battle Mounts (Season)",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 155,
+      "name": "Gold Ancient Ent",
+      "tier": null,
+      "item_power": null,
+      "identifier": "UNIQUE_MOUNT_ENT_GOLD",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/UNIQUE_MOUNT_ENT_GOLD@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 51,
+        "name": "Battle Mounts (Season)",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 156,
+      "name": "Gold Battle Eagle",
+      "tier": null,
+      "item_power": null,
+      "identifier": "UNIQUE_MOUNT_ARMORED_EAGLE_GOLD",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/UNIQUE_MOUNT_ARMORED_EAGLE_GOLD@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 51,
+        "name": "Battle Mounts (Season)",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 157,
+      "name": "Gold Battle Rhino",
+      "tier": null,
+      "item_power": null,
+      "identifier": "UNIQUE_MOUNT_RHINO_SEASON_GOLD",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/UNIQUE_MOUNT_RHINO_SEASON_GOLD@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 51,
+        "name": "Battle Mounts (Season)",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 158,
+      "name": "Gold Behemoth",
+      "tier": null,
+      "item_power": null,
+      "identifier": "UNIQUE_MOUNT_BEHEMOTH_GOLD",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/UNIQUE_MOUNT_BEHEMOTH_GOLD@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 51,
+        "name": "Battle Mounts (Season)",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 159,
+      "name": "Gold Colossus Beetle",
+      "tier": null,
+      "item_power": null,
+      "identifier": "UNIQUE_MOUNT_BEETLE_GOLD",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/UNIQUE_MOUNT_BEETLE_GOLD@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 51,
+        "name": "Battle Mounts (Season)",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 160,
+      "name": "Gold Goliath Horseeater",
+      "tier": null,
+      "item_power": null,
+      "identifier": "UNIQUE_MOUNT_BATTLESPIDER_GOLD",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/UNIQUE_MOUNT_BATTLESPIDER_GOLD@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 51,
+        "name": "Battle Mounts (Season)",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 161,
+      "name": "Gold Juggernaut",
+      "tier": null,
+      "item_power": null,
+      "identifier": "UNIQUE_MOUNT_JUGGERNAUT_GOLD",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/UNIQUE_MOUNT_JUGGERNAUT_GOLD@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 51,
+        "name": "Battle Mounts (Season)",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 162,
+      "name": "Gold Phalanx Beetle",
+      "tier": null,
+      "item_power": null,
+      "identifier": "UNIQUE_MOUNT_TANKBEETLE_GOLD",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/UNIQUE_MOUNT_TANKBEETLE_GOLD@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 51,
+        "name": "Battle Mounts (Season)",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 163,
+      "name": "Gold Roving Bastion",
+      "tier": null,
+      "item_power": null,
+      "identifier": "UNIQUE_MOUNT_BASTION_GOLD",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/UNIQUE_MOUNT_BASTION_GOLD@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 51,
+        "name": "Battle Mounts (Season)",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 164,
+      "name": "Gold Tower Chariot",
+      "tier": null,
+      "item_power": null,
+      "identifier": "UNIQUE_MOUNT_TOWER_CHARIOT_GOLD",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/UNIQUE_MOUNT_TOWER_CHARIOT_GOLD@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 51,
+        "name": "Battle Mounts (Season)",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 165,
+      "name": "Crystal Ancient Ent",
+      "tier": null,
+      "item_power": null,
+      "identifier": "UNIQUE_MOUNT_ENT_CRYSTAL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/UNIQUE_MOUNT_ENT_CRYSTAL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 51,
+        "name": "Battle Mounts (Season)",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 166,
+      "name": "Crystal Battle Eagle",
+      "tier": null,
+      "item_power": null,
+      "identifier": "UNIQUE_MOUNT_ARMORED_EAGLE_CRYSTAL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/UNIQUE_MOUNT_ARMORED_EAGLE_CRYSTAL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 51,
+        "name": "Battle Mounts (Season)",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 167,
+      "name": "Crystal Battle Rhino",
+      "tier": null,
+      "item_power": null,
+      "identifier": "UNIQUE_MOUNT_RHINO_SEASON_CRYSTAL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/UNIQUE_MOUNT_RHINO_SEASON_CRYSTAL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 51,
+        "name": "Battle Mounts (Season)",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 168,
+      "name": "Crystal Behemoth",
+      "tier": null,
+      "item_power": null,
+      "identifier": "UNIQUE_MOUNT_BEHEMOTH_CRYSTAL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/UNIQUE_MOUNT_BEHEMOTH_CRYSTAL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 51,
+        "name": "Battle Mounts (Season)",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 169,
+      "name": "Crystal Colossus Beetle",
+      "tier": null,
+      "item_power": null,
+      "identifier": "UNIQUE_MOUNT_BEETLE_CRYSTAL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/UNIQUE_MOUNT_BEETLE_CRYSTAL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 51,
+        "name": "Battle Mounts (Season)",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 170,
+      "name": "Crystal Goliath Horseeater",
+      "tier": null,
+      "item_power": null,
+      "identifier": "UNIQUE_MOUNT_BATTLESPIDER_CRYSTAL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/UNIQUE_MOUNT_BATTLESPIDER_CRYSTAL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 51,
+        "name": "Battle Mounts (Season)",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 171,
+      "name": "Crystal Juggernaut",
+      "tier": null,
+      "item_power": null,
+      "identifier": "UNIQUE_MOUNT_JUGGERNAUT_CRYSTAL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/UNIQUE_MOUNT_JUGGERNAUT_CRYSTAL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 51,
+        "name": "Battle Mounts (Season)",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 172,
+      "name": "Crystal Phalanx Beetle",
+      "tier": null,
+      "item_power": null,
+      "identifier": "UNIQUE_MOUNT_TANKBEETLE_CRYSTAL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/UNIQUE_MOUNT_TANKBEETLE_CRYSTAL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 51,
+        "name": "Battle Mounts (Season)",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 173,
+      "name": "Crystal Roving Bastion",
+      "tier": null,
+      "item_power": null,
+      "identifier": "UNIQUE_MOUNT_BASTION_CRYSTAL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/UNIQUE_MOUNT_BASTION_CRYSTAL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 51,
+        "name": "Battle Mounts (Season)",
+        "type": "accessory"
+      }
+    },
+    {
+      "id": 174,
+      "name": "Crystal Tower Chariot",
+      "tier": null,
+      "item_power": null,
+      "identifier": "UNIQUE_MOUNT_TOWER_CHARIOT_CRYSTAL",
+      "icon": "https:\/\/render.albiononline.com\/v1\/item\/UNIQUE_MOUNT_TOWER_CHARIOT_CRYSTAL@0.png?quality=0&size=217&locale=en",
+      "category": { "id": 40, "name": "Mount", "type": "accessory" },
+      "subcategory": {
+        "id": 51,
+        "name": "Battle Mounts (Season)",
+        "type": "accessory"
+      }
+    }
+  ]
+}
