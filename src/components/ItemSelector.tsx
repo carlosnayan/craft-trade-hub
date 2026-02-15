@@ -1,51 +1,108 @@
 import { useState, useMemo, useRef, useEffect } from "react";
-import { Search } from "lucide-react";
-import { ITEMS, AlbionItem, getCategories } from "@/lib/items";
+import { Search, ChevronRight, ChevronDown } from "lucide-react";
+import { BaseItem, searchBaseItems } from "@/lib/base-items";
+import { CATEGORY_TREE, CategoryNode } from "@/lib/categories";
 import { useLanguage } from "@/contexts/LanguageContext";
 
 interface Props {
-  selectedItem: AlbionItem | null;
+  selectedItem: BaseItem | null;
   customItemId: string;
-  onSelectItem: (item: AlbionItem | null) => void;
+  onSelectItem: (item: BaseItem | null) => void;
   onCustomIdChange: (id: string) => void;
 }
 
-export function ItemSelector({ selectedItem, customItemId, onSelectItem, onCustomIdChange }: Props) {
+export function ItemSelector({
+  selectedItem,
+  customItemId,
+  onSelectItem,
+  onCustomIdChange,
+}: Props) {
   const { lang, t } = useLanguage();
   const [search, setSearch] = useState("");
   const [open, setOpen] = useState(false);
-  const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
+  const [selectedCategoryId, setSelectedCategoryId] = useState<string | null>(
+    null,
+  );
+  const [expandedCategories, setExpandedCategories] = useState<Set<string>>(
+    new Set(),
+  );
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const handler = (e: MouseEvent) => {
-      if (ref.current && !ref.current.contains(e.target as Node)) setOpen(false);
+      if (ref.current && !ref.current.contains(e.target as Node))
+        setOpen(false);
     };
     document.addEventListener("mousedown", handler);
     return () => document.removeEventListener("mousedown", handler);
   }, []);
 
-  const categories = useMemo(() => getCategories(lang), [lang]);
+  const toggleCategory = (id: string, e: React.MouseEvent) => {
+    e.stopPropagation();
+    const newExpanded = new Set(expandedCategories);
+    if (newExpanded.has(id)) {
+      newExpanded.delete(id);
+    } else {
+      newExpanded.add(id);
+    }
+    setExpandedCategories(newExpanded);
+  };
 
   const filtered = useMemo(() => {
-    let items = ITEMS;
-    if (selectedCategory) {
-      items = items.filter((i) => i.category[lang] === selectedCategory);
-    }
-    if (search) {
-      const q = search.toLowerCase();
-      items = items.filter(
-        (i) =>
-          i.name[lang].toLowerCase().includes(q) ||
-          i.id.toLowerCase().includes(q)
-      );
-    }
+    const items = searchBaseItems(
+      search,
+      lang,
+      selectedCategoryId || undefined,
+    );
     return items.slice(0, 50);
-  }, [search, selectedCategory, lang]);
+  }, [search, selectedCategoryId, lang]);
 
   const displayValue = selectedItem
     ? selectedItem.name[lang]
     : customItemId || "";
+
+  const renderCategory = (node: CategoryNode, depth = 0) => {
+    const isExpanded = expandedCategories.has(node.id);
+    const isSelected = selectedCategoryId === node.id;
+    const hasChildren = node.children && node.children.length > 0;
+
+    return (
+      <div key={node.id}>
+        <div
+          className={`flex items-center px-2 py-1.5 text-sm cursor-pointer hover:bg-secondary transition-colors ${
+            isSelected ? "bg-secondary font-medium" : ""
+          }`}
+          style={{ paddingLeft: `${depth * 12 + 8}px` }}
+          onClick={() =>
+            setSelectedCategoryId(
+              node.id === selectedCategoryId ? null : node.id,
+            )
+          }
+        >
+          {hasChildren ? (
+            <button
+              onClick={(e) => toggleCategory(node.id, e)}
+              className="mr-1 text-muted-foreground hover:text-foreground"
+            >
+              {isExpanded ? (
+                <ChevronDown className="h-4 w-4" />
+              ) : (
+                <ChevronRight className="h-4 w-4" />
+              )}
+            </button>
+          ) : (
+            <span className="w-5" />
+          )}
+          <span className="truncate">{node.name[lang]}</span>
+        </div>
+        {hasChildren && isExpanded && (
+          <div>
+            {node.children!.map((child) => renderCategory(child, depth + 1))}
+          </div>
+        )}
+      </div>
+    );
+  };
 
   return (
     <div ref={ref} className="relative w-full max-w-md">
@@ -68,74 +125,64 @@ export function ItemSelector({ selectedItem, customItemId, onSelectItem, onCusto
       </div>
 
       {open && (
-        <div className="absolute z-50 mt-1 w-full rounded-lg border border-border bg-popover shadow-xl animate-fade-in max-h-80 overflow-hidden flex flex-col">
-          {/* Custom ID input */}
-          <div className="border-b border-border p-2">
-            <input
-              type="text"
-              placeholder={t("customItemId")}
-              value={customItemId}
-              onChange={(e) => {
-                onCustomIdChange(e.target.value.toUpperCase());
-                onSelectItem(null);
-              }}
-              onKeyDown={(e) => {
-                if (e.key === "Enter" && customItemId) setOpen(false);
-              }}
-              className="w-full rounded bg-secondary px-3 py-1.5 text-xs font-mono text-foreground placeholder:text-muted-foreground focus:outline-none"
-            />
-          </div>
-
-          {/* Categories */}
-          <div className="flex flex-wrap gap-1 p-2 border-b border-border">
-            <button
-              onClick={() => setSelectedCategory(null)}
-              className={`rounded px-2 py-0.5 text-xs transition-colors ${
-                !selectedCategory
-                  ? "bg-foreground text-background font-medium"
-                  : "bg-secondary text-muted-foreground hover:text-foreground"
-              }`}
-            >
-              All
-            </button>
-            {categories.map((cat) => (
+        <div className="absolute z-50 mt-1 w-full rounded-lg border border-border bg-popover shadow-xl animate-fade-in max-h-[500px] flex flex-col sm:flex-row overflow-hidden">
+          {/* Categories Sidebar */}
+          <div className="w-full sm:w-48 border-b sm:border-b-0 sm:border-r border-border overflow-y-auto bg-card/50 max-h-40 sm:max-h-full">
+            <div className="p-2 border-b border-border bg-card sticky top-0 z-10">
               <button
-                key={cat}
-                onClick={() => setSelectedCategory(cat === selectedCategory ? null : cat)}
-                className={`rounded px-2 py-0.5 text-xs transition-colors ${
-                  selectedCategory === cat
-                    ? "bg-foreground text-background font-medium"
-                    : "bg-secondary text-muted-foreground hover:text-foreground"
+                onClick={() => setSelectedCategoryId(null)}
+                className={`w-full text-left px-2 py-1.5 text-sm rounded hover:bg-secondary transition-colors ${
+                  !selectedCategoryId ? "bg-secondary font-medium" : ""
                 }`}
               >
-                {cat}
+                All Categories
               </button>
-            ))}
+            </div>
+            <div className="py-1">
+              {CATEGORY_TREE.map((node) => renderCategory(node))}
+            </div>
           </div>
 
-          {/* Items */}
-          <div className="overflow-y-auto">
-            {filtered.map((item) => (
-              <button
-                key={item.id}
-                onClick={() => {
-                  onSelectItem(item);
-                  onCustomIdChange("");
-                  setOpen(false);
+          {/* Items List */}
+          <div className="flex-1 flex flex-col overflow-hidden max-h-60 sm:max-h-full">
+            {/* Custom ID input */}
+            <div className="border-b border-border p-2 bg-card">
+              <input
+                type="text"
+                placeholder={t("customItemId")}
+                value={customItemId}
+                onChange={(e) => {
+                  onCustomIdChange(e.target.value.toUpperCase());
+                  onSelectItem(null);
                 }}
-                className={`flex w-full items-center justify-between px-3 py-2 text-sm hover:bg-row-hover transition-colors ${
-                  selectedItem?.id === item.id ? "bg-secondary" : ""
-                }`}
-              >
-                <span className="text-foreground">{item.name[lang]}</span>
-                <span className="text-xs font-mono text-muted-foreground">{item.id}</span>
-              </button>
-            ))}
-            {filtered.length === 0 && (
-              <div className="px-3 py-4 text-center text-sm text-muted-foreground">
-                {t("noData")}
-              </div>
-            )}
+                className="w-full rounded bg-secondary px-3 py-1.5 text-xs font-mono text-foreground placeholder:text-muted-foreground focus:outline-none"
+              />
+            </div>
+
+            <div className="flex-1 overflow-y-auto p-1">
+              {filtered.map((item) => (
+                <button
+                  key={item.id}
+                  onClick={() => {
+                    onSelectItem(item);
+                    onCustomIdChange("");
+                    setOpen(false);
+                  }}
+                  className={`flex w-full items-center justify-between px-3 py-2 text-sm rounded hover:bg-row-hover transition-colors ${
+                    selectedItem?.id === item.id ? "bg-secondary" : ""
+                  }`}
+                >
+                  <span className="text-foreground text-left mr-2">
+                    {item.name[lang]}
+                  </span>
+                </button>
+              ))}
+              {filtered.length === 0 && (
+                <div className="px-3 py-8 text-center text-sm text-muted-foreground">
+                  {t("noData")}
+                </div>
+              )}
+            </div>
           </div>
         </div>
       )}

@@ -31,6 +31,9 @@ export const translations = {
     americas: "Americas",
     asia: "Asia",
     europe: "Europe",
+    item: "Item",
+    tier: "Tier",
+    enchantment: "Enchantment",
   },
   pt: {
     title: "Ferramenta de Mercado Albion",
@@ -64,6 +67,9 @@ export const translations = {
     americas: "Américas",
     asia: "Ásia",
     europe: "Europa",
+    item: "Item",
+    tier: "Grau",
+    enchantment: "Encantamento",
   },
 } as const;
 

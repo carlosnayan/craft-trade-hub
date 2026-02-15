@@ -1,38 +1,53 @@
 import { useState } from "react";
 import { ItemSelector } from "@/components/ItemSelector";
+import { TierSelector } from "@/components/TierSelector";
+import { EnchantmentSelector } from "@/components/EnchantmentSelector";
 import { MarketView } from "@/components/MarketView";
-import { CraftView } from "@/components/CraftView";
-import { LanguageSelector } from "@/components/LanguageSelector";
-import { ServerSelector } from "@/components/ServerSelector";
+import { BaseItem } from "@/lib/base-items";
 import { useLanguage } from "@/contexts/LanguageContext";
-import { AlbionItem } from "@/lib/items";
+import { ServerSelector } from "@/components/ServerSelector";
+import { LanguageSelector } from "@/components/LanguageSelector";
+import { Search } from "lucide-react";
+import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 
-const ENCHANTMENTS = [0, 1, 2, 3, 4] as const;
-
-const Index = () => {
-  const { t, lang } = useLanguage();
-  const [mode, setMode] = useState<"market" | "craft">("market");
-  const [selectedItem, setSelectedItem] = useState<AlbionItem | null>(null);
+export default function Index() {
+  const [selectedBaseItem, setSelectedBaseItem] = useState<BaseItem | null>(
+    null,
+  );
+  const [tier, setTier] = useState<number>(4);
+  const [enchantment, setEnchantment] = useState<number>(0);
   const [customItemId, setCustomItemId] = useState("");
-  const [enchantment, setEnchantment] = useState(0);
+  const { t } = useLanguage();
 
-  const baseItemId = selectedItem?.id || customItemId;
-  const activeItemId = baseItemId
-    ? enchantment > 0
-      ? `${baseItemId}@${enchantment}`
-      : baseItemId
-    : "";
+  // Determine effective ID
+  let activeItemId = "";
+  if (customItemId) {
+    activeItemId = customItemId;
+  } else if (selectedBaseItem) {
+    const prefix = `T${tier}_`;
+    const suffix = enchantment > 0 ? `@${enchantment}` : "";
+    activeItemId = `${prefix}${selectedBaseItem.id}${suffix}`;
+  }
 
   return (
-    <div className="min-h-screen bg-background flex flex-col">
+    <div className="min-h-screen bg-background flex flex-col font-sans">
       {/* Header */}
-      <header className="border-b border-border">
-        <div className="mx-auto max-w-6xl px-4 py-4 flex items-center justify-between">
+      <header className="border-b border-border bg-card">
+        <div className="mx-auto max-w-6xl px-4 py-4 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
           <div className="flex items-center gap-3">
-            <img src="/application.svg" alt="App Icon" className="w-8 h-8" />
-            <h1 className="text-lg font-semibold text-foreground tracking-tight">
-              {t("title")}
-            </h1>
+            <div className="h-10 w-10 rounded-lg bg-primary/10 p-2 text-primary flex items-center justify-center">
+              <img
+                src="/application.svg"
+                className="h-full w-full"
+                alt="Craft Trade Hub"
+              />
+            </div>
+            <div>
+              <h1 className="text-xl font-bold tracking-tight text-foreground">
+                {t("title")}
+              </h1>
+              <p className="text-sm text-muted-foreground">Craft Trade Hub</p>
+            </div>
           </div>
           <div className="flex items-center gap-2">
             <ServerSelector />
@@ -42,97 +57,102 @@ const Index = () => {
       </header>
 
       <main className="mx-auto max-w-6xl px-4 py-6 space-y-6 flex-1 w-full">
-        {/* Controls row */}
-        <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
-          {/* Mode toggle */}
-          <div className="flex rounded-lg border border-border p-0.5 shrink-0">
-            <button
-              onClick={() => setMode("market")}
-              className={`rounded-md px-4 py-2 text-sm font-medium transition-colors ${
-                mode === "market"
-                  ? "bg-foreground text-background"
-                  : "text-muted-foreground hover:text-foreground"
-              }`}
-            >
-              {t("market")}
-            </button>
-            <button
-              onClick={() => setMode("craft")}
-              className={`rounded-md px-4 py-2 text-sm font-medium transition-colors ${
-                mode === "craft"
-                  ? "bg-foreground text-background"
-                  : "text-muted-foreground hover:text-foreground"
-              }`}
-            >
-              {t("craft")}
-            </button>
+        {/* Controls */}
+        <div className="flex flex-col gap-4 sm:flex-row sm:items-end">
+          <div className="flex flex-col gap-1.5 flex-1 min-w-[200px]">
+            <label className="text-sm font-medium text-muted-foreground">
+              {t("item")}
+            </label>
+            <ItemSelector
+              selectedItem={selectedBaseItem}
+              customItemId={customItemId}
+              onSelectItem={(item) => {
+                setSelectedBaseItem(item);
+                // Reset tier if not available
+                if (item && !item.tiers.includes(tier)) {
+                  setTier(item.tiers[0]);
+                }
+              }}
+              onCustomIdChange={setCustomItemId}
+            />
           </div>
 
-          {/* Item selector */}
-          <ItemSelector
-            selectedItem={selectedItem}
-            customItemId={customItemId}
-            onSelectItem={setSelectedItem}
-            onCustomIdChange={setCustomItemId}
-          />
+          {selectedBaseItem && !customItemId && (
+            <>
+              <div className="flex flex-col gap-1.5 w-24">
+                <label className="text-sm font-medium text-muted-foreground">
+                  {t("tier")}
+                </label>
+                <TierSelector
+                  selectedTier={tier}
+                  availableTiers={selectedBaseItem.tiers}
+                  onChange={setTier}
+                />
+              </div>
 
-          {/* Enchantment selector */}
-          <div className="flex rounded-lg border border-border p-0.5 shrink-0">
-            {ENCHANTMENTS.map((e) => (
-              <button
-                key={e}
-                onClick={() => setEnchantment(e)}
-                className={`rounded-md px-3 py-2 text-xs font-medium transition-colors ${
-                  enchantment === e
-                    ? "bg-foreground text-background"
-                    : "text-muted-foreground hover:text-foreground"
-                }`}
-              >
-                {e === 0 ? ".0" : `.${e}`}
-              </button>
-            ))}
-          </div>
-
-          {/* Item image */}
-          {activeItemId && (
-            <div className="shrink-0 rounded-lg border border-border bg-secondary p-1.5">
-              <img
-                key={activeItemId}
-                src={`https://render.albiononline.com/v1/item/${activeItemId}.png?size=64&quality=1`}
-                alt={selectedItem?.name[lang] ?? activeItemId}
-                className="h-12 w-12 object-contain"
-                onError={(e) => {
-                  (e.currentTarget as HTMLImageElement).style.display = "none";
-                }}
-              />
-            </div>
+              <div className="flex flex-col gap-1.5 w-24">
+                <label className="text-sm font-medium text-muted-foreground">
+                  {t("enchantment")}
+                </label>
+                <EnchantmentSelector
+                  selectedEnchantment={enchantment}
+                  onChange={setEnchantment}
+                />
+              </div>
+            </>
           )}
         </div>
 
-        {/* Results */}
-        {mode === "market" ? (
-          <MarketView itemId={activeItemId} />
-        ) : selectedItem && selectedItem.recipe ? (
-          <CraftView item={selectedItem} />
-        ) : activeItemId ? (
-          <div className="flex items-center justify-center py-16 text-muted-foreground text-sm">
-            {t("noCraftRecipe")}
+        {/* Placeholder / Empty State */}
+        {!activeItemId && (
+          <div className="rounded-lg border border-dashed border-border p-12 text-center bg-card/50">
+            <div className="mx-auto mb-4 h-12 w-12 rounded-full bg-secondary/50 p-3 text-muted-foreground flex items-center justify-center">
+              <Search className="h-6 w-6" />
+            </div>
+            <h3 className="text-lg font-medium text-foreground">
+              {t("selectItem")}
+            </h3>
+            <p className="mt-1 text-sm text-muted-foreground">
+              {t("searchItem")}
+            </p>
           </div>
-        ) : (
-          <div className="flex items-center justify-center py-16 text-muted-foreground text-sm">
-            {t("selectItem")}
-          </div>
+        )}
+
+        {/* Content (Market/Craft) */}
+        {activeItemId && (
+          <Tabs defaultValue="market" className="space-y-4">
+            <TabsList>
+              <TabsTrigger value="market">{t("market")}</TabsTrigger>
+              <TabsTrigger value="craft">{t("craft")}</TabsTrigger>
+            </TabsList>
+            <TabsContent value="market" className="space-y-4">
+              <MarketView itemId={activeItemId} />
+            </TabsContent>
+            <TabsContent value="craft">
+              <div className="rounded-lg border border-border p-8 text-center text-muted-foreground bg-card">
+                Craft view for {activeItemId} coming soon...
+              </div>
+            </TabsContent>
+          </Tabs>
         )}
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-border mt-12">
-        <div className="mx-auto max-w-6xl px-4 py-4 text-center text-xs text-muted-foreground">
-          Data from Albion Online Data Project · Prices may be delayed
+      <footer className="border-t border-border mt-auto bg-card">
+        <div className="mx-auto max-w-6xl px-4 py-6 text-center text-sm text-muted-foreground">
+          <p>
+            Data provided by{" "}
+            <a
+              href="https://www.albion-online-data.com/"
+              target="_blank"
+              rel="noreferrer"
+              className="font-medium text-primary hover:underline"
+            >
+              Albion Online Data Project
+            </a>
+          </p>
         </div>
       </footer>
     </div>
   );
-};
-
-export default Index;
+}
