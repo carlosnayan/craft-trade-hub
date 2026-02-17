@@ -1,12 +1,10 @@
-import { useLanguage } from "@/contexts/LanguageContext";
 import { ServerKey, SERVERS } from "@/constants/api";
+import { useLanguage } from "@/stores/language";
 import { useServer } from "@/stores/server";
 
 export function ServerSelector() {
 	const { server, setServer } = useServer();
-	const { t } = useLanguage();
-
-	console.log(server);
+	const t = useLanguage((s) => s.t);
 
 	return (
 		<div className="flex items-center gap-1 rounded-md border border-border p-0.5 text-sm">
