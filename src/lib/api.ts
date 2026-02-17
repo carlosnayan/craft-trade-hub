@@ -1,4 +1,4 @@
-const API_BASE = "https://west.albion-online-data.com/api/v2/stats/prices";
+import { SERVERS, type ServerKey } from "@/constants/api";
 
 export interface PriceData {
   item_id: string;
@@ -27,20 +27,6 @@ export const CITIES = [
 
 export type City = (typeof CITIES)[number];
 
-export async function fetchPrices(
-  itemIds: string | string[],
-  cities: readonly string[] = CITIES,
-  baseUrl: string = API_BASE,
-): Promise<PriceData[]> {
-  const ids = Array.isArray(itemIds) ? itemIds.join(",") : itemIds;
-  const locations = cities.join(",");
-  const res = await fetch(
-    `${baseUrl}/${ids}?locations=${locations}&qualities=1`,
-  );
-  if (!res.ok) throw new Error("Failed to fetch prices");
-  return res.json();
-}
-
 export function formatSilver(value: number): string {
   if (!value || value === 0) return "-";
   return value.toLocaleString();
@@ -49,8 +35,8 @@ export function formatSilver(value: number): string {
 export function formatAge(dateStr: string): string {
   if (!dateStr) return "-";
   const date = new Date(dateStr);
-  const now = new Date();
-  const diffMs = now.getTime() - date.getTime();
+  const now = Date.now();
+  const diffMs = now - date.getTime();
   const diffMin = Math.floor(diffMs / 60000);
   if (diffMin < 1) return "<1m";
   if (diffMin < 60) return `${diffMin}m`;
@@ -59,4 +45,18 @@ export function formatAge(dateStr: string): string {
   const diffD = Math.floor(diffH / 24);
   if (diffD > 7) return "> 7d";
   return `${diffD}d`;
+}
+
+export function pricesFetcher(
+  [itemIds, region, cities = CITIES] : [
+  itemIds: string | string[],
+  region: ServerKey,
+  cities: readonly City[]]
+): Promise<PriceData[]> {
+  const ids = Array.isArray(itemIds) ? itemIds.join(",") : itemIds;
+  const locations = cities.join(",");
+  return fetch(
+    `https://${SERVERS[region].e}.albion-online-data.com/api/v2/stats/prices
+    /${ids}?locations=${locations}&qualities=1`,
+  ).then(res=> res.json()) as Promise<PriceData[]>
 }
