@@ -15,7 +15,17 @@ const getItemID = (
 	id: string | undefined,
 	tier: number,
 	enchantment: number,
-): string => `T${tier}_${id}@${enchantment}`;
+	categoryId?: string,
+): string => {
+	if (!id) return "";
+	if (enchantment > 0) {
+		if (categoryId === "resource") {
+			return `T${tier}_${id}_LEVEL${enchantment}@${enchantment}`;
+		}
+		return `T${tier}_${id}@${enchantment}`;
+	}
+	return `T${tier}_${id}`;
+};
 
 export function Index() {
 	const [selectedBaseItem, setSelectedBaseItem] = useState<BaseItem | null>(
@@ -28,7 +38,14 @@ export function Index() {
 
 	// Determine effective ID
 	const activeItemId =
-		customItemId || getItemID(selectedBaseItem?.id, tier, enchantment) || "";
+		customItemId ||
+		getItemID(
+			selectedBaseItem?.id,
+			tier,
+			enchantment,
+			selectedBaseItem?.categoryId,
+		) ||
+		"";
 
 	return (
 		<div className="min-h-screen bg-background flex flex-col font-sans">
